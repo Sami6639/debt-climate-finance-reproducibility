@@ -1,0 +1,8 @@
+{
+  "mean": 53.46656348693887,
+  "sd_population_ddof0": 6.454156228861506,
+  "n_unique_recipients": 109,
+  "baseline_start_year": 2015,
+  "baseline_end_year": 2024,
+  "timing": "before all outcome-specific pruning"
+}

@@ -1,0 +1,13 @@
+{
+  "approval_time_utc": "2026-10-07T08:51:00Z",
+  "status": "approved after observing baseline results; not prespecified before baseline",
+  "reason": "income-related debt-slope heterogeneity and provider concentration",
+  "income_reference_year": 2014,
+  "income_definition": "log real GDP per capita, centered at unweighted unique baseline recipient mean",
+  "income_mean_log": 7.806779462581321,
+  "reference_recipients": 109,
+  "missing_income_recipients": 0,
+  "country_correlation_Z_log_income": -0.05403908843367541,
+  "matched_input_cells": 68945,
+  "no_income_definition_search": true
+}

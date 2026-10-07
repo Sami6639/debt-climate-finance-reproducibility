@@ -1,0 +1,9 @@
+{
+  "synthetic_only": true,
+  "statsmodels_version": "0.15.0",
+  "max_absolute_coefficient_difference": 8.324799183334619e-12,
+  "max_absolute_unadjusted_recipient_covariance_difference": 1.0974036457984601e-08,
+  "input_n": 480,
+  "retained_n": 465,
+  "known_all_zero_dyad_removed_n": 15
+}

@@ -1,0 +1,4 @@
+{
+  "model": "adaptation_total",
+  "error": "adaptation_total: iterative separation check failed to converge. ['326 singleton fixed effect(s) dropped from the model.', 'iterative rectivier separation check: maximum number of iterations reached before convergence', '15045 observations removed because of separation.']"
+}

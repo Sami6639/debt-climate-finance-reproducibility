@@ -1,0 +1,2262 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  {
+    "file": "ANALYSIS_PROTOCOL.md",
+    "bytes": 5640,
+    "sha256": "a690439bdb56cdefe56530c4a1568da71906d8719f6f8e7d3305431653132c14"
+  },
+  {
+    "file": "README.md",
+    "bytes": 8732,
+    "sha256": "b446a5e4939f4dcf28dd90efcc04f407ba6707ca6cbc642fc6dd50b154578b32"
+  },
+  {
+    "file": "SOURCE_AND_LICENSES.md",
+    "bytes": 3223,
+    "sha256": "875cc5fc78ceac42c39ffb70f38adb08b0a689f549c9759b4759429e2fecd37e"
+  },
+  {
+    "file": "VALIDATION.md",
+    "bytes": 4666,
+    "sha256": "ce8f21d4837cb9774f52cf32af5a4b73180e6d29d17d7674dd797360b7297780"
+  },
+  {
+    "file": "analysis/NUMERICAL_NOTES.md",
+    "bytes": 2550,
+    "sha256": "91aa1b7e035bb49be345119a96396ba24ab892d241fe5b371e4146fff9beac9f"
+  },
+  {
+    "file": "analysis/design_lock.yaml",
+    "bytes": 2319,
+    "sha256": "eba4f0dbf2d5c4e5753267c13b6ba1f307b75d9d3a14b3dcec250ed592fa04b0"
+  },
+  {
+    "file": "analysis/environment.yml",
+    "bytes": 2126,
+    "sha256": "a9fd1b6761a40b4041bffb128e8b28eb44f98afdaaddd5fd485a5a5ca03d8bcc"
+  },
+  {
+    "file": "analysis/execute_review_inprocess.py",
+    "bytes": 1845,
+    "sha256": "451e27364ad104fcce264a714e5131cc069a6f1453e3dbbda3dd16b67c39b6ca"
+  },
+  {
+    "file": "analysis/outputs/analysis_panel.parquet",
+    "bytes": 7957116,
+    "sha256": "1818613b1bf57810e35b6fda7d2ca7a9817a0350f48bbecaba15b83b6bfa8416"
+  },
+  {
+    "file": "analysis/outputs/covariate_missing_counts.csv",
+    "bytes": 151,
+    "sha256": "d5378f590547f9b71ab9d7fd90510ad33ef8d3a1567c927b75fe85d6e048a79d"
+  },
+  {
+    "file": "analysis/outputs/descriptive_allocation_cell_outcomes.csv",
+    "bytes": 801,
+    "sha256": "1cf938a3677b8f1c4910b76c0bb26113a4893a6de63bd7ed082d807df2814202"
+  },
+  {
+    "file": "analysis/outputs/descriptive_recipient_vulnerability.csv",
+    "bytes": 538,
+    "sha256": "9e34cf58d9564163e15dc610929a573a4d2255daefbf030ef6003d2f5c07beba"
+  },
+  {
+    "file": "analysis/outputs/descriptive_recipient_year_covariates.csv",
+    "bytes": 729,
+    "sha256": "74b90e11e922e6d70f2bbdef7ed98c6c5b1f545d2c58d672ea202825a4192e56"
+  },
+  {
+    "file": "analysis/outputs/headline_results.json",
+    "bytes": 20989,
+    "sha256": "202fe985cc7f008444fbf7fdbb319a759738120fb1102ab8339e9f6728d87d75"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/annual_slope_equality_test.json",
+    "bytes": 241,
+    "sha256": "9fe2d2360a5def1aff29ca4ed4a091211628783d76e8cfe5b9d1e286359bbb17"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/coefficients.csv",
+    "bytes": 9560,
+    "sha256": "20bbddf88b9a5c81a6c2f9995d247c20f5ba76e391b78d87c7371f780ce33fd9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_recipient.csv",
+    "bytes": 40308,
+    "sha256": "a3b158fe0d2d2d0a6b596298f7d53da0cda51db301200e272fab49e5e2b5015f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 41105,
+    "sha256": "e2f695f1c9db2dd9b11dfa5ba33934caae9b341cebb383690f0a974df964a154"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 40402,
+    "sha256": "cef3fa5ea2ccaab935b2c2dac0db8723f1e277b349b2700ed769bac2a4376499"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 40289,
+    "sha256": "e9d91308c3accbba2c190731a1642c8839049195d3de9b705f2729a1a494748d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 40274,
+    "sha256": "30470e90c2a0e1ed8e4588a4f7d35237f6ee9e466f039601fdc69e95b6fdd159"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 40304,
+    "sha256": "072bdf8586ea6509cb89e3b6775959114099e136f3bf2c2d938a60bfc9cdd066"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 40329,
+    "sha256": "3c2e73231310052fc68d3bd0a008cb9edfc623a3c1246ec3f9906186ef59a50b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/covariance_twoway_raw.csv",
+    "bytes": 40276,
+    "sha256": "34b8250322b7d24c785ff975eb0f93637745e48576c912af0e8cc0755efe2bf0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/diagnostics.json",
+    "bytes": 7914,
+    "sha256": "06bdcccade9db7d8345a95084cfc7bb6bde43ddd80734c13a9b38834f05fd076"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_annual_slopes/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/coefficients.csv",
+    "bytes": 1580,
+    "sha256": "486fdd60c0fff20fdf20d6d23cd379e4352289871d864b5ead646bb8c3555671"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_recipient.csv",
+    "bytes": 1156,
+    "sha256": "efb0a4938b5ecdbee18bcc49edf369f960ed4d725c85e2ab8d8e635b3f271402"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1154,
+    "sha256": "bf84bbac55ad8d369f555f82a94aec334b475e1e029fb84262b215a937c5f155"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1149,
+    "sha256": "acfa5b9f487faebba40f3ab29481cbcc4bd4c83e88eccc62c39f72cb39eb61e9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1116,
+    "sha256": "25e3c48965e3d2865d1cce67611a6054371c99158b7224832a2654d0a7670bcf"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1118,
+    "sha256": "4d2ad83dd8251269be1ee36e4d64ac8e832fa7a2d65d76de6fe7831287b016b7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1153,
+    "sha256": "5e39dbc7e7eb5bf4997e0317bcdb9288060e67a2d19675db68c6e6a15b499e48"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1152,
+    "sha256": "69d8f4c694a0bcafdde251e64916e546021b62a78c72fbc25253263afe28ca87"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/covariance_twoway_raw.csv",
+    "bytes": 1122,
+    "sha256": "0dc8379089896b652b88e8774ceb138af4867ec5de31e9f3d35be3936ffb3ce5"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/diagnostics.json",
+    "bytes": 4146,
+    "sha256": "de4fb1df8a65ee1dbdf14748bcf2aaf9f450ddde1ae5377e21170a16c7f430e9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2012/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/coefficients.csv",
+    "bytes": 1575,
+    "sha256": "662e22c501e157491f100c7abb4019ccc681445eef53248d39882768f4f4f86d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_recipient.csv",
+    "bytes": 1142,
+    "sha256": "3ce5442f5cdcff7c68799efd2cb20a78ceb5bd0f1152044ceb4bf509e7e568ff"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1157,
+    "sha256": "1c35e991d1b149a22fd3cda6d6e28c23a57416b523f2cd302f02e83125f211c7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1154,
+    "sha256": "070b60103c30ea4216684693cb55d92909f123a2d10e3f742884f5f2a9e91587"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1140,
+    "sha256": "e0ad11cff45258bed2365406ade35e6471ba6c9f7c0c2249ad88cfd51da31433"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1133,
+    "sha256": "eebd9b8af21e3be3f2e1c6e6869b5866cb2bc7b9057e466e270bc62bec51fe1d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1153,
+    "sha256": "65fb471627c3e7aaacac30ca732ea7d87efae1adbca1e6f8d9880c56656b47a8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1146,
+    "sha256": "80c94c06e119504b69fcc5bc2aa74ba40535dd7840bf2d70270018ac70cc8902"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/covariance_twoway_raw.csv",
+    "bytes": 1129,
+    "sha256": "d5b89c232464e56b61f388fa4960177755302f9442e043ce7939c45f97a944d6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/diagnostics.json",
+    "bytes": 4148,
+    "sha256": "d80114f91f8f1c895b2dc7b22797af9757a544d683b99313d29e1c336b90b9d3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2015/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/coefficients.csv",
+    "bytes": 1593,
+    "sha256": "4df637e9d1055c47ac9e92f10fe0ec0809cc9f08158c1da462da67ff3156fc83"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_recipient.csv",
+    "bytes": 1174,
+    "sha256": "27830b72cb6f8124cf8a914fbf8dfbfa46dea47ff41f0f9cffe7114bce8b3578"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1194,
+    "sha256": "8d3d7892b458691a4035fcbe14ab7d76ca12c889b20198bb9906f521aa1d19ad"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1181,
+    "sha256": "316cc23b6939d26983c127be8dd3db4739008c451267b2e7b1e3da2cbec3c352"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1170,
+    "sha256": "599089eb0941408de77386d5942f81be97307004b76208c00c918908b124b740"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1173,
+    "sha256": "ecf9f285641d9cfef0f838b31dfc0e06b7e4ea7e2049d970517a3826afd5f287"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1172,
+    "sha256": "171ba58ca272acedf88ef9cc364a3611930b888b3ae243beab117a0953d1a2ab"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1173,
+    "sha256": "a961c58a88f7d5f1dce63c5dcc08414bc1da624997f6cc504a75c3571f406cb8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/covariance_twoway_raw.csv",
+    "bytes": 1166,
+    "sha256": "7f3ec2c3683bc655c16822acbb6732550fe14968d7f1c880b7e931084ae49614"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/diagnostics.json",
+    "bytes": 4144,
+    "sha256": "ad91cb9d70d3c328501676930a0e95fb311f07dad39537d5b3b95a65e113dbf0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2018/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/coefficients.csv",
+    "bytes": 1591,
+    "sha256": "bb00141f6774332fd707504f302d2eab1d521cf5cedeaf3e801a1e522bbc31ad"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_recipient.csv",
+    "bytes": 1170,
+    "sha256": "7ef67f6f15f4dda044232b41558d221998ccfc95c25c4200b5c8cbc5475411ba"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1195,
+    "sha256": "47f905790a0220019d5af792a7401a74edd8621efa65741a29a685ba4b824ac9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1186,
+    "sha256": "e9152006730b066312cd82fee10fbfff4fe7bdb465d809ac9cb51500eeeda170"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1168,
+    "sha256": "a5e8a163cb998cefc8d65f667c338ef2402f4736cbe84d2cf6c0c43177c54457"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1172,
+    "sha256": "905bc51cbfe9531c05ab195d8e5859aa95b05394f75ae90e4684ca19603ea2d6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1179,
+    "sha256": "a84dcd37f4ed78714bd1f92965abb8337293df0730d1198c57bfaae1b47f54f9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1174,
+    "sha256": "39ab1f422f164e6183390afd35773fc87063f760bc46e42daaf10021e4883539"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/covariance_twoway_raw.csv",
+    "bytes": 1177,
+    "sha256": "ffaf3b210a126db42eb44bd9a72910cc78c6ba99c0cd0e3bd710fbe45ee4c3ae"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/diagnostics.json",
+    "bytes": 4148,
+    "sha256": "ed6fb5c823dec8392d70fafe2efe29bd7bdd184a56d97b4ca4245ad650a760bc"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2019/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/coefficients.csv",
+    "bytes": 1594,
+    "sha256": "3e7f802a56e3ad069b274f67cad5c07f8a5ef9f2c5e978d6d266faf8ae5a6df7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_recipient.csv",
+    "bytes": 1180,
+    "sha256": "a92ebb8588c66a34b7e13ada379928915d1afd91ce4ba395f901501d3bd8f1f7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1190,
+    "sha256": "2534138308b7a0ae89d9dd4e617afb82040c906730f347fa4ae05c9eca081e03"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1185,
+    "sha256": "34ea386d38c5882186b2d444ab91405270545c8769bb5334ef007e81206d81df"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1168,
+    "sha256": "71dff983a10960787ae86a3408eeba511360e1cfe080b540cb312fbc449193d8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1168,
+    "sha256": "15af05b6e3731f87a2e756a22fb54f3193d3e63c5628973fda0276bf450b5d10"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1178,
+    "sha256": "cecc89a27a4f8a4887555fcd31d7102a7c9386747c4182dbab3a295f0cddb079"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1180,
+    "sha256": "f65b6b80ab13038f6b95ce2f3ec16f8884d2d6e92b7014a58b6a0c3bc90fd4e7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/covariance_twoway_raw.csv",
+    "bytes": 1173,
+    "sha256": "74a384b36eb06cd0b26bc2b3b40b7db820949b47d60160532db88ec26a10b6a7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/diagnostics.json",
+    "bytes": 4148,
+    "sha256": "f82e897f5f28cefb7582be03ec2a54726b7b2c770ed4353714f37df202c5f199"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_cutoff_2020/provider_support.csv",
+    "bytes": 1358,
+    "sha256": "7ab74d8cd3f8048ee00d4616f1bef7da80947e196000752355afec2fc19058b0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/coefficients.csv",
+    "bytes": 939,
+    "sha256": "cd20203b49e69240976bb74d3aae38fa39ec79d275b538dfd022d61e4def7b0e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/coefficients_twoway_diagnostic.csv",
+    "bytes": 945,
+    "sha256": "25d71d638ab66bfca91cbe19c5df1d2d10a81e52d896f166b48cbfe744191e97"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/conditional_debt_effect.csv",
+    "bytes": 44175,
+    "sha256": "d41b231f4e4263171b064b23e667cb0a4c833d6a5d2361f66eecc2ba8712cb6d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_recipient.csv",
+    "bytes": 394,
+    "sha256": "63074e3a55698d7eabfd74320c4d7c5dd333745bc329debb894d0f2a6eb5e65e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 404,
+    "sha256": "0918ce38f0a13c51d42a8df76c238df6116f363c544919b3d181c49f74963318"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 389,
+    "sha256": "65c9779ebf85f3cf14aa8af6bdfd1043897f015bf9a6de562c124ed0bf291d40"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 399,
+    "sha256": "fc9c12a4512344293bec7c3165a71ebffc15b62e9894d1269088e4dedb6dac9b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 400,
+    "sha256": "aa67b24b8db4b958a8a4cf633b975f9342691f0598e34a68a6714eec18833163"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 396,
+    "sha256": "831752925f95797b890f5fd527450e1c004aec2c7900d1c4d74d29aa7547ec96"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 393,
+    "sha256": "c65a3aa8d33ea903d1723eb1b5abb5f28a20dfc2d1af5b2448ee7cc9c978c1af"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/covariance_twoway_raw.csv",
+    "bytes": 395,
+    "sha256": "b07edb441b439c6b06f3bd2ddd9b46d201ad4497ecbb96ef0fdd66a05c46fe6e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/diagnostics.json",
+    "bytes": 4045,
+    "sha256": "ca75058913236044ed7a205e21b8afef012680ba92554a570477548fb90809e5"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/provider_support.csv",
+    "bytes": 1309,
+    "sha256": "53b062c5b009b4ac49ed75fc7df5f367aa8c287cd3569a2d5c54e570522ae9db"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_debt_stock/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/coefficients.csv",
+    "bytes": 941,
+    "sha256": "3522aaed4d9d23d9b1804b50d64c3eea1f47de7d4f9c5643cbee1dd82e21b978"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/conditional_debt_effect.csv",
+    "bytes": 43950,
+    "sha256": "b2caec14b548d3eca2e93c4adf9cf6cc559336bcdc832619891ddaf8b93e7e0c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_recipient.csv",
+    "bytes": 393,
+    "sha256": "5848c91c9fd77e0bfe7928538077c42ac936fef50a25765d7de617fed1af8631"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 394,
+    "sha256": "754c33ab716fe9e059ad6df6dba2ddd00597a5c4e954c4f698053be6203ec5ca"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 391,
+    "sha256": "8437817ca7a71f81f4e9d6d076ee64579abf3585497466c967c3234f95f9d7cd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 389,
+    "sha256": "f2a8dac2b8a37c7793b36ffeb76dcd6d8b6f8f988d166b511086ea8ab63eb20a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "d619bde394560afc0fc6d50280f630fb63f33205b642449d7a56160f59b6c925"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 391,
+    "sha256": "0aa5b1483843c1c33c3a1ec8d0675acfe144f7c568cfd5a7e18e205822dad47c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 391,
+    "sha256": "ec5b63f100c5988bfc53069e489822cb76c6de7edfac0a43c9ad3ac07cdc21c9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/covariance_twoway_raw.csv",
+    "bytes": 390,
+    "sha256": "960a647b61dab193bb1f0cf7d602c612e2b9f1791e6196b84751e318f07d76f3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/diagnostics.json",
+    "bytes": 3901,
+    "sha256": "664e0839c99d1a5ab5f5735ef4ee63aa7bc513e206e406afac5a4afb8c09c0c7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/provider_support.csv",
+    "bytes": 1228,
+    "sha256": "9c7444f4a8fec62c7c76f212acb42d12508b984b8bbc97f87f616e73a1754e89"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_exclusive/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/coefficients.csv",
+    "bytes": 938,
+    "sha256": "f33d955dcac91b50eeee40a9ca8767783461e42d01fd4d9753aa18750d42e316"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/coefficients_twoway_diagnostic.csv",
+    "bytes": 946,
+    "sha256": "e1611335e15f94685c346d152e7d59fb2ff1f9494338702d2d60fc32f377e029"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/conditional_debt_effect.csv",
+    "bytes": 44012,
+    "sha256": "08146ed46d40ea5d4fd8a67de5ef1f9024bd1062ec8ba096a54742a0b1d9f2a9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_recipient.csv",
+    "bytes": 401,
+    "sha256": "e3b60ab5e435ef23d88a9d55b4b2e380a1f96e79e37943b2b5074d1427a23913"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 401,
+    "sha256": "e30f5571bfb02b2d055a0521f5e8907ea4063508baa3445b90caebb29f6c1109"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 396,
+    "sha256": "ce4ff7f5268907e0ce90389289b6d10fda2deab5c1039a47d133274b2d9a8d6f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 390,
+    "sha256": "070fa71f382487ace8c53261cfadeaae5b524a09cd2e81648ac2eaf5573de3f0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 390,
+    "sha256": "75a5f87bcf9e1674322986a807f62f007850932bc9a11033d37f33b12ad4f444"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 400,
+    "sha256": "a0110172d4b5040bfca7a60bde1408498440bec5f5b2c9eb046dfc3d2cb706ad"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 399,
+    "sha256": "ddfb7543207e7015cb4c601c3566a2f5b00cb57f09d4c7eabc98591f6e5b65ca"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/covariance_twoway_raw.csv",
+    "bytes": 387,
+    "sha256": "b1eccd22feb27dc8b076ebcef36df5b4323ec8cf72c9ce21731a9501a549c359"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/diagnostics.json",
+    "bytes": 4041,
+    "sha256": "98e0cda95f2a20e3f8b938702796530d0cee54609994e4bcbcfa9aa2e5970ce5"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/provider_support.csv",
+    "bytes": 1293,
+    "sha256": "3d732b0f28c6e9d89e36a3628343b75120d065ea8f510b75b12284c6cebfbf36"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_grants/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/coefficients.csv",
+    "bytes": 937,
+    "sha256": "921ea08474f7e261b3adb0f9ba5ddae9ec15e5b6136fd93ec2763f3bab1a797d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/conditional_debt_effect.csv",
+    "bytes": 43948,
+    "sha256": "a3416d24f9dd4dab43b95a74a42126b4892ffd7ffbe64b6e75fc703503b07984"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_recipient.csv",
+    "bytes": 388,
+    "sha256": "4db2e571197376e0e99eaab6f741ee09e40a9b8237c12bdb997aeaa30b48b6d0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 395,
+    "sha256": "56d37a45793f619dbbfd6ca038b33044ca101d556e2480a2e88f5fb5ea112180"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 388,
+    "sha256": "b5640bd01bc283e863115074987b3ee8564eacf6c3e99cbae501bdc46b54c67d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 391,
+    "sha256": "8b46311b8a0802b928e8df4e1ae01ea898101ccd6c74fb85b43a27a6c46d1b30"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 389,
+    "sha256": "850f766643bd30b50e74bb538adf437530370cd2bd9c371201f676a6e9777a31"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 387,
+    "sha256": "89f4c4cb6b28984411c57da56cdea9a0c855624413c5dff8ba1b0748d94f7b7a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "cbe00d3f660a26516b190468569ed476249a1c50e9d7b8aa32576e605c1d3667"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/covariance_twoway_raw.csv",
+    "bytes": 388,
+    "sha256": "e89ac1453aa5a6caa851ae54a56d5a41ee237fb83d99a121a364d01829f666e9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/diagnostics.json",
+    "bytes": 4048,
+    "sha256": "411f8464d46367323e9499641136399b570045ed6ae0cb668d4a0ae45d119940"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/provider_support.csv",
+    "bytes": 1360,
+    "sha256": "f60fa7a5169f7a8c742a4227533185e7bf18b5905de345319114f4270b39cb3c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_including_EU/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/coefficients.csv",
+    "bytes": 1165,
+    "sha256": "bce4f9c2d895ff209f0ad0f30b882fb073cc2a0b6fb4c489e211097f0136f905"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/conditional_debt_effect.csv",
+    "bytes": 43974,
+    "sha256": "94828b76821b2542a129a5414693c4e00072a5310a5ca2ed7bc81436fd0d2449"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_recipient.csv",
+    "bytes": 625,
+    "sha256": "f4c47c5946fd10bf1a5377be99f7ce80f916c86f3021c65d6d2f99fb5e197fa0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 632,
+    "sha256": "3d905eb8d2e7db9d5f572d7ab8dc3462bfe7c8c73699b2b6596f66b8fbbb8a9a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 633,
+    "sha256": "e31de8c53363ed0e50e53a03bbf29a08312cf040efab916280ab67547ad640a3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 624,
+    "sha256": "c2e32cf5d8e9c78bb7619c8fcfc169138113a1204dd0aac4fb0a791453ba3b74"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 627,
+    "sha256": "e6c75a83336fe2d12caa35900570b29a0ccbb1cfde142c23b191d06401a84123"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 625,
+    "sha256": "18a97299e2b63d29860f18209df911b04562a01c41f44124578393d0d6bfe5a7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 628,
+    "sha256": "52797fc539fc4f058e452b2e573f8f5c219d6db827ee4e5cceef667039f1b781"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/covariance_twoway_raw.csv",
+    "bytes": 628,
+    "sha256": "1e2fe2e46a02ef2e6b8dd97166017355c55dfb1240a6b60d3eccd22efe794702"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/diagnostics.json",
+    "bytes": 4375,
+    "sha256": "d522d802eca468d45f6d54b40a8133a4e7826794ccb6bf4474d4f8cc7fc2a689"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_income_moderator_postbaseline/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loan_provider_influence.csv",
+    "bytes": 1998,
+    "sha256": "9cd8296fc963c4e0f55596dce1029541a83d2088515b1348b343e92c2d5559a0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/coefficients.csv",
+    "bytes": 925,
+    "sha256": "b05d8a32c345ffe5a360b523b91b3b9f6581c802b9f5daaef7dfbff143af543e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/conditional_debt_effect.csv",
+    "bytes": 43518,
+    "sha256": "7d4d09f21043465d919290d0a306f624a40ce787c1499102160f0d0b47541981"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_recipient.csv",
+    "bytes": 380,
+    "sha256": "a9f62123ad70e15c65ce717d132b857279c35ee5064568a92d54ab61e3f04321"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 385,
+    "sha256": "de0152aabfb2d404e96d86ea77eb3f5c6e18124e2bf87eed111dbc2b7ef64c8f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 381,
+    "sha256": "5969c3e8ceca0492103ef90e6395a72087e1a3f493d6f1686164be5571bdd7d9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 379,
+    "sha256": "1545e885759697c2af6b0e7fc2fad437ee726afddb1ea96946927d687c96749c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 379,
+    "sha256": "0ecb4f71fe260771423abe9939c3bb2aec4288ea483fcd38090ebc24847b07bf"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 381,
+    "sha256": "3cbb14cfe27e563ce6e05100d64b63600a39a50abfd4d4f8467f446f387f99a3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 380,
+    "sha256": "0221ff82b6e0373469534db6e4a27ec7448250750670aa8a69405be24af3397a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/covariance_twoway_raw.csv",
+    "bytes": 379,
+    "sha256": "c414d5cbf7ecf47f6ad2dea3766b914fd28855adcd3207f394885a70347c5291"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/diagnostics.json",
+    "bytes": 3811,
+    "sha256": "d52b5974009ef4751b8defafea5691b3fd12c90a013f3c4e6cf453614a1a8072"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/provider_support.csv",
+    "bytes": 325,
+    "sha256": "a8fd37d820cd06f72478998fed2851465fc6933f2fb22b3c8d18167f09229915"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_loans/vulnerability_support.csv",
+    "bytes": 1756,
+    "sha256": "da056d00edb7fe931d1f7f67b637a72c6a1d19d83962cffb6cb3c473ea6ba434"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/coefficients.csv",
+    "bytes": 944,
+    "sha256": "df23b806f7c9d340550b4b913f7460c93421d4fd458efd8a0b68317a628dd9a6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/conditional_debt_effect.csv",
+    "bytes": 43521,
+    "sha256": "22fe6d2715d5b81c8a646ff45a73ac4c5a1c065f02e8a46e6c8ba5486317eab7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_recipient.csv",
+    "bytes": 392,
+    "sha256": "f6c00a905d4cf3dc1103219592ffbb7ad888f7338d133f97eb848c238201f9a6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 388,
+    "sha256": "5a183d1ea7f55425b9dd8753334879b4e71fb42822ae3d2993720606bd65250d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 388,
+    "sha256": "f2f9392749577d5d73a3be3ca63662ce004d29b4f29ca1380c5404a23a28f3b8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 379,
+    "sha256": "ccce8785391b9ac5f07771500d790c0bb36b640aa522508938c0766429208783"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 380,
+    "sha256": "85d1740b3d0ecc041c530e277063cf16a4f5b8f3a63813ad8c47c69c5764874b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 394,
+    "sha256": "7df6286a0d1d0221e399fc47aeddf69dc8fe2c7dcf6806604d474a22848a1c8f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 391,
+    "sha256": "edc56cad5e6dbd7699ba5678ea449644e351d1476ea64813d31b524b2e045400"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/covariance_twoway_raw.csv",
+    "bytes": 383,
+    "sha256": "770878519155632f8d3c82d00b50c10a0c380a6c90a9b438b7caee3e809a65d9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/diagnostics.json",
+    "bytes": 3792,
+    "sha256": "c6a4f5ecfe9ed5cf19ec4b74cd4539a706bf2076feff1484b9603874d66e173c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/provider_support.csv",
+    "bytes": 1229,
+    "sha256": "af45138525086de12b3be3778b4da6eab0975c92511e7d344e054ee66cb610d7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_post2018/vulnerability_support.csv",
+    "bytes": 4353,
+    "sha256": "0a58bb6ed0172aabc902b612c6550a17bbfb726901349cceab92ef10af8213b2"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/coefficients.csv",
+    "bytes": 931,
+    "sha256": "a50f0eb30e83f47d48e943348eca007397c5d4708c42ed51de84c676f8491b2b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/conditional_debt_effect.csv",
+    "bytes": 43915,
+    "sha256": "b49f4c0df6793383e1a862abe3caef262b5b47a2f56a812572b4ae3af8f6b143"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_recipient.csv",
+    "bytes": 389,
+    "sha256": "cfb1595f86938a0d478d8866faaabe5bfca4332d29af3504380b0e8291d30c02"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 393,
+    "sha256": "0ea57676714fba3fd142f8cdfaf6d07c1c2084fc0dbca573064a9cf7c8e350e0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 388,
+    "sha256": "9e13f7f99b958c50a2a880c9f92cbdcc25b41f5a9325fe90cfbe1c509eac569d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 388,
+    "sha256": "2b53deb175e9c1a48a850653775d1f836c15dc3f3abf2840ea97a626c61ca001"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 389,
+    "sha256": "b2be921c061a3e3acbafd7ea4937cff08d1ffc407d198f414356299e726bf74c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 387,
+    "sha256": "91ef161d1c86cc9e01f3e482953c3abbaada44d5954b96ac079922f6c3fbbc37"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 389,
+    "sha256": "2d012c481f8336f3d4e95dc586e7cb54f16851f6279d0dde5094ac7d277daff9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/covariance_twoway_raw.csv",
+    "bytes": 388,
+    "sha256": "9e45c3b2ff94b6f39c6bdaf96224c89ab3fc0aefb41a5d9f9f28e9af91d797fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/diagnostics.json",
+    "bytes": 4044,
+    "sha256": "0c3199a5091bfd8fcf12cb112e702f9ce7c90ff13d5f4c5b9db9d2eace5df1e5"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_ppg_only/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/coefficients.csv",
+    "bytes": 947,
+    "sha256": "71086a54bba7e13a2ce517ee2c170753e216dfee4e091f2c2ec112abb771b82e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/conditional_debt_effect.csv",
+    "bytes": 44090,
+    "sha256": "010ffebdac9f42ec2bbceeacd03947522daee42a32911f5d34e0ab02601a5ae8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_recipient.csv",
+    "bytes": 400,
+    "sha256": "b87fc023d0c032295a4d2d4a733da975655d152840fc932d8383f639e99fedcc"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 397,
+    "sha256": "c5a42aa9bda972292e44d5f71746d871110e3420e7af15ed71e6d8bf1ee99a8a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 396,
+    "sha256": "58dd78316c3cd7ba68566dbaa2bd40bc7b91e683d9bdab18ac10c82c3ca40e0c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 404,
+    "sha256": "8c341b09f4d01a549871a7491cd5bce0e6b3fa2446021ffdf3e9af6ce7b42e0c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 403,
+    "sha256": "a6f2a35b1ae29449ae3c78493971a36f7446858bcdc3d50f64eddb1ac5bd207d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 398,
+    "sha256": "6ce6189f5a186718cae8555ebf68d8e62d891cc6f098c01f053099f29bcd45ed"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 397,
+    "sha256": "b4cc2f9574ea48f35f93b2641079c7d95669ec83e36c075258f6b586ba1f08b1"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/covariance_twoway_raw.csv",
+    "bytes": 403,
+    "sha256": "48368792caaeea23511daad5a2b69429fc80b821dc29b136da99f38ac49a4c6c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/diagnostics.json",
+    "bytes": 3860,
+    "sha256": "df1dd5785186cb91477713621e743aaea3a69b21a99eb828e0a06ccc3fbd1dff"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/provider_support.csv",
+    "bytes": 1368,
+    "sha256": "cbcfe0265df1174e9ebafe153f8def82028b4cbf4da57b031a231bde233146af"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_principal_significant/vulnerability_support.csv",
+    "bytes": 4434,
+    "sha256": "27daeee1ac378d66930ea59085c3367ae5b8b4326a6c4ef7667d746631e812a1"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/coefficients.csv",
+    "bytes": 939,
+    "sha256": "054e1105f172d1fd7266ed515870f20ca14d5214d697a904668413cdf72e004f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/conditional_debt_effect.csv",
+    "bytes": 43900,
+    "sha256": "f5189212b9e32adf88c1fccb274d246370ce5b8d021cedfc44f1198187077956"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_recipient.csv",
+    "bytes": 387,
+    "sha256": "70ef7a3e0e2929aa9a8e151c6150e773dadb4f25cf998aa5bed09e3abbf3ef54"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 394,
+    "sha256": "ec2141cb1e5c1962d314366daf1dea3898da3c51d0c0391c0874410fbc0b91ba"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 385,
+    "sha256": "b8c08ae106e57e1c68a885a0aec1ae68875f1a75656b4777e15f32a6d33120b4"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 387,
+    "sha256": "b05dad1602e8f0cc5bc7a07bed90e01189eaa569ff57cb687c32ceb0368e0943"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 382,
+    "sha256": "e940b6940d1388d0df6e0040bca79bf8e728b61d746512a39a59ef5e276ab65b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 386,
+    "sha256": "1a830f63040ba720109b131b24374097e0554ade57701f90f25cda2c53fab558"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 384,
+    "sha256": "ebe029a18b774417e89022d4f01b1f54c5aed0831224283fc8859f0e696a04a6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/covariance_twoway_raw.csv",
+    "bytes": 382,
+    "sha256": "76b43784a3c4b5b6e9c4c3d6e7c04995cab355af66cfad4d9f19841923f6e4b3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/diagnostics.json",
+    "bytes": 4043,
+    "sha256": "ae2356bdfb04e22d4123fb392e4c7c24145221383b8614033a133904805d1395"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci2/vulnerability_support.csv",
+    "bytes": 4395,
+    "sha256": "8fc67c62857124fffd5364be20f7d6a8cbb6ed38349b54e9f3eb2f677ae59482"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/coefficients.csv",
+    "bytes": 936,
+    "sha256": "1e523275dd09eab0d6d49d4af69d5974e2a3f37f9bb980b705bf2ac9817742e4"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/conditional_debt_effect.csv",
+    "bytes": 43954,
+    "sha256": "41c87bc5f3c79276c597d709e1036df763fe047b4c88ff18074875012956d4cc"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_recipient.csv",
+    "bytes": 386,
+    "sha256": "0ba88e3b415642213d6a16904402a403074fa2391da55dd49ac97552a8ebc077"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 391,
+    "sha256": "4bd7cf0bd7bfc1afe36a36205f55807675103e6968755dfa6a5d4cda8196d7f6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 390,
+    "sha256": "9b17ab0aeba80dcafa271738e2f029f34e38dce72882851106c6c812c26e64e0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 386,
+    "sha256": "c2c60663d31e0a72e1de7f36b35a5801f3819d873a98c6b8e41965c5e425fc63"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "76addcb49b0e6e09b042d4fae60a9426ba266d6585bc2a452c43fe571ee58b17"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 386,
+    "sha256": "a12f76d70301cb7f26f0778776bcc8b125c265b513eea6d5e75c6475e3de9125"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 387,
+    "sha256": "03ff672d5550c7d1afb132498ac4031947320157c388fc73727b0f2aa4faa982"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/covariance_twoway_raw.csv",
+    "bytes": 388,
+    "sha256": "1ee16a41cfdf528fe68a564ec9a1522a0be1f2a7e530f917f350b015c441c7c8"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/diagnostics.json",
+    "bytes": 4045,
+    "sha256": "f47cbb08f98a2e478dcf1cbad62bb73e8119791de2ec87cbddfb5ef0ee4dd889"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_pvcci3/vulnerability_support.csv",
+    "bytes": 4398,
+    "sha256": "7f4b76f86782b93eb2694b70409280c935a62d426039da1080c2f9abc1b00195"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/attempt01_map_failure.json",
+    "bytes": 89,
+    "sha256": "0ac7ae6f92965fe0d06df00ff5a667d224d8c9d6efd9c27e2fc795f85f732ffd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/attempt02_ir_failure.json",
+    "bytes": 320,
+    "sha256": "ca9a7f4b81e14fdbd952eb99673bb188b63c1d9ec497c6a664cbcf64e35e62fc"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/coefficients.csv",
+    "bytes": 935,
+    "sha256": "2eb92362b1b7c1d8d1ce4f53cf10be42410a5d7672e26f6674ebae27be29a2cd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/conditional_debt_effect.csv",
+    "bytes": 43954,
+    "sha256": "5789a45f92c5851f2e7ac5877cecb0a05fd1949b377b06cbdecb9efda84cb9a3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/conditional_debt_effect_landmarks.csv",
+    "bytes": 1599,
+    "sha256": "1e6f04a4f99e8599078ddc2cec8cd1cc5cff84c1e559c78790da5189677306e9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_recipient.csv",
+    "bytes": 384,
+    "sha256": "03e28c57626dc8a86939a63f0c339ab4fa493b496505abd4077e3d61de0690b7"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 389,
+    "sha256": "d1518f87960bcf400de35dbc8c482477feda9134502780f6dd5172e9cf0dbe6c"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 389,
+    "sha256": "b37ba1d320884d76e95716a6037fee2b020010495b4da37d2febe6028ea937cf"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 386,
+    "sha256": "69df45acfbb1a1e38c98d6f969680196c09c642580f550a6439506f443b219a3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "52c5c3dab44abda61f2f5e86eaa1461e62bf7412a02a3c0566fc0b1a0dcbd31f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 384,
+    "sha256": "dc9bf14870d95df4833c18fba71fce4a6a968a6d29aed3eb08fb72c802d0623b"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "07b14219560d6c00986f56e338618cc92a25235ea10c3c5163df62e65aeca7d5"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/covariance_twoway_raw.csv",
+    "bytes": 386,
+    "sha256": "06196359696979d4133889605d7a9206b305140e2855ce8adf80593742f4a8f9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/diagnostics.json",
+    "bytes": 4040,
+    "sha256": "762c4f9a369b796be3acef2a1bfb58575a3e04271aaab4294cb6f688a22c7c5a"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_total_provider_influence_postbaseline.csv",
+    "bytes": 7610,
+    "sha256": "385772bdc05d8fd1801b7f980375c72bfd980b6da4ed4cc6c1e515d9fa0d568d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/coefficients.csv",
+    "bytes": 935,
+    "sha256": "24ba7200f010bc98047261887b122e3ca53a0e56fe07b84b57f7b9e10c6899a1"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/conditional_debt_effect.csv",
+    "bytes": 43872,
+    "sha256": "c07afa0cf09c87ad7e8eba8397a1bdd2c89a87b7e173dd51c359a24b43c6acc0"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_recipient.csv",
+    "bytes": 383,
+    "sha256": "fe321c49eae608961cf06942b3499573e34a8437e9faf4a32c18e6ab2ec84628"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 394,
+    "sha256": "329b8e4e5873efc16365c7ab626429ff9799ca33ae8f828be106dc3fe540a5b3"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 387,
+    "sha256": "929903d122b85a88aa94dbf7f9fa41ff17327d0e2a7250cb7db35a0bea447064"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 395,
+    "sha256": "b78ab38b5d99409c15f242a7a9295438b18bd3b551c8096738b160326a75c689"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 392,
+    "sha256": "12d84a05b66c79e4c07af7ebd503899df31d96a408df8c626b6139e7253fcb11"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 384,
+    "sha256": "a781c95fdfbc7ad8e1f15c39de25fced222451ef65401e3be224068562e4584d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 387,
+    "sha256": "a691a5717bd2c7520577ae3ebe1d8b74028a8e33e3def342f7aaa3c0cf446671"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/covariance_twoway_raw.csv",
+    "bytes": 388,
+    "sha256": "4b1eaa46ed9193ee0807f6da8aeb02d80c5c0a53e9f927dd2be46d7a779e8b85"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/diagnostics.json",
+    "bytes": 4054,
+    "sha256": "1b77700dcd75b697924a2aa1aa205888447cb2027686b86b6e3b4d7fd4176552"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/provider_support.csv",
+    "bytes": 1325,
+    "sha256": "0011657960dae180af84c0bce6485a8cbc71af6583b3b897ac448f49e71d4317"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_valid_records/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/coefficients.csv",
+    "bytes": 2956,
+    "sha256": "4d896f223e9ff1e1178a10ca3ab1997db86b71a8c133fe4398ad41020a26648f"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/conditional_debt_effect.csv",
+    "bytes": 44044,
+    "sha256": "bc9d0b3bf3224fb57403d6b7cd3e392e4bfff2091afca969085d566259989486"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_recipient.csv",
+    "bytes": 3930,
+    "sha256": "35e9efe9a712a657ae94232961d251ad018b802ec03790fb41103369950175b6"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 4054,
+    "sha256": "ff61fb6f30de91d1a454c21990c4da409f56064df4406370bac54d9396f4efa2"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 3967,
+    "sha256": "5b6a091a394c3d90c8c4ebe104cda4f84b1db099fec5410544fcd0593631e133"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 4063,
+    "sha256": "d342075051369b2a967c484a50920f4b77f3708188a3adf12dcf6bd5c1e8cc2d"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 4065,
+    "sha256": "2317f812e43a95211d0369570a9f2b562c97dc82a6a334f1757ded7c99ddf615"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 3940,
+    "sha256": "c76b5e424c11e6431f06bb762961350e2512b0e10a0ea0bf8e17493f828d22c9"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 3935,
+    "sha256": "808ed4d2d0c7eda1229de5c4962b22f472130af7a714c6e493a4bb3911926823"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/covariance_twoway_raw.csv",
+    "bytes": 3995,
+    "sha256": "60156d8a2f56732b71be01a6ef67265a58846a55238186fc975da538da5258ce"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/diagnostics.json",
+    "bytes": 5050,
+    "sha256": "6cc8c02e8c7701d66516b79b6d9a386dacd87826c9b62e58c2f52eea046bfc2e"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/provider_support.csv",
+    "bytes": 1316,
+    "sha256": "5d114a26d029f4c71ab40ae921488e0a41dcbb716f24c488236cab663a513d95"
+  },
+  {
+    "file": "analysis/outputs/models/adaptation_vulnerability_year_postbaseline/vulnerability_support.csv",
+    "bytes": 4393,
+    "sha256": "74c946cda218f124040cf65d311d53c9ad4c41dea2f062a3e982a066518753fd"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/coefficients.csv",
+    "bytes": 1775,
+    "sha256": "0a7da7a52cd91eb73b097f57e49be05b84d70e272b834fb878da760b722e42bb"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/common_support.json",
+    "bytes": 1567,
+    "sha256": "86d634e35a51059935b4635484eed5aecc39b8a5fd23f081faab246acdebf427"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_recipient.csv",
+    "bytes": 1452,
+    "sha256": "c537e100cd537523abfe2e76dc780ec960a04c4a2d510892e48b321fc522bc64"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1455,
+    "sha256": "15bfeab7c599e7eed9af72783633b6bfa01239c6b28960de2844bb4e3af406fc"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1450,
+    "sha256": "c7e6dabf220aa79bc181daecaea57f35608c6f0f1f806cbe0a3001144638e638"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1457,
+    "sha256": "4879de317b36dd0a781d4f845de6d29b071dd73886bec25a1d47334aae162f60"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1457,
+    "sha256": "743c3412682b81642e4a05af78e0b503c5037bdb577932375a00f67c9bbfe0e6"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1455,
+    "sha256": "0a410b76b253291bb9ce95a69cdcc70430647c3217397b0f07ef11d96093d10a"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1455,
+    "sha256": "e8c8fc648de599b4852b87abbbcb02ae2372da7727d307cc979e3bb7e27fd963"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/covariance_twoway_raw.csv",
+    "bytes": 1460,
+    "sha256": "c409c515e16a16bc8215f705e32a51d783eb25ba209f3a270484a3d29ca9bf01"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/diagnostics.json",
+    "bytes": 3570,
+    "sha256": "83ed0312e3c51ef3f1ed1d870fd2e640002fcef585832dbb610b5827817187e2"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_loans/provider_support.csv",
+    "bytes": 166,
+    "sha256": "1e2248e318e268473d9cb6d5c8c2b5d046adebd4367fdaf67d5fffc44923856f"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/coefficients.csv",
+    "bytes": 1780,
+    "sha256": "47493e93e5e86a5e50752fe4f42fa0dab0146b0c154fa40616c41c9e42ede470"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/common_support.json",
+    "bytes": 1585,
+    "sha256": "fdaa165f427f9a8ab0df707f02520edbbed7b31d37137e832ea559fef659e448"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_recipient.csv",
+    "bytes": 1484,
+    "sha256": "a7079b92ddf5b53011039d5953839c1ff8bdb20d2e6f558bb6d310b644a81bb3"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1492,
+    "sha256": "93f0c36f57f8dffce409f0b7c88029ed7c05015e7a6c6eba9c54239408e2045f"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1478,
+    "sha256": "dc86ae4d5c7cfa96105165f5cd2b7bd8feebb7873c092117c861927df0c3a1c8"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1484,
+    "sha256": "c51c414f5cb2bdf24f9678b15c96c29fe73e5923b0192e02bef11b471a629ef2"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1492,
+    "sha256": "f181db6d0e180a7863aeb20fe2b8447b281a60316b983f12fc8a0ea2244584b1"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1482,
+    "sha256": "f71cbc5b3cc6c81f0e4a009cf4703886dd38d82b23a237fdebef5ad80ca60572"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1486,
+    "sha256": "710db3919093b4e142d0d2142355196c42b442510123dc476b198fbb2bcf6d9d"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/covariance_twoway_raw.csv",
+    "bytes": 1485,
+    "sha256": "f6bf2b9071f85a8bdf91149b1cdafa872aa4dbc24b27d92c8bd84d92f18315c3"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/diagnostics.json",
+    "bytes": 3623,
+    "sha256": "0d65ed223c4f8f4750a642f018409aee9469f813c428877c2ffd1c731673061b"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_mitigation_total/provider_support.csv",
+    "bytes": 1228,
+    "sha256": "335e1c5e9d25b2a886cfb6c6982b11e3528948913885c3ce3b511b8be440c492"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/coefficients.csv",
+    "bytes": 1804,
+    "sha256": "a9796e886826faa1a2a964af6c6825455532e64c007eb31598bfa992e3653bbf"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/common_support.json",
+    "bytes": 1589,
+    "sha256": "a6a9ce20de7bd8e6f342b968490a5a962a3574e46fcb76a827b9efee5100fb5b"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_recipient.csv",
+    "bytes": 1520,
+    "sha256": "3bc519ba380df5ec613cfc751f2da0af3d2da0450d2856167e15ae2cc2847ea7"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 1515,
+    "sha256": "765fb5412fcb790dd4538f299df97f0c5f10838b77b7a9ce2373e33084e8c9d6"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 1536,
+    "sha256": "140b2d53a108781f126a4bb86ccdfe768b035a9f296db1df273156c9e0a8ed97"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 1499,
+    "sha256": "ffac06e9176cbf72e4fe14362e633d2cbcacd657c12dbaafade02ec1eb730f73"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 1497,
+    "sha256": "58ae40d09834e9ee18f422e33d120b619c89dfe5bf282e0a39db6cad8c215321"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 1523,
+    "sha256": "9b0f77c439024f1c2a2f631146a42ee3f7439a4b242eaff90fb18b6c3c55fbfb"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 1520,
+    "sha256": "3490c1f630f86b6f827a45a06d1fbdefc27d990da4ad5eca26f816f9b5c8d6a6"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/covariance_twoway_raw.csv",
+    "bytes": 1496,
+    "sha256": "e7c40bf4ec5ab4bdf7006b07d527e5224deca2698b4e0e009ca1f5feede2181b"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/diagnostics.json",
+    "bytes": 3594,
+    "sha256": "8493c001493c5bce03502548656fff86d5692459e6372b322a3c8afcba20be3b"
+  },
+  {
+    "file": "analysis/outputs/models/contrast_adaptation_vs_nonclimate_total/provider_support.csv",
+    "bytes": 1333,
+    "sha256": "087b73ab3a3ac7fadfaaba838328b09a3266a1958fbd310086950bea3a92a487"
+  },
+  {
+    "file": "analysis/outputs/models/exploratory_cutoffs.csv",
+    "bytes": 1255,
+    "sha256": "3155ebf02e616702ccfac9affad4c4221196cb4a59dce7fdc151dc839fd9fd4b"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/coefficients.csv",
+    "bytes": 958,
+    "sha256": "f65ee38742b2725de5eb2886bf119dfd0d8098099bdfe4232df4bb0e9704935c"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/conditional_debt_effect.csv",
+    "bytes": 43886,
+    "sha256": "97b579ad4e7373fb65fbbdc9ad61752f1a2e5ba0fbcac7470481900734eb4977"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_recipient.csv",
+    "bytes": 400,
+    "sha256": "bbeb968da0f5941386675376d16095ab3cd66426c8744e91f205c766cf696451"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 408,
+    "sha256": "fa342162f9e7f62f4285f5c91bf93321f6d55757031b76186c2b065b56a1057f"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 397,
+    "sha256": "ed3fd1f75d4417171aba207047e83654655091eb2d872d15ccf8376c8e4c1f58"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 404,
+    "sha256": "051d771f7baf656c517d1b5ce3cdbd567ff55654627621c712b7cdc2bf6f7855"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 405,
+    "sha256": "d84c3dd5f02ecb0812746a548c8667e99d44a9b6cc5376804392998be5c5d6db"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 403,
+    "sha256": "d31fc5d45b759f0b8b5b753fc3026b2c878a4d27bbd830514bcd606a105fa147"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 398,
+    "sha256": "93c8a9855739a294810cf1569c2593fa2f7a493452d65e87dd25ed456e82a3f8"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/covariance_twoway_raw.csv",
+    "bytes": 404,
+    "sha256": "cb1bfa53df58e2d6c44bcef1d751cbe147fb2559b29f660ea31f580cb9d5fba4"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/diagnostics.json",
+    "bytes": 4679,
+    "sha256": "8b1a13bb28900fe88ac07ed9ff004a98ea26c64e24c5654df3ecd671e57a5f78"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/provider_support.csv",
+    "bytes": 1297,
+    "sha256": "3d33966f583d1326cdc4d90faa2e32bc06e41a86a5c1fe26f459d28d0e73e3c5"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_grants/vulnerability_support.csv",
+    "bytes": 4394,
+    "sha256": "979a197053efeac02b896804b230833e93920f2592977ea58b8c1fd80af5fe70"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/coefficients.csv",
+    "bytes": 936,
+    "sha256": "957b4aaaa458f2d4fd34828b7d5e9775c101cca6e986c6eed6e647b0a2dfaed4"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/conditional_debt_effect.csv",
+    "bytes": 44044,
+    "sha256": "27f54d9c8123822fc69593b39f94f7138c65ac56c2f3c01a631c459192454767"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_recipient.csv",
+    "bytes": 383,
+    "sha256": "c85c479e9a412010036142a6968458323a9fe595fecae15438e34484642a5706"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 391,
+    "sha256": "bd022db6d1a09c51d6c69e6b6852f1db6b107c998ef1432ed3606d70b67a7755"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 384,
+    "sha256": "e912e257ef1c30bd349f7c1ed61aa90c00fb2e86bece6b189875098c9d180387"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 389,
+    "sha256": "b10bd13cc16f567d96cb466a34acd0ebd08beff5c559f527d7879bc8d5b76abc"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 392,
+    "sha256": "5b61a6a6d12128724873cc0caffd3c06454b5455121388c33a31c0b9fb443951"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 381,
+    "sha256": "b410de1dba2db86add234e481f7107042bbdad393d17430f872382e82ceace56"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 385,
+    "sha256": "d73efe302242bc470d064a74b66f86c4cabd7907356b6ee96592f26d5c7ca93c"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/covariance_twoway_raw.csv",
+    "bytes": 387,
+    "sha256": "a1b533a0def843d36e214fe0edb729774d0718892626205b6614133f2997571f"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/diagnostics.json",
+    "bytes": 4059,
+    "sha256": "2ed805bfd66d7b47db8b2d6cc35b2f63bf879f91d428631e182ae6ca80424d35"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/provider_support.csv",
+    "bytes": 301,
+    "sha256": "a2d8febeb75048ad3cebffd54b93eec48ddeee86168ea37c69b49cea0ee2bfc9"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_loans/vulnerability_support.csv",
+    "bytes": 2614,
+    "sha256": "d611bd6e63ad68ebe4edc1eb1e715a7ed7bb4a55e49800e44843d5c2956685a7"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/coefficients.csv",
+    "bytes": 944,
+    "sha256": "69af64b3ecdc03b653e24be2f61bc1f273cbbb2c75b713a6a7317c4f05be8efe"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/conditional_debt_effect.csv",
+    "bytes": 44225,
+    "sha256": "58141c97007004d8c08129db04c03a19605a425dd22d028973fdffb16a9f6da2"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_recipient.csv",
+    "bytes": 391,
+    "sha256": "bf9a482aadf11afe374f28486e116df838719f0796f6a6308359c88b766d3a81"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 391,
+    "sha256": "f11bfc44edb9e0bdb2eea4326bc0c939cca626791985f3254275da0d13c75293"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 394,
+    "sha256": "3a2f29048ec1834967d1f68655d893bb7898f8b65f1e232e02f7e0d5ef6873bd"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 395,
+    "sha256": "836b5a0c37c20ef1387c6b8768173189812e4b68c51828cab1bd18b9831e22eb"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 397,
+    "sha256": "31723a29800d0bce4ad1b6c59d22fc86eb6a2a12834f7272125ab12cabbc0fd7"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 386,
+    "sha256": "79049ca5fa89ae14da060a91337054fec97a04302b2126af7a16bc8fc8ef741a"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 386,
+    "sha256": "e4181df68beba65c2f13b890eaab7b3fc741deeadc353ba947782ff4d29c59ae"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/covariance_twoway_raw.csv",
+    "bytes": 392,
+    "sha256": "547070b131cbac65334cd61b8c65881e216ce1eb8316a0f40079446816315460"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/diagnostics.json",
+    "bytes": 3881,
+    "sha256": "9cc73c8fa214666b9ec73f94ef86a603b5f25bbeacd8a569b150ecd059f05162"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/provider_support.csv",
+    "bytes": 1304,
+    "sha256": "eb121866681171af90f029dcb4f4de8df11fd2a82f430fb1e096f3d285b4f29c"
+  },
+  {
+    "file": "analysis/outputs/models/mitigation_total/vulnerability_support.csv",
+    "bytes": 4394,
+    "sha256": "979a197053efeac02b896804b230833e93920f2592977ea58b8c1fd80af5fe70"
+  },
+  {
+    "file": "analysis/outputs/models/model_summary.csv",
+    "bytes": 783,
+    "sha256": "3f61209bf399067dd2fba8bf2c8cae3fd89d2858d401ae081146eb739a946bce"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/coefficients.csv",
+    "bytes": 955,
+    "sha256": "8dbbc6be62cb2618e72d3d2b9ed45b2134b39238047f31aac5f6d929a7cd3ed3"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/coefficients_twoway_diagnostic.csv",
+    "bytes": 964,
+    "sha256": "3fb0800348d15dcf81a68c4f7c64aad667f170074c6338c0fdadbc4048564685"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/conditional_debt_effect.csv",
+    "bytes": 43928,
+    "sha256": "1aa11067c3c0567985d66727d87241a739a74209736fe84b7307d27bbf3d6fbf"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_recipient.csv",
+    "bytes": 396,
+    "sha256": "8a0059be85f75b8de817acfd24eff53cfc0901a5d6fbb5b4920a784ee7bc39bc"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_intersection_signed_adjusted.csv",
+    "bytes": 400,
+    "sha256": "14c57d11bc05646384343254a4706e52485c544a3c607d2af0fd6e33649dafaf"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_intersection_unadjusted.csv",
+    "bytes": 397,
+    "sha256": "47bb7c39a59d69e5ea4355535327a67e4de5848353a240456ae64b99ee6479cc"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_provider_signed_adjusted.csv",
+    "bytes": 400,
+    "sha256": "bbb0f2d5dae0420b59da3c4b5a1645d97896ea4e699e5748f2da68b5f6394b59"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_provider_unadjusted.csv",
+    "bytes": 401,
+    "sha256": "2c101cac17c1408303405457b73419fc34815e0e146286dd27a253fc5fabff15"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_recipient_signed_adjusted.csv",
+    "bytes": 394,
+    "sha256": "799933bfb9273b20c582a26e966b1d493305e62bd22c029707f09cda65347f49"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_component_recipient_unadjusted.csv",
+    "bytes": 394,
+    "sha256": "0f701e3c47073799b5052225e59d1fef4d95ffe8b464e091e3256237663f022b"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/covariance_twoway_raw.csv",
+    "bytes": 399,
+    "sha256": "3bf22f16154837af847e9dd84bbf2e8c64baea1828561680307bfa330a024006"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/diagnostics.json",
+    "bytes": 4046,
+    "sha256": "077fcb19b18b5ff2aa1c52e17b4555cca84d74b9d0a84bdc82d046bbb33b91bb"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/provider_support.csv",
+    "bytes": 1441,
+    "sha256": "38b77e96aac4e123f80160f0a148f6eb254d54012143fa45c76a38fc3d620353"
+  },
+  {
+    "file": "analysis/outputs/models/nonclimate_total/vulnerability_support.csv",
+    "bytes": 4434,
+    "sha256": "27daeee1ac378d66930ea59085c3367ae5b8b4326a6c4ef7667d746631e812a1"
+  },
+  {
+    "file": "analysis/outputs/models/planned_total_contrasts.csv",
+    "bytes": 853,
+    "sha256": "35186e069a3a668984147ed0e93a77f101dc63c4c1946c942acae7a912b2f15f"
+  },
+  {
+    "file": "analysis/outputs/models/secondary_interactions.csv",
+    "bytes": 1733,
+    "sha256": "b236892a55eb1a77a31ffe4cf91e7e42530ef4275a387ae1bed0cab6eb4480cd"
+  },
+  {
+    "file": "analysis/outputs/models/universe_sensitivities.csv",
+    "bytes": 592,
+    "sha256": "f600d848effd94fbf9c55f162bc0e882be7f3eab897f80d950db902817f8ccbb"
+  },
+  {
+    "file": "analysis/outputs/paper/figure1_conditional_debt_association.pdf",
+    "bytes": 32613,
+    "sha256": "d0050de36a2271e9b55a473326e2ec1a151569a69f26fcfecff935212cb0802d"
+  },
+  {
+    "file": "analysis/outputs/paper/figure1_conditional_debt_association.png",
+    "bytes": 187851,
+    "sha256": "85b09de12e2e54a35e7880d38553696c5c634faa8e110a40642ee4ef21d9a52f"
+  },
+  {
+    "file": "analysis/outputs/paper/figure2_reporting_coverage.pdf",
+    "bytes": 24984,
+    "sha256": "525fd9f6008a9c18e82a05edd604fcb7b1838afa4c5c8f24ee109bc7eb7ae88f"
+  },
+  {
+    "file": "analysis/outputs/paper/figure2_reporting_coverage.png",
+    "bytes": 162389,
+    "sha256": "6ed3aed5391aaf96742e08abde80b425c89515831cfc39daca16ddd10c069509"
+  },
+  {
+    "file": "analysis/outputs/paper/figure3_loan_provider_concentration.pdf",
+    "bytes": 21219,
+    "sha256": "ed18827afac4df745cae7a6b23a2a008b5ab8153bdf2361a4e617ba3a49bf0db"
+  },
+  {
+    "file": "analysis/outputs/paper/figure3_loan_provider_concentration.png",
+    "bytes": 71014,
+    "sha256": "028031fd52bd98de559ecf983f6a6dd8c7321d6b8d9013fe57580d2d63994016"
+  },
+  {
+    "file": "analysis/outputs/paper/figure4_annual_interactions.pdf",
+    "bytes": 22368,
+    "sha256": "00eb9a5552e33a04f234dcdcfab880f6363569fb92ac6e257b54d6fa1f558a3f"
+  },
+  {
+    "file": "analysis/outputs/paper/figure4_annual_interactions.png",
+    "bytes": 110677,
+    "sha256": "4862a0f06720ad5d48dee1eb7026ac8b63b99771212eb03f4c8f1737c118c085"
+  },
+  {
+    "file": "analysis/outputs/paper/table1_main_models.csv",
+    "bytes": 1601,
+    "sha256": "20a8efc822f7ee4a976405dd4940c2a5240fb9f0555d38aedffc262691ba963d"
+  },
+  {
+    "file": "analysis/outputs/paper/table2_planned_common_support_contrasts.csv",
+    "bytes": 841,
+    "sha256": "69b1ce5d8c1e6aeaa97af733c9a261f7df9cf36ec7ebb401b42fef4292dfd733"
+  },
+  {
+    "file": "analysis/outputs/paper/table3_prespecified_sensitivities.csv",
+    "bytes": 2192,
+    "sha256": "0c2327c5294e6fd14d9911feb1cb1f0f046b714e58ae473538d6c2bbdf9c633e"
+  },
+  {
+    "file": "analysis/outputs/paper/table4_sample_flow.csv",
+    "bytes": 426,
+    "sha256": "6176556dfc526270ab03213fbc4771ef274ff4a62f6b9edfed326f134112dccb"
+  },
+  {
+    "file": "analysis/outputs/postbaseline_diagnostics_design.json",
+    "bytes": 596,
+    "sha256": "043f5fc676759ae8942991e4ed9a402192ef0990f2faba685b6a8683878b1200"
+  },
+  {
+    "file": "analysis/outputs/postbaseline_income_reference.csv",
+    "bytes": 8540,
+    "sha256": "d87fdb68031319b8cb28dfec1598633c75725dd872f0b504f04ed5bfd53bcc52"
+  },
+  {
+    "file": "analysis/outputs/postbaseline_vulnerability_year_design.json",
+    "bytes": 698,
+    "sha256": "13174c79e37e2da36951650cd17ffad7f60362f7285a7e302a10c36e4dd64386"
+  },
+  {
+    "file": "analysis/outputs/pre_fit_numeric_ranges.json",
+    "bytes": 832,
+    "sha256": "e236ebc488202982cad1a842da229e5f91df1c9a0ac6c81e746ec8648559f706"
+  },
+  {
+    "file": "analysis/outputs/pvcci2_standardization.json",
+    "bytes": 105,
+    "sha256": "7b525aaef7810b77c34734eec2d2bcfe6d26d588131382de79b2f422122578f0"
+  },
+  {
+    "file": "analysis/outputs/pvcci3_standardization.json",
+    "bytes": 106,
+    "sha256": "8c007d88f76d2fc5511657d2861ff2ce2f595240fe21025b54e81c92508e7e1e"
+  },
+  {
+    "file": "analysis/outputs/pvcci_standardization.json",
+    "bytes": 216,
+    "sha256": "fe44fa4f791794661b5a7f9ab07485826c35c1f4974a3c0fdd08c600d828a5a4"
+  },
+  {
+    "file": "analysis/outputs/pvcci_standardization_countries.csv",
+    "bytes": 4435,
+    "sha256": "28da90be76dfe769b8ce97847bf7600c6b4d7723b96b4d64c9ca6a4abfa57b85"
+  },
+  {
+    "file": "analysis/outputs/reporting_coverage_annual.csv",
+    "bytes": 1890,
+    "sha256": "bfcec41313425cbec37fe4e23e90441914915180150e61ded0f6ee3d0289029a"
+  },
+  {
+    "file": "analysis/outputs/run_inputs.json",
+    "bytes": 1472,
+    "sha256": "7325cd7ab46b2f8d200de94f55e41619b5ac68e297fa4bf0b4bd1166fb4a6e4a"
+  },
+  {
+    "file": "analysis/outputs/sample_construction.csv",
+    "bytes": 365,
+    "sha256": "e08c27d6baf08a19571f2f2f2f4d704cbba2f434c4653c6d78d4e32f96734016"
+  },
+  {
+    "file": "analysis/ppml_pipeline.py",
+    "bytes": 30174,
+    "sha256": "fb8cfbf0105f7ace36c5f8912d9771a1b8ef8dd25ab35acd0d18e2570b63d840"
+  },
+  {
+    "file": "analysis/reconstruction_review.html",
+    "bytes": 892943,
+    "sha256": "47e96c91a472f430af2b73885f0b5ddda1fc617408a37a30d99d4612ab9de6dc"
+  },
+  {
+    "file": "analysis/reconstruction_review.ipynb",
+    "bytes": 638478,
+    "sha256": "5f34a3fa2753e228200dd4153ecec8386ec55491cfd32e9cf3de9c45d7586b65"
+  },
+  {
+    "file": "analysis/render_results.py",
+    "bytes": 7431,
+    "sha256": "5ba549098b6db4460166ce640b52cf4eca07cc477744ac86be14e00899863061"
+  },
+  {
+    "file": "analysis/requirements.lock.txt",
+    "bytes": 1648,
+    "sha256": "f5acf08679e54c91ac573a8e6268c5fa3667ca6d8dc81b88e0eecf11fe624186"
+  },
+  {
+    "file": "analysis/run_postbaseline_diagnostics.py",
+    "bytes": 4732,
+    "sha256": "2f1c0e9ce60bbe7b7c06ac41a031a3057158194864e58477e4e57d1b4ee6e720"
+  },
+  {
+    "file": "analysis/run_universe_sensitivities.py",
+    "bytes": 2712,
+    "sha256": "428b86abb1fb78de2f9584569abb9484a06b1d803bb92bef05a8bdd6e9db0c72"
+  },
+  {
+    "file": "analysis/runtime_manifest.json",
+    "bytes": 1507,
+    "sha256": "8a8d4d5add5a71853e999a52b7ccb45f2fa86d316e0534306b6e30cd251de57a"
+  },
+  {
+    "file": "analysis/synthetic_probe.csv",
+    "bytes": 61033,
+    "sha256": "1a8c728f2b521a804c31be072c52ea282cce817b7f8385340365536520bba9f7"
+  },
+  {
+    "file": "analysis/synthetic_verification.json",
+    "bytes": 290,
+    "sha256": "52a1fc5038c6cf75991cefe90b5faa99b8b4a6db98b45d9d2f85955de7d9d8e7"
+  },
+  {
+    "file": "analysis/test_pipeline.py",
+    "bytes": 4181,
+    "sha256": "82287e5a1e3146d5fe9865a4dffa83b2156600718611fefa03e34782cb30d083"
+  },
+  {
+    "file": "analysis/test_results_structural.txt",
+    "bytes": 98,
+    "sha256": "32585d0512504aec5a95a616dc65a69daccd110dcc9cfb467ec7140c4dbe6064"
+  },
+  {
+    "file": "analysis/verify_bundle.py",
+    "bytes": 894,
+    "sha256": "2fd5f82dd83751443527552ce20ea1c1050699f25f97e379fa998b9fcd1a1b5e"
+  },
+  {
+    "file": "data/covariates/metadata/download_manifest.json",
+    "bytes": 52523,
+    "sha256": "0018b8f114e1a00be02fce7e1efbbbb233dd470b6016d4061af0de7669e196fe"
+  },
+  {
+    "file": "data/covariates/metadata/pvcci_datagouv.xlsx.provenance.json",
+    "bytes": 1746,
+    "sha256": "014298c66d76d93a57773138fa1856e49446d7b9e18e317559f995400056712b"
+  },
+  {
+    "file": "data/covariates/metadata/pvcci_ferdi.xlsx.provenance.json",
+    "bytes": 1157,
+    "sha256": "33225f7f02b4da711200be101e8bda50befce70c44ca4d5ed8ff6cd2dc8b8ef9"
+  },
+  {
+    "file": "data/covariates/metadata/pvcci_workbook_core_properties.xml",
+    "bytes": 609,
+    "sha256": "3f1553ff1bfbc7aa62dfa131ce20edf0d96606a3482287e8a7958dc9112307cb"
+  },
+  {
+    "file": "data/covariates/metadata/pvcci_workbook_readme.txt",
+    "bytes": 1417,
+    "sha256": "06ddc595e5d8cdb7750516049676425b6e58ab76741c6bc8af1d2318fb5e177a"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_BX.GSR.GNFS.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "461d2b566703d134995015a60e94d0fdc5187c80a565f76dc17861e458a1790c"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_BX.GSR.TOTL.CD.json.provenance.json",
+    "bytes": 1115,
+    "sha256": "750cf6eed649980f4a1838782ac2bc5e7f35a931be304c212833d4463cc2eeff"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.DOD.DECT.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "a7c7308a564deb65f088bdb4a6e5767b46b63ffb5d78b4f89463cd3e4cfef77a"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.DOD.DECT.GN.ZS.json.provenance.json",
+    "bytes": 1124,
+    "sha256": "b01833aef51a24ccb05e845f7e342d9c8e684e4633a82b57b2c3b94a5c5a3b31"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.DOD.DPPG.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "1519f2cbac5efc0ef5ceda6867ef1b915af5025bedc8d1b82308f8d48590ffd5"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DECT.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "ca99d527631d3f14845fbd54aaea02dd22a8400c678e1a38ad39177b37b070ba"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DECT.EX.ZS.json.provenance.json",
+    "bytes": 1123,
+    "sha256": "41df4c6b1ed1a6504f7042435409591b355e43f4df37f40c909335025e994db6"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DIMF.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "e3221662b655fb765a1da15fc66fdbdf0a8d2d8d94758cd9368a90742951b22a"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DPPF.XP.ZS.json.provenance.json",
+    "bytes": 1123,
+    "sha256": "b1cf843b611f763558548b6b901e3cb44b0baf93413db206697da23da5c5131b"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DPPG.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "e638878bb8450fdcec28c5d239f64547150a56fa689c480f8f7352571f06d8d6"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_DT.TDS.DPPG.XP.ZS.json.provenance.json",
+    "bytes": 1123,
+    "sha256": "84eedb3968bcbab54015333b5dac36aabb63880467704068b29ef3d4a71dc732"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_NY.GDP.PCAP.CD.json.provenance.json",
+    "bytes": 1115,
+    "sha256": "bba24e6fbc7e4466abff7ab134fb1a2be0b9fa728acd872e73e28856565548ef"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_NY.GDP.PCAP.KD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "898ffc6de25ca396c76d36aba8113bb4b7bd1fd173a08a4f5774a504bfc13ac3"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_NY.GNP.PCAP.CD.json.provenance.json",
+    "bytes": 1114,
+    "sha256": "a89fbd24d1bee1adc744ff56fd0c851f4dc81304f67a94171adf6dea4d391634"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_NY.GNP.PCAP.KD.json.provenance.json",
+    "bytes": 1115,
+    "sha256": "b9e659022bf06f1e71cf51383bcaebaa75b5b4e51c06c704ea06ac5d89398410"
+  },
+  {
+    "file": "data/covariates/metadata/wb_metadata_SP.POP.TOTL.json.provenance.json",
+    "bytes": 1125,
+    "sha256": "6206f1437fc2256b03bdc8bb42961f311988f368d1b004ca7b17e1d15120118e"
+  },
+  {
+    "file": "data/covariates/processed/pvcci_static.csv",
+    "bytes": 60466,
+    "sha256": "d1181fb1c686042d7ba69364428659511ef21c1641388d01b8b532add2ae6b67"
+  },
+  {
+    "file": "data/covariates/processed/recipient_covariates_2010_2024.csv",
+    "bytes": 581321,
+    "sha256": "204d85709585c2f36f8d3576ae96fed6e9ea16f6e036a9d8a718bea377e007f2"
+  },
+  {
+    "file": "data/covariates/raw/pvcci_datagouv_record.json",
+    "bytes": 13059,
+    "sha256": "4c26c504e8a6000461e18e4750a2dcc2c450a9a1068fa7d721e5dc50a53232c7"
+  },
+  {
+    "file": "data/covariates/scripts/download_covariates.py",
+    "bytes": 3863,
+    "sha256": "e78d5b0822a01f2fb67141f302592142c4b2a00da4c336c6f2b33ee9ceacf228"
+  },
+  {
+    "file": "data/covariates/scripts/prepare_covariates.py",
+    "bytes": 10350,
+    "sha256": "39085868b204f51d77a425eddf27f5582ff7bae2ef28327010e2083b633987a7"
+  },
+  {
+    "file": "data/oecd/code/acquire.py",
+    "bytes": 1821,
+    "sha256": "fef4d24dc3774e0d00eb0ff1fddfff667c86e5b2083d0e228c72b3d061cdd87d"
+  },
+  {
+    "file": "data/oecd/code/acquire_full.py",
+    "bytes": 1799,
+    "sha256": "f4f09c2a2e04a24a24315acbeb11c42dd3972e7ef412e50db8db47522922e67d"
+  },
+  {
+    "file": "data/oecd/code/audit_duplicate_rows.py",
+    "bytes": 1600,
+    "sha256": "776beabb3e869064fb78f4e03cd745f33d0c51ca6a47b8c16a8d81a1fb8d9d98"
+  },
+  {
+    "file": "data/oecd/code/build_panel.py",
+    "bytes": 10997,
+    "sha256": "b0ac8b14c1ddf7b03b52ac4e50e7a20b17145e19fc78c94731f3a48f557deb6f"
+  },
+  {
+    "file": "data/oecd/code/finalize_source_lock.py",
+    "bytes": 2402,
+    "sha256": "cb882f50a8b00f3f78488b55fffbd85618a2586c1f66cf7d502bb5ec421b5ed1"
+  },
+  {
+    "file": "data/oecd/code/prepare_metadata.py",
+    "bytes": 2728,
+    "sha256": "a20504991852dd0e8099988418aaba59c5e4418ce8ca7992c86bcce7e789e65a"
+  },
+  {
+    "file": "data/oecd/metadata/CRS_README.txt",
+    "bytes": 1260,
+    "sha256": "bc24855e8e1b47fa3f93c3b935d4e3258a4cc8c80f5280e2e01567fda95ff3c2"
+  },
+  {
+    "file": "data/oecd/metadata/DAC-CRS-CODES.xlsx",
+    "bytes": 459976,
+    "sha256": "eb5d320eeebb93f97f6b4a8e0ff4957cf923a4a59efa35f7bb3fab7d7c5f7b52"
+  },
+  {
+    "file": "data/oecd/metadata/DAC-tables-CRS-codebook.xlsx",
+    "bytes": 82754,
+    "sha256": "14e5f502d67ac2f6027e4625f11adb1251d8847689eaead5abe046dd0bba36eb"
+  },
+  {
+    "file": "data/oecd/metadata/Deflators-base-2024.xlsx",
+    "bytes": 73097,
+    "sha256": "d878aedc094c8d0ab52ca0a8003cec6450cf489350a4fc7dcfe93edd5c875c54"
+  },
+  {
+    "file": "data/oecd/metadata/bulk_codebook.json",
+    "bytes": 95920,
+    "sha256": "f37d57d3ddca3faf944537774c75e134820d77fa3c74f84142537ae64869d997"
+  },
+  {
+    "file": "data/oecd/metadata/dataflow.xml",
+    "bytes": 1669071,
+    "sha256": "6ed0e2f6073c34db8976ffd2272f6defd4ffe453e4eca63da0b0d7279e4a8278"
+  },
+  {
+    "file": "data/oecd/metadata/donor_classification.csv",
+    "bytes": 8253,
+    "sha256": "a39f1176c36092cadc0a6794ea4f00ade5cdbeb47209932b635dcf13ba225269"
+  },
+  {
+    "file": "data/oecd/metadata/full_source_manifest.json",
+    "bytes": 1212,
+    "sha256": "42a73dceeec96761dde351e25553689f1e62f3cfc4940598224afe4ab770e30a"
+  },
+  {
+    "file": "data/oecd/metadata/recipient_lookup.csv",
+    "bytes": 3550,
+    "sha256": "2fc2da3862d8c4bf8b151b55718f25e6033c5534f1e350b16569905b2d8a5a39"
+  },
+  {
+    "file": "data/oecd/metadata/source_lock_manifest.json",
+    "bytes": 12312,
+    "sha256": "977f5e3f4ca52d0274a65302bce14d0609a0bd66d494c33a98dcb8e983e00916"
+  },
+  {
+    "file": "data/oecd/processed/cell_outcomes.parquet",
+    "bytes": 6716745,
+    "sha256": "87c316547d6fcd11234c67a34ed4a83e8ce34d9cdbb07d04b2146fbfef2ea2fe"
+  },
+  {
+    "file": "data/oecd/processed/cell_outcomes_including_EU.parquet",
+    "bytes": 6977708,
+    "sha256": "da5ea9044d0110824aa4a76749fa998c1ef735f4b55f6af2303be98b17f733cc"
+  },
+  {
+    "file": "data/oecd/processed/cell_outcomes_valid_records_sensitivity.parquet",
+    "bytes": 7784629,
+    "sha256": "238788a4fa4a89f4a4168e618c045011e7961afa32465a0cab33f20a218a8dc2"
+  },
+  {
+    "file": "data/oecd/processed/filter_audit.csv",
+    "bytes": 11697,
+    "sha256": "c5ee986707a8222e0afba4d6b7c68c5a72a9b17785c2cbf3cadcc647f18c8a9e"
+  },
+  {
+    "file": "data/oecd/processed/included_providers_primary2015_2024.csv",
+    "bytes": 2455,
+    "sha256": "2e62f2011bba7b8bee9e36fb99293eb3003bec92c5eb6157cc0ead0718d9fc68"
+  },
+  {
+    "file": "data/oecd/processed/included_recipients_primary2015_2024.csv",
+    "bytes": 3308,
+    "sha256": "f73f0d0fe4c55b329fc8a14cf04eb7e41654b2452467ed9bb9851b83eef8b0be"
+  },
+  {
+    "file": "data/oecd/processed/provider_year_marker_coverage.csv",
+    "bytes": 34703,
+    "sha256": "76371136edfb41f3186049db56cb179c7917611e14a93a70f354258427acd909"
+  },
+  {
+    "file": "data/oecd/processed/strict_panel_year_summary.csv",
+    "bytes": 927,
+    "sha256": "a764fd2db825f02e6b2c96b8f630c28747212be71f771ed9589037d891ba15fd"
+  },
+  {
+    "file": "data/oecd/raw/README.txt",
+    "bytes": 180,
+    "sha256": "65658639316eaa21e93d3ccfe8f3ddfc42cca78c6a9a6568f2795d367080484d"
+  }
+]

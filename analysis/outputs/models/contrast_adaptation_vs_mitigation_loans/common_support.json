@@ -1,0 +1,52 @@
+{
+  "history": [
+    {
+      "input_cells": 68945,
+      "retained_common_cells": 1522,
+      "left_retained": 1867,
+      "right_retained": 4667
+    },
+    {
+      "input_cells": 1522,
+      "retained_common_cells": 1491,
+      "left_retained": 1522,
+      "right_retained": 1491
+    },
+    {
+      "input_cells": 1491,
+      "retained_common_cells": 1491,
+      "left_retained": 1491,
+      "right_retained": 1491
+    }
+  ],
+  "contrast": {
+    "contrast": "adaptation_loans minus mitigation_loans",
+    "common_cells": 1491,
+    "stacked_rows": 2982,
+    "recipients": 37,
+    "providers": 3,
+    "estimate": 0.4172622556680957,
+    "variance": 0.07328189335567,
+    "se": 0.27070628613992326,
+    "z": 1.5413836952881852,
+    "p_normal": 0.12322342988485335,
+    "ci95_low": -0.1133123155547483,
+    "ci95_high": 0.9478368268909397,
+    "p_t_recipient": 0.13196868893949715,
+    "ci95_t_low": -0.13175553927997985,
+    "ci95_t_high": 0.9662800506161713,
+    "inference_valid": true,
+    "max_stacked_vs_separate_difference": 1.0871303857129533e-12,
+    "twoway_psd": false
+  },
+  "stacked_vs_separate_deviations": {
+    "adaptation_loans:debt10": -3.70536934468646e-15,
+    "adaptation_loans:interaction": -1.5543122344752192e-15,
+    "adaptation_loans:lngdp": 5.329070518200751e-15,
+    "adaptation_loans:lnpop": 2.646771690706373e-13,
+    "mitigation_loans:debt10": -2.4980018054066022e-14,
+    "mitigation_loans:interaction": 5.662137425588298e-15,
+    "mitigation_loans:lngdp": 1.865174681370263e-14,
+    "mitigation_loans:lnpop": 1.0871303857129533e-12
+  }
+}

@@ -1,0 +1,167 @@
+recipient_code,recipient_name,iso3
+55,Türkiye,TUR
+57,Kosovo,XKX
+63,Serbia,SRB
+64,Bosnia and Herzegovina,BIH
+65,Montenegro,MNE
+66,North Macedonia,MKD
+71,Albania,ALB
+85,Ukraine,UKR
+86,Belarus,BLR
+88,States Ex-Yugoslavia unspecified,
+89,"Europe, regional",
+93,Moldova,MDA
+130,Algeria,DZA
+133,Libya,LBY
+136,Morocco,MAR
+139,Tunisia,TUN
+142,Egypt,EGY
+189,"North of Sahara, regional",
+218,South Africa,ZAF
+225,Angola,AGO
+227,Botswana,BWA
+228,Burundi,BDI
+229,Cameroon,CMR
+230,Cabo Verde,CPV
+231,Central African Republic,CAF
+232,Chad,TCD
+233,Comoros,COM
+234,Congo,COG
+235,Democratic Republic of the Congo,COD
+236,Benin,BEN
+238,Ethiopia,ETH
+239,Gabon,GAB
+240,Gambia,GMB
+241,Ghana,GHA
+243,Guinea,GIN
+244,Guinea-Bissau,GNB
+245,Equatorial Guinea,GNQ
+247,Côte d'Ivoire,CIV
+248,Kenya,KEN
+249,Lesotho,LSO
+251,Liberia,LBR
+252,Madagascar,MDG
+253,Malawi,MWI
+255,Mali,MLI
+256,Mauritania,MRT
+257,Mauritius,MUS
+259,Mozambique,MOZ
+260,Niger,NER
+261,Nigeria,NGA
+265,Zimbabwe,ZWE
+266,Rwanda,RWA
+268,Sao Tome and Principe,STP
+269,Senegal,SEN
+271,Eritrea,ERI
+272,Sierra Leone,SLE
+273,Somalia,SOM
+274,Djibouti,DJI
+275,Namibia,NAM
+276,Saint Helena,SHN
+278,Sudan,SDN
+279,South Sudan,SSD
+280,Eswatini,SWZ
+282,Tanzania,TZA
+283,Togo,TGO
+285,Uganda,UGA
+287,Burkina Faso,BFA
+288,Zambia,ZMB
+289,"South of Sahara, regional",
+298,"Africa, regional",
+336,Costa Rica,CRI
+338,Cuba,CUB
+340,Dominican Republic,DOM
+342,El Salvador,SLV
+347,Guatemala,GTM
+349,Haiti,HTI
+351,Honduras,HND
+352,Belize,BLZ
+354,Jamaica,JAM
+358,Mexico,MEX
+364,Nicaragua,NIC
+366,Panama,PAN
+378,Dominica,DMA
+381,Grenada,GRD
+383,Saint Lucia,LCA
+384,Saint Vincent and the Grenadines,VCT
+385,Montserrat,MSR
+389,"Caribbean & Central America, regional",
+425,Argentina,ARG
+428,Bolivia,BOL
+431,Brazil,BRA
+437,Colombia,COL
+440,Ecuador,ECU
+446,Guyana,GUY
+451,Paraguay,PRY
+454,Peru,PER
+457,Suriname,SUR
+463,Venezuela,VEN
+489,"South America, regional",
+498,"America, regional",
+540,Iran,IRN
+543,Iraq,IRQ
+549,Jordan,JOR
+550,West Bank and Gaza Strip,PSE
+555,Lebanon,LBN
+573,Syrian Arab Republic,SYR
+580,Yemen,YEM
+589,"Middle East, regional",
+610,Armenia,ARM
+611,Azerbaijan,AZE
+612,Georgia,GEO
+613,Kazakhstan,KAZ
+614,Kyrgyzstan,KGZ
+615,Tajikistan,TJK
+616,Turkmenistan,TKM
+617,Uzbekistan,UZB
+619,"Central Asia, regional",
+625,Afghanistan,AFG
+630,Bhutan,BTN
+635,Myanmar,MMR
+640,Sri Lanka,LKA
+645,India,IND
+655,Maldives,MDV
+660,Nepal,NPL
+665,Pakistan,PAK
+666,Bangladesh,BGD
+679,"South Asia, regional",
+689,"South & Central Asia, regional",
+728,Cambodia,KHM
+730,China (People's Republic of),CHN
+738,Indonesia,IDN
+740,Democratic People's Republic of Korea,PRK
+745,Lao People's Democratic Republic,LAO
+751,Malaysia,MYS
+753,Mongolia,MNG
+755,Philippines,PHL
+764,Thailand,THA
+765,Timor-Leste,TLS
+769,Viet Nam,VNM
+789,"Far East Asia, regional",
+798,"Asia, regional",
+832,Fiji,FJI
+836,Kiribati,KIR
+845,Nauru,NRU
+854,Vanuatu,VUT
+856,Niue,NIU
+859,Marshall Islands,MHL
+860,Micronesia,FSM
+861,Palau,PLW
+862,Papua New Guinea,PNG
+866,Solomon Islands,SLB
+868,Tokelau,TKL
+870,Tonga,TON
+872,Tuvalu,TUV
+876,Wallis and Futuna,WLF
+880,Samoa,WSM
+889,"Oceania, regional",
+998,"Developing countries, unspecified",
+1027,"Eastern Africa, regional",
+1028,"Middle Africa, regional",
+1029,"Southern Africa, regional",
+1030,"Western Africa, regional",
+1031,"Caribbean, regional",
+1032,"Central America, regional",
+1033,"Melanesia, regional",
+1034,"Micronesia, regional",
+1035,"Polynesia, regional",

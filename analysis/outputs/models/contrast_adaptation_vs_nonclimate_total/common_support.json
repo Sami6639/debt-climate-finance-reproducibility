@@ -1,0 +1,52 @@
+{
+  "history": [
+    {
+      "input_cells": 68945,
+      "retained_common_cells": 53533,
+      "left_retained": 53565,
+      "right_retained": 68515
+    },
+    {
+      "input_cells": 53533,
+      "retained_common_cells": 53523,
+      "left_retained": 53533,
+      "right_retained": 53523
+    },
+    {
+      "input_cells": 53523,
+      "retained_common_cells": 53523,
+      "left_retained": 53523,
+      "right_retained": 53523
+    }
+  ],
+  "contrast": {
+    "contrast": "adaptation_total minus nonclimate_total",
+    "common_cells": 53523,
+    "stacked_rows": 107046,
+    "recipients": 108,
+    "providers": 29,
+    "estimate": 0.3935118240957725,
+    "variance": 0.04786533071764772,
+    "se": 0.2187814679483793,
+    "z": 1.7986524534546966,
+    "p_normal": 0.07207367445171306,
+    "ci95_low": -0.03529197356785513,
+    "ci95_high": 0.8223156217594001,
+    "p_t_recipient": 0.07489298023481344,
+    "ci95_t_low": -0.04019691966772049,
+    "ci95_t_high": 0.8272205678592655,
+    "inference_valid": true,
+    "max_stacked_vs_separate_difference": 4.750332627256881e-10,
+    "twoway_psd": false
+  },
+  "stacked_vs_separate_deviations": {
+    "adaptation_total:debt10": -4.750332627256881e-10,
+    "adaptation_total:interaction": 4.0487446728576515e-10,
+    "adaptation_total:lngdp": -1.0061107502679079e-10,
+    "adaptation_total:lnpop": 3.956701633001103e-10,
+    "nonclimate_total:debt10": 3.4139358007223564e-15,
+    "nonclimate_total:interaction": -2.7755575615628914e-17,
+    "nonclimate_total:lngdp": 5.440092820663267e-15,
+    "nonclimate_total:lnpop": -1.2434497875801753e-14
+  }
+}

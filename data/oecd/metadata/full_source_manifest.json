@@ -1,0 +1,27 @@
+{
+  "url": "https://webfs-dcd.oecd.org/files/dotStat/DSD_CRS/CRS.parquet",
+  "snapshot_label": "CRS-Parquet-v20260803",
+  "retrieved_at_utc": "2026-10-07T08:31:56.800225+00:00",
+  "bytes": 1181463437,
+  "sha256": "32f1e108128d2cd87cd53e684a754d3d4cf9556ddd6e90e827211d0a5a83dcfd",
+  "http_headers": {
+    "Date": "Wed, 07 Oct 2026 08:31:03 GMT",
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "1181463437",
+    "Connection": "close",
+    "Content-MD5": "L01kx+73H1b42XdOAGdjUw==",
+    "Last-Modified": "Mon, 03 Aug 2026 16:16:14 GMT",
+    "ETag": "0x8DEF17A8A454245",
+    "Server": "cloudflare",
+    "x-ms-request-id": "fcecbba8-701e-0039-0e36-56dec3000000",
+    "x-ms-version": "2009-09-19",
+    "x-ms-lease-status": "unlocked",
+    "x-ms-blob-type": "BlockBlob",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a46b8c1f6caa1ae5-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "source_catalog": "https://sdmx.oecd.org/dcd-public/rest/dataflow/OECD.DCD.FSD/DSD_CRS@DF_CRS/1.6?references=all",
+  "source_file": "PACKAGE_ROOT/data/oecd/raw/CRS_v20260803.parquet",
+  "data_scope": "Official all-years full activity-level CRS, downloaded unchanged. Analysis will filter 2010\u20132024."
+}

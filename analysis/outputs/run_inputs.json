@@ -1,0 +1,35 @@
+{
+  "design_lock_sha256": "635b56b6a3ebe8949870a7cbab61c4179fa76f3fd22cbd0483c344a3016c8bb7",
+  "script_sha256": "587d66ee7d71946dad2afa6fa1cac84d97229572e56f95ae8bd67a2f8490c648",
+  "inputs": {
+    "cells": {
+      "path": "PACKAGE_ROOT/data/oecd/processed/cell_outcomes.parquet",
+      "sha256": "87c316547d6fcd11234c67a34ed4a83e8ce34d9cdbb07d04b2146fbfef2ea2fe"
+    },
+    "cells_including_EU": {
+      "path": "PACKAGE_ROOT/data/oecd/processed/cell_outcomes_including_EU.parquet",
+      "sha256": "da5ea9044d0110824aa4a76749fa998c1ef735f4b55f6af2303be98b17f733cc"
+    },
+    "cells_valid_records": {
+      "path": "PACKAGE_ROOT/data/oecd/processed/cell_outcomes_valid_records_sensitivity.parquet",
+      "sha256": "238788a4fa4a89f4a4168e618c045011e7961afa32465a0cab33f20a218a8dc2"
+    },
+    "covariates": {
+      "path": "PACKAGE_ROOT/data/covariates/processed/recipient_covariates_2010_2024.csv",
+      "sha256": "204d85709585c2f36f8d3576ae96fed6e9ea16f6e036a9d8a718bea377e007f2"
+    },
+    "vulnerability": {
+      "path": "PACKAGE_ROOT/data/covariates/processed/pvcci_static.csv",
+      "sha256": "d1181fb1c686042d7ba69364428659511ef21c1641388d01b8b532add2ae6b67"
+    }
+  },
+  "runtime_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runtime_platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "package_versions": {
+    "pyfixest": "0.60.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

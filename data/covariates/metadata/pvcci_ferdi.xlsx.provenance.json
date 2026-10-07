@@ -1,0 +1,26 @@
+{
+  "file": "raw/pvcci_ferdi.xlsx",
+  "url": "https://ferdi.fr/dl/df-ree2t55nEkkw7KJwo6Kfc6n7/data-physical-vulnerability-to-climate-change-index-pvcci.xlsx",
+  "resolved_url": "https://ferdi.fr/dl/df-ree2t55nEkkw7KJwo6Kfc6n7/data-physical-vulnerability-to-climate-change-index-pvcci.xlsx",
+  "retrieved_utc": "2026-10-07T08:26:22.449782+00:00",
+  "sha256": "e779fe1e9ae83f096fd3bf8717de05b6d25b6b6062171f03efafc0ad689fe930",
+  "bytes": 150874,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Wed, 07 Oct 2026 08:26:21 GMT",
+    "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "Content-Length": "150874",
+    "Connection": "close",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "0",
+    "x-content-type-options": "nosniff",
+    "x-permitted-cross-domain-policies": "none",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-transfer-encoding": "binary",
+    "cache-control": "no-cache",
+    "x-request-id": "151eb9e4-f4d5-4f62-a713-09e7136562a9",
+    "x-runtime": "0.039111",
+    "strict-transport-security": "max-age=63072000; includeSubDomains"
+  },
+  "status": "downloaded"
+}

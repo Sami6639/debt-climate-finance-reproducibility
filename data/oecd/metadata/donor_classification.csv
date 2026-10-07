@@ -1,0 +1,190 @@
+donor_code,donor_de_code,donor_name,donor_type
+1,AUT,Austria,DAC
+104,9OTH019,Nordic Development Fund,multilateral
+26,MCO,Monaco,non-DAC
+1601,9PRIV1601,Bill & Melinda Gates Foundation,private
+2,BEL,Belgium,DAC
+807,1UN016,UNEP,multilateral
+30,CYP,Cyprus,non-DAC
+1602,9PLG0_NL,Dutch Postcode Lottery,private
+3,DNK,Denmark,DAC
+811,9OTH011,Global Environment Facility,multilateral
+45,MLT,Malta,non-DAC
+1603,9PLG0_SE,Swedish Postcode Lottery,private
+4,FRA,France,DAC
+812,9OTH018,Montreal Protocol,multilateral
+55,TUR,Türkiye,non-DAC
+1604,9PLG0_GB,People's Postcode Lottery,private
+5,DEU,Germany,DAC
+901,5WB001,International Bank for Reconstruction and Development,multilateral
+62,HRV,Croatia,non-DAC
+1605,9PRIV1605,MetLife Foundation,private
+6,ITA,Italy,DAC
+902,5WB004,Multilateral Investment Guarantee Agency,multilateral
+70,LIE,Liechtenstein,non-DAC
+1606,9PRIV1606,Mastercard Foundation,private
+7,NLD,Netherlands,DAC
+903,5WBG002,International Finance Corporation,multilateral
+72,BGR,Bulgaria,non-DAC
+1608,9PRIV1608,IKEA Foundation,private
+8,NOR,Norway,DAC
+905,5WB002,International Development Association,multilateral
+77,ROU,Romania,non-DAC
+1609,9PRIV1609,Bernard van Leer Foundation,private
+9,PRT,Portugal,DAC
+906,5RDB004,Caribbean Development Bank,multilateral
+87,RUS,Russia,non-DAC
+1610,9PRIV1610,MAVA Foundation,private
+10,SWE,Sweden,DAC
+907,5IMF01,International Monetary Fund,multilateral
+130,DZA,Algeria,non-DAC
+1611,9PRIV1611,Oak Foundation,private
+11,CHE,Switzerland,DAC
+909,5IDB001,Inter-American Development Bank,multilateral
+133,LBY,Libya,non-DAC
+1612,9PRIV1612,H&M Foundation,private
+12,GBR,United Kingdom,DAC
+910,5RDB003,Central American Bank for Economic Integration,multilateral
+358,MEX,Mexico,non-DAC
+1613,9PRIV1613,Laudes Foundation,private
+18,FIN,Finland,DAC
+913,5AFDB001,African Development Bank,multilateral
+543,IRQ,Iraq,non-DAC
+1614,9PRIV1614,Charity Projects Ltd (Comic Relief),private
+20,ISL,Iceland,DAC
+914,5AFDB002,African Development Fund,multilateral
+546,ISR,Israel,non-DAC
+1615,9PRIV1615,Children's Investment Fund Foundation,private
+21,IRL,Ireland,DAC
+915,5ASDB01,Asian Development Bank,multilateral
+552,KWT,Kuwait,non-DAC
+1616,9PRIV1616,Gatsby Charitable Foundation,private
+22,LUX,Luxembourg,DAC
+921,9OTH003,Arab Fund (AFESD),multilateral
+561,QAT,Qatar,non-DAC
+1617,9PRIV1617,Conrad N. Hilton Foundation,private
+40,GRC,Greece,DAC
+923,1UN011,UN Peacebuilding Fund,multilateral
+566,SAU,Saudi Arabia,non-DAC
+1618,9PRIV1618,David and Lucile Packard Foundation,private
+50,ESP,Spain,DAC
+926, ,Council of Europe,multilateral
+576,ARE,United Arab Emirates,non-DAC
+1619,9PRIV1619,John D. and Catherine T. MacArthur Foundation,private
+61,SVN,Slovenia,DAC
+928,1UN026,World Health Organisation,multilateral
+611,AZE,Azerbaijan,non-DAC
+1620,9PRIV1620,Carnegie Corporation of New York,private
+68,CZE,Czechia,DAC
+932,1UN003,Food and Agriculture Organisation,multilateral
+613,KAZ,Kazakhstan,non-DAC
+1621,9PRIV1621,Michael & Susan Dell Foundation,private
+69,SVK,Slovak Republic,DAC
+940,1UN006,International Labour Organisation,multilateral
+732,TWN,Chinese Taipei,non-DAC
+1622,9PRIV1622,"Omidyar Network Fund, Inc.",private
+75,HUN,Hungary,DAC
+944,1UN005,International Atomic Energy Agency,multilateral
+764,THA,Thailand,non-DAC
+1623,9PRIV1623,Rockefeller Foundation,private
+76,POL,Poland,DAC
+948,1UN015,UNECE,multilateral
+765,TLS,Timor-Leste,non-DAC
+1624,9PRIV1624,William and Flora Hewlett Foundation,private
+82,EST,Estonia,DAC
+951,9OTH020,OPEC Fund for International Development,multilateral
+1625,9PRIV1625,Arcus Foundation,private
+83,LVA,Latvia,DAC
+952, ,OAPEC,multilateral
+1626,9PRIV1626,Gordon and Betty Moore Foundation,private
+84,LTU,Lithuania,DAC
+953,9OTH002,Arab Bank for Economic Development in Africa,multilateral
+1627,9PRIV1627,Ford Foundation,private
+301,CAN,Canada,DAC
+954, ,Special Arab Aid Fund for Africa,multilateral
+1628,9PRIV1628,Wellcome Trust,private
+302,USA,United States,DAC
+956, ,IMF Trust Fund,multilateral
+1629,9PRIV1629,UBS Optimus Foundation,private
+701,JPN,Japan,DAC
+958,5IMF02,IMF (Concessional Trust Funds),multilateral
+1630,9PRIV1630,World Diabetes Foundation,private
+742,KOR,Korea,DAC
+959,1UN014,UNDP,multilateral
+1631,9PRIV1631,McKnight Foundation,private
+801,AUS,Australia,DAC
+960,1UN023,UNTA,multilateral
+1632,9PRIV1632,Citi Foundation,private
+820,NZL,New Zealand,DAC
+962,1UN020,United Nations Conference on Trade and Development,multilateral
+1633,9PRIV1633,LEGO Foundation,private
+918,4EU001,EU Institutions,DAC
+963,1UN019,UNICEF,multilateral
+1634,9PLG0_NO,Norwegian Postcode Lottery,private
+964,1UN022,UNRWA,multilateral
+1636,9PRIV1636,Jacobs Foundation,private
+966,1UN024,WFP,multilateral
+1637,9PRIV1637,Arcadia Fund,private
+967,1UN018,UNHCR,multilateral
+1638,9PRIV1638,Margaret A. Cargill Foundation,private
+971,1UN013,UNAIDS,multilateral
+1639,9PRIV1639,La Caixa Banking Foundation,private
+974,1UN017,UNFPA,multilateral
+1640,9PRIV1640,Bloomberg Family Foundation,private
+976,5RDB009,Islamic Development Bank,multilateral
+1641,9PRIV1641,Susan T. Buffett Foundation,private
+978,9OTH021,OSCE,multilateral
+1642,9PRIV1642,Howard G. Buffett Foundation,private
+979, ,Islamic Monetary Fund,multilateral
+1643,9PRIV1643,Open Society Foundations,private
+980, ,Arab Fund for Technical Assistance to African and Arab Countries,multilateral
+1644,9PRIV1644,Fondation Botnar,private
+981,5RDB002,Black Sea Trade & Development Bank,multilateral
+1645,9PRIV1645,CHANEL Foundation,private
+982, ,GODE,multilateral
+1646,9PRIV1646,Bezos Earth Fund,private
+983, ,Other Arab Agencies,multilateral
+1647,9PLG0_DE,German Postcode Lottery,private
+988,1UN004,IFAD,multilateral
+1648,9PRIV1648,Leona M. and Harry B. Helmsley Charitable Trust,private
+990,5RDB007,European Bank for Reconstruction and Development,multilateral
+1649,9PRIV1649,Novo Nordisk Foundation,private
+992, ,UN AGENCIES,multilateral
+1650,9PRIV1650,Good Ventures Foundation,private
+997,9OTH014,Global Partnership for Education,multilateral
+1011,9OTH006,Climate Investment Funds,multilateral
+1012,9OTH001,Adaptation Fund,multilateral
+1013,5RDB005,Council of Europe Development Bank,multilateral
+1014,9OTH022,Private Infrastructure Development Group,multilateral
+1015,5RDB006,Development Bank of Latin America,multilateral
+1016,9OTH015,Green Climate Fund,multilateral
+1017,9OTH007,Credit Guarantee and Investment Facility,multilateral
+1018,9OTH010,Global Energy Efficiency and Renewable Energy Fund,multilateral
+1019,5IDB003,IDB Invest,multilateral
+1020,1UN001,Central Emergency Response Fund,multilateral
+1023,1UN027,World Tourism Organisation,multilateral
+1024,5RDB001,Asian Infrastructure Investment Bank,multilateral
+1025,9OTH005,Center of Excellence in Finance,multilateral
+1037,5RDB008,International Investment Bank,multilateral
+1038,1UN010,UN Institute for Disarmament Research,multilateral
+1039,1UN008,UN Capital Development Fund,multilateral
+1040,1UN032,UN Office on Drugs and Crime,multilateral
+1045,5RDB011,North American Development Bank,multilateral
+1046,1UN012,UN Women,multilateral
+1047,1UN002,COVID-19 Response and Recovery Multi-Partner Trust Fund,multilateral
+1048,1UN007,Joint Sustainable Development Goals Fund,multilateral
+1049,9OTH017,International Commission on Missing Persons,multilateral
+1050,1UN025,WHO-Strategic Preparedness and Response Plan,multilateral
+1052,9OTH016,International Centre for Genetic Engineering and Biotechnology,multilateral
+1053,9OTH004,Asian Forest Cooperation Organisation,multilateral
+1054,9OTH023,World Organisation for Animal Health,multilateral
+1055,9OTH024,CGIAR,multilateral
+1057,1UN030,UN Development Coordination Office,multilateral
+1058,5IMF03,IMF Resilience and Sustainability Trust,multilateral
+1311,9OTH009,Global Alliance for Vaccines and Immunization,multilateral
+1312,9OTH012,Global Fund,multilateral
+1313,9OTH013,Global Green Growth Institute,multilateral
+1401,1UN029,WTO - International Trade Centre,multilateral
+1403,1UN031,UN Economic and Social Commission for Western Asia,multilateral
+1404,1UN028,World Trade Organisation,multilateral
+1406,1UN021,United Nations Industrial Development Organization,multilateral

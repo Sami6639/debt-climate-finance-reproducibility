@@ -1,0 +1,27 @@
+{
+  "file": "raw/wb_metadata_DT.TDS.DECT.EX.ZS.json",
+  "url": "https://api.worldbank.org/v2/indicator/DT.TDS.DECT.EX.ZS?source=2&format=json",
+  "resolved_url": "https://api.worldbank.org/v2/indicator/DT.TDS.DECT.EX.ZS?source=2&format=json",
+  "retrieved_utc": "2026-10-07T08:25:50.705270+00:00",
+  "sha256": "01c5c98ba6fdbd7b9b2f70b7027985cf79f086874ec13b7dfc504afb38f2ad56",
+  "bytes": 685,
+  "headers": {
+    "Date": "Wed, 07 Oct 2026 08:25:50 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "CF-Ray": "a46b847b2b561ae5-LAX",
+    "CF-Cache-Status": "MISS",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=63962",
+    "Expires": "Thu, 08 Oct 2026 02:11:52 GMT",
+    "Last-Modified": "Wed, 07 Oct 2026 02:11:52 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "Access-Control-Allow-Headers": "X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Request-Context": "appId=cid-v1:da002513-bd8b-4441-9f30-737944134422",
+    "X-Powered-By": "ASP.NET"
+  },
+  "status": "downloaded"
+}

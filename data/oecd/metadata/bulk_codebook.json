@@ -1,0 +1,797 @@
+[
+  [
+    "CRS bulk data - codebook",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [
+    ""
+  ],
+  [
+    "Columns order in the bulk file",
+    "Variable in the CRS bulk data",
+    "Variable name (ENG)",
+    "Variable name (FR)",
+    "Variable description (ENG)",
+    "Variable description (FR)"
+  ],
+  [
+    "1",
+    "Year",
+    "Year",
+    "Ann\u00e9e de notification",
+    "Year in which the aid was committed (in the case of commitments) or disbursed (in the case of disbursements).",
+    "Ann\u00e9e au cours de laquelle l'aide a \u00e9t\u00e9 engag\u00e9e (dans le cas des engagements) ou vers\u00e9e (dans le cas des versements)."
+  ],
+  [
+    "2",
+    "DonorCode",
+    "Reporting country / organisation code",
+    "Code pays/organisation d\u00e9clarant",
+    "Each reporting country or multilateral organisation has its own code. ",
+    "Chaque pays d\u00e9clarant et chaque organisation multilat\u00e9rale a son propre code donneur."
+  ],
+  [
+    "3",
+    "DEDonorCode",
+    "Reporting country / organisation code",
+    "Code pays/organisation d\u00e9clarant",
+    "Each reporting country or multilateral organisation has its own code. ",
+    "Chaque pays d\u00e9clarant et chaque organisation multilat\u00e9rale a son propre code donneur."
+  ],
+  [
+    "4",
+    "DonorName",
+    "Reporting country / organisation name",
+    "Nom pays/organisation d\u00e9clarant",
+    "Reporting country or multilateral organisation providing the aid.",
+    "Pays d\u00e9clarant ou organisation multilat\u00e9rale fournissant l'aide."
+  ],
+  [
+    "5",
+    "AgencyCode",
+    "Extending agency Code",
+    "Code Agence ex\u00e9cutive",
+    "The extending agency is the government entity (central, state or local government agency or department) financing the activity from its own budget. It is the budget holder, controlling the activity on its own account. ",
+    "L\u2019agence ex\u00e9cutive est l\u2019entit\u00e9 gouvernementale (agence ou d\u00e9partement de l\u2019administration centrale ou des collectivit\u00e9s locales) qui finance l\u2019activit\u00e9 \u00e0 partir de son propre budget. C\u2019est le propri\u00e9taire du budget, qui g\u00e8re l\u2019activit\u00e9 pour son propre compte."
+  ],
+  [
+    "6",
+    "AgencyName",
+    "Extending agency Name",
+    "Nom Agence ex\u00e9cutive",
+    "The extending agency is the government entity (central, state or local government agency or department) financing the activity from its own budget. It is the budget holder, controlling the activity on its own account. ",
+    "L\u2019agence ex\u00e9cutive est l\u2019entit\u00e9 gouvernementale (agence ou d\u00e9partement de l\u2019administration centrale ou des collectivit\u00e9s locales) qui finance l\u2019activit\u00e9 \u00e0 partir de son propre budget. C\u2019est le propri\u00e9taire du budget, qui g\u00e8re l\u2019activit\u00e9 pour son propre compte."
+  ],
+  [
+    "7",
+    "CrsID",
+    "CRS Identification N\u00b0",
+    "N\u00b0 d\u2019identification SNPC",
+    "The CRS ID number ensures that each transaction in the database is unique, and possibly the link between original commitments and subsequent disbursements over several years. ",
+    "Le num\u00e9ro d'identification du SNPC garantit que chaque transaction dans la base de donn\u00e9es est unique, et \u00e9ventuellement le lien entre les engagements initiaux et les versements ult\u00e9rieurs sur plusieurs ann\u00e9es. "
+  ],
+  [
+    "8",
+    "ProjectNumber",
+    "Donor project N\u00b0",
+    "N\u00b0 de projet du donneur",
+    "Number, or combination of letters and numbers, used by the extending agency to identify the activity.",
+    "Num\u00e9ro ou la combinaison de lettres et de chiffres utilis\u00e9 par l\u2019agence ex\u00e9cutive pour identifier l\u2019activit\u00e9."
+  ],
+  [
+    "9",
+    "InitialReport",
+    "Nature of submission",
+    "Nature de l\u2019op\u00e9ration",
+    "The different types of submission are as follows:\n1: new activity reported\n2: revision\n3: previously reported activity (increase/decrease of earlier commitment, disbursement on earlier commitment)\n5: provisional data\n8: commitment is estimated as equal to disbursement\n9: amount extended = net disbursement",
+    "Les diff\u00e9rentes natures d'op\u00e9ration sont les suivantes:\n1=Activit\u00e9 nouvellement notifi\u00e9e\n2=R\u00e9vision\n3=Activit\u00e9 d\u00e9j\u00e0 notifi\u00e9e ant\u00e9rieurement (augmentation ou diminution d'un engagement ant\u00e9rieur, versement cons\u00e9cutif \u00e0 un engagement ant\u00e9rieur)\n5=\"Donn\u00e9e pr\u00e9liminaire\"\n8=Engagement d\u00e9riv\u00e9 du versement\n9=Versements nets"
+  ],
+  [
+    "10",
+    "RecipientCode",
+    "Recipient code",
+    "Code b\u00e9n\u00e9ficiaire",
+    "The DAC-CRS code of the country/territory benefitting from the aid activity.",
+    "Code CAD-CRS du pays/territoire b\u00e9n\u00e9ficiant de l'activit\u00e9 d'aide."
+  ],
+  [
+    "11",
+    "DERecipientCode",
+    "Recipient code",
+    "Code b\u00e9n\u00e9ficiaire",
+    "The DAC-CRS code of the country/territory benefitting from the aid activity.",
+    "Code CAD-CRS du pays/territoire b\u00e9n\u00e9ficiant de l'activit\u00e9 d'aide."
+  ],
+  [
+    "12",
+    "RecipientName",
+    "Recipient Name",
+    "Pays b\u00e9n\u00e9ficiaire",
+    "The country/territory benefitting from the aid activity. All recipients must be on the DAC List of ODA Recipients.",
+    "Le pays/territoire b\u00e9n\u00e9ficiant de l'activit\u00e9 d'aide. Tous les b\u00e9n\u00e9ficiaires doivent figurer sur la liste des b\u00e9n\u00e9ficiaires de l'APD du CAD."
+  ],
+  [
+    "13",
+    "RegionCode",
+    "Region Code",
+    "Code r\u00e9gion",
+    "The DAC-CRS code of the geographical region of the recipient country/territory.",
+    "Code CAD-CRS de la r\u00e9gion g\u00e9ographique du pays/territoire b\u00e9n\u00e9ficiaire."
+  ],
+  [
+    "13",
+    "DERegionCode",
+    "Region Code",
+    "Code r\u00e9gion",
+    "The DAC-CRS code of the geographical region of the recipient country/territory.",
+    "Code CAD-CRS de la r\u00e9gion g\u00e9ographique du pays/territoire b\u00e9n\u00e9ficiaire."
+  ],
+  [
+    "14",
+    "RegionName",
+    "Region Name",
+    "Nom r\u00e9gion",
+    "Geographical region of the recipient country/territory.",
+    "R\u00e9gion g\u00e9ographique du pays/territoire b\u00e9n\u00e9ficiaire."
+  ],
+  [
+    "15",
+    "IncomegroupCode",
+    "Income group Code",
+    "Code groupe de revenu",
+    "Countries and territories in the DAC List of ODA Recipients categorised into income group: LDC (Least Developed Countries), Other LICs (Other Low Income Countries), LMICs (Lower Middle Income Countries and Territories), UMICs (Upper Middle Income Countries and Territories).",
+    "Les pays et territoires figurant sur la liste des b\u00e9n\u00e9ficiaires de l'APD du CAD sont class\u00e9s par groupe de revenus:  PMA (Pays les Moins Avanc\u00e9s), PFR (autres Pays \u00e0 Faibles Revenus), PRITI (Pays et territoires \u00e0 Revenus Interm\u00e9diaires Tranche Inf\u00e9rieure), PRITS (Pays et territoires \u00e0 Revenus Interem\u00e9diaires Tranche Sup\u00e9rieure)."
+  ],
+  [
+    "15",
+    "DEIncomegroupCode",
+    "Income group Code",
+    "Code groupe de revenu",
+    "Countries and territories in the DAC List of ODA Recipients categorised into income group: LDC (Least Developed Countries), Other LICs (Other Low Income Countries), LMICs (Lower Middle Income Countries and Territories), UMICs (Upper Middle Income Countries and Territories).",
+    "Les pays et territoires figurant sur la liste des b\u00e9n\u00e9ficiaires de l'APD du CAD sont class\u00e9s par groupe de revenus:  PMA (Pays les Moins Avanc\u00e9s), PFR (autres Pays \u00e0 Faibles Revenus), PRITI (Pays et territoires \u00e0 Revenus Interm\u00e9diaires Tranche Inf\u00e9rieure), PRITS (Pays et territoires \u00e0 Revenus Interem\u00e9diaires Tranche Sup\u00e9rieure)."
+  ],
+  [
+    "16",
+    "IncomegroupName",
+    "Income group Name",
+    "Nom groupe de revenu",
+    "Countries and territories in the DAC List of ODA Recipients categorised into income group: LDC (Least Developed Countries), Other LICs (Other Low Income Countries), LMICs (Lower Middle Income Countries and Territories), UMICs (Upper Middle Income Countries and Territories).",
+    "Les pays et territoires figurant sur la liste des b\u00e9n\u00e9ficiaires de l'APD du CAD sont class\u00e9s par groupe de revenus:  PMA (Pays les Moins Avanc\u00e9s), PFR (autres Pays \u00e0 Faibles Revenus), PRITI (Pays et territoires \u00e0 Revenus Interm\u00e9diaires Tranche Inf\u00e9rieure), PRITS (Pays et territoires \u00e0 Revenus Interem\u00e9diaires Tranche Sup\u00e9rieure)."
+  ],
+  [
+    "17",
+    "FlowCode",
+    "Flow Code",
+    "Code ressource",
+    "This field has been brought over from historical versions of the CRS reporting. Although the field remains in the CRS (and other CRS-based dataflows), the FlowCode is now derived from combinations of the Category and FinanceT fields.",
+    "Ce champ a \u00e9t\u00e9 repris des versions ant\u00e9rieures du CRS. Bien qu'il figure toujours dans le CRS (et dans d'autres flux de donn\u00e9es bas\u00e9s sur le CRS), le FlowCode est d\u00e9sormais d\u00e9riv\u00e9 de combinaisons des champs Category et FinanceT."
+  ],
+  [
+    "18",
+    "FlowName",
+    "Flow Name",
+    "Nom ressource",
+    "This field has been brought over from historical versions of the CRS reporting. Although the field remains in the CRS (and other CRS-based dataflows), the FlowCode is now derived from combinations of the Category and FinanceT fields.",
+    "Ce champ a \u00e9t\u00e9 repris des versions ant\u00e9rieures du CRS. Bien qu'il figure toujours dans le CRS (et dans d'autres flux de donn\u00e9es bas\u00e9s sur le CRS), le FlowCode est d\u00e9sormais d\u00e9riv\u00e9 de combinaisons des champs Category et FinanceT."
+  ],
+  [
+    "19",
+    "Bi_Multi",
+    "Collaboration type",
+    "Type de collaboration",
+    "The different types of collaboration are as follows:\n1=bilateral\n2=multilateral\n3=bilateral, core contributions to NGOs and civil society, PPPs and research institutes\n7=bilateral, ex-post reporting on NGOs\u2019 activities funded through core contributions.\n8=bilateral, triangular co-operation,Activities where one or more bilateral providers of development co-operation or international organisations support South-South co-operation, joining forces with developing countries to facilitate a sharing of knowledge and experience among all partners involved. (Activities that only involve bilateral providers or multilateral agencies without a South-South co-operation element (e.g. joint programming, pooled funding or delegated co-operation) should not be assigned bi_multi 8.)\n\n4=multilateral outflows (for use by multilateral agencies only)\n6=private sector outflows (for reporting on private grants by DAC members as well as private providers)",
+    "Les diff\u00e9rents types de collaboration sont les suivants:\n1 =Bilat\u00e9ral\n2=Multilat\u00e9ral (contributions des donneurs du CAD)\n3=Contributions bilat\u00e9rales au budget g\u00e9n\u00e9ral d'organisations non gouvernementales, d'autres organisations de la soci\u00e9t\u00e9 civile, de partenariats publics-priv\u00e9s et d'instituts de recherches\n7=Contributions bilat\u00e9rales, notification ex post des activit\u00e9s des ONG financ\u00e9es par des contributions des donneurs au budget g\u00e9n\u00e9ral de l'ONG.\n8=Coop\u00e9ration triangulaire bilat\u00e9rale. Activit\u00e9s o\u00f9 un ou plusieurs pourvoyeurs bilat\u00e9raux de coop\u00e9ration pour le d\u00e9veloppement ou organisations internationales soutiennent la coop\u00e9ration Sud-Sud, conjointement avec des pays en d\u00e9veloppement afin de faciliter le partage des connaissances et d'exp\u00e9riences entre tous les partenaires impliqu\u00e9s. (Les activit\u00e9s qui n'impliquent que des pourvoyeurs bilat\u00e9raux ou des organismes multilat\u00e9raux sans coop\u00e9ration Sud-Sud (programmes conjoints, financements group\u00e9s ou coop\u00e9ration d\u00e9l\u00e9gu\u00e9e) ne devraient pas \u00eatre cod\u00e9s bi_multi 8.)\n\n4=Apports des agences multilat\u00e9rales\n6=Apports du secteur priv\u00e9"
+  ],
+  [
+    "20",
+    "Category",
+    "Type of flow (main DAC 1 category)",
+    "Type de ressource",
+    "The different types of flow used in DAC 1 are as follows:\n10=ODA\n21=OOF\n22=Officially supported export credits\n30=Private Development Finance\n36=Private Foreign Direct Investment\n37=Other private market\n40=Non flow (e.g. GNI)\n50=Other flows (e.g. non-ODA component of peacebuilding operations)\n60=Private Sector Instruments (PSI)",
+    "Les diff\u00e9rents types de ressources utilis\u00e9s dans le CAD 1 sont les suivants:\n10 = APD. \n21 = AASP hors cr\u00e9dits-export.\n22 = AASP dont cr\u00e9dits export.\n30 = dons priv\u00e9s (\u2013 type de financement 110 obligatoire).\n36 = Investissements Directs \u00e0 l\u2019Etranger priv\u00e9s. \n37 = Autres apports priv\u00e9s aux conditions du march\u00e9. \n40 = pas des flux, mais des informations.\n50 = flux autres que ci-dessus.\n60 = Instruments du Secteur Priv\u00e9"
+  ],
+  [
+    "21",
+    "Finance_T",
+    "Type of finance",
+    "Types de financement",
+    "The financial instrument of the activity.\nFinancial instruments are categorised as grants, debt instruments, mezzanine finance instruments, and equity and shares in collective investment vehicles. The financial instrument classification also includes instruments that do not necessarily generate a flow (i.e. contingent liabilities) such as guarantees. ",
+    "L'instrument financier de l'activit\u00e9.\nLes instruments financiers sont les dons, les instruments de dette, instruments de financement mezzanine, ainsi que les prises de participation et les parts dans des organismes de placement collectif. La classification des instruments financiers comprend \u00e9galement des instruments qui ne g\u00e9n\u00e8rent pas n\u00e9cessairement un flux (c'est-\u00e0-dire des passifs \u00e9ventuels), tels que les garanties."
+  ],
+  [
+    "22",
+    "Aid_t",
+    "Co-operation modality (replaces the type of aid)",
+    "Modalit\u00e9s de coop\u00e9ration",
+    "The typology identifies the modalities that are used in development co-operation. It classifies transfers from the donor to the first recipient of funds (e.g. the recipient country, a multilateral organisation, or a basket fund). ",
+    "La typologie identifie les modalit\u00e9s utilis\u00e9es dans la fourniture de l\u2019aide. Elle sert \u00e0 classer les transferts du donneur vers le premier destinataire des fonds (par exemple le pays b\u00e9n\u00e9ficiaire, une organisation multilat\u00e9rale ou un fonds commun).  "
+  ],
+  [
+    "23",
+    "USD_Commitment",
+    "Commitments in USD",
+    "Montant de l\u2019engagement en dollar am\u00e9ricain",
+    "New or additional amounts committed during the reporting year. The face value of the activity in millions of units and in USD. A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of a recipient country or a multilateral agency. ",
+    "Nouveaux montants ou montants suppl\u00e9mentaires engag\u00e9s au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. La valeur nominale de l'activit\u00e9 en millions d'unit\u00e9s et en dollar am\u00e9ricain. Un engagement est une obligation \u00e9crite et ferme d'un gouvernement ou d'une agence officielle, garantie par l'appropriation ou la disponibilit\u00e9 des fonds n\u00e9cessaires, de fournir des ressources d'un montant sp\u00e9cifi\u00e9 \u00e0 des conditions financi\u00e8res et \u00e0 des fins sp\u00e9cifi\u00e9es au profit d'un pays b\u00e9n\u00e9ficiaire ou d'une agence multilat\u00e9rale. "
+  ],
+  [
+    "24",
+    "USD_Disbursement",
+    "Amounts extended in USD",
+    "Montant vers\u00e9 en dollar am\u00e9ricain",
+    "Amount disbursed during the reporting year. In millions of units and in USD. A disbursement is the placement of resources at the disposal of a recipient country or agency, or in the case of internal development-related expenditures, the outlay of funds by the official sector.  ",
+    "Montant vers\u00e9 pendant l'ann\u00e9e de notification. En millions de dollars. Le terme de versements d\u00e9signe la mise \u00e0 disposition de ressources \u00e0 un pays ou \u00e0 un organisme b\u00e9n\u00e9ficiaire ou, dans le cas d\u2019op\u00e9rations internes en rapport avec le d\u00e9veloppement, le d\u00e9bours des fonds par le secteur public.  "
+  ],
+  [
+    "25",
+    "USD_Received",
+    "Amounts received (for loans:principal only) in USD",
+    "Montant re\u00e7u (pour les pr\u00eats : principal seulement) en dollar am\u00e9ricain",
+    "Amount received during the reporting year. In millions of units in USD. ",
+    "Montant re\u00e7u pendant l'ann\u00e9e de notification. En millions d'unit\u00e9s en dollar am\u00e9ricain. "
+  ],
+  [
+    "26",
+    "USD_Commitment_Defl",
+    "Deflated commitments in USD",
+    "Montant d\u00e9flat\u00e9 de l\u2019engagement en dollar am\u00e9ricain",
+    "New deflated amounts committed during the reporting year. The face value of the activity in millions of units and in USD. A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of a recipient country or a multilateral agency. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Nouveaux montants d\u00e9flat\u00e9s engag\u00e9s au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. Valeur nominale de l'activit\u00e9 en millions d'unit\u00e9s et en dollar am\u00e9ricain. Un engagement est une obligation \u00e9crite et ferme d'un gouvernement ou d'une agence officielle, garantie par l'appropriation ou la disponibilit\u00e9 des fonds n\u00e9cessaires, de fournir des ressources d'un montant sp\u00e9cifi\u00e9 \u00e0 des conditions financi\u00e8res et \u00e0 des fins sp\u00e9cifi\u00e9es au profit d'un pays b\u00e9n\u00e9ficiaire ou d'une agence multilat\u00e9rale. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "27",
+    "USD_Disbursement_Defl",
+    "Deflated amounts extended in USD",
+    "Montant d\u00e9flat\u00e9 vers\u00e9 en dollar am\u00e9ricain",
+    "Deflated amount disbursed during the reporting year. In millions of units and in USD. A disbursement is the placement of resources at the disposal of a recipient country or agency, or in the case of internal development-related expenditures, the outlay of funds by the official sector.  A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Montant deflat\u00e9 vers\u00e9 pendant l'ann\u00e9e de notification. En millions de dollars. Le terme de versements d\u00e9signe la mise \u00e0 disposition de ressources \u00e0 un pays ou \u00e0 un organisme b\u00e9n\u00e9ficiaire ou, dans le cas d\u2019op\u00e9rations internes en rapport avec le d\u00e9veloppement, le d\u00e9bours des fonds par le secteur public. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "28",
+    "USD_Received_Defl",
+    "Deflated amounts received (for loans:principal only) in USD",
+    "Montant d\u00e9flat\u00e9 re\u00e7u (pour les pr\u00eats : principal seulement) en dollar am\u00e9ricain",
+    "Deflated amount received during the reporting year. In millions of units in USD. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Montant d\u00e9flat\u00e9 re\u00e7u au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. En millions d'unit\u00e9s en dollar am\u00e9ricain. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "29",
+    "USD_Adjustment",
+    "Amounts adjusted in USD",
+    "Montant ajust\u00e9 en dollar am\u00e9ricain",
+    "Deflated amounts adjusted in USD. Negative commitments reported by a donor during the reporting year. In millions of units in USD.",
+    "Montant ajust\u00e9 en dollar am\u00e9ricain. Montants n\u00e9gatifs engag\u00e9s au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. En millions de dollars."
+  ],
+  [
+    "30",
+    "USD_Adjustment_Defl",
+    "Deflated amounts adjusted in USD",
+    "Montant d\u00e9flat\u00e9 ajust\u00e9 en dollar am\u00e9ricain",
+    "Deflated amounts adjusted in USD. Negative commitments reported by a donor during the reporting year. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates. In millions of units in USD.",
+    "Montant d\u00e9flat\u00e9 ajust\u00e9 en dollar am\u00e9ricain. Montants n\u00e9gatifs engag\u00e9s au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. En millions de dollars."
+  ],
+  [
+    "31",
+    "USD_AmountUntied",
+    "Amount untied in USD",
+    "Montant non li\u00e9 en dollar am\u00e9ricain",
+    "In millions of units in USD. On a commitment basis, for new commitments only. Untied aid is defined as loans and grants whose proceeds are fully and freely available to finance procurement from all OECD countries and substantially all developing countries. ",
+    "Montants en millions d'unit\u00e9s en dollar am\u00e9ricain. Sur la base d'un engagement, pour les nouveaux engagements uniquement. Passation de march\u00e9s ne r\u00e9pondant pas aux d\u00e9finitions de l\u2019aide non li\u00e9e ou partiellement d\u00e9li\u00e9e. L'aide non li\u00e9e est d\u00e9finie comme des pr\u00eats et des dons dont le produit est enti\u00e8rement et librement disponible pour financer les march\u00e9s publics provenant de tous les pays de l'OCDE et de la quasi-totalit\u00e9 des pays en d\u00e9veloppement. "
+  ],
+  [
+    "32",
+    "USD_AmountPartialTied",
+    "Amount partially untied in USD",
+    "Montant partiellement d\u00e9li\u00e9 en dollar am\u00e9ricain",
+    "On a commitment basis, for new commitments only. In millions of units in USD.  Partially untied aid is defined as loans and grants which are tied, contractually or in effect, to procurement of goods and services from a restricted number of countries which must include substantially all developing countries and can include the donor country.",
+    "Sur la base d'un engagement, pour les nouveaux engagements uniquement. Montants en millions d'unit\u00e9s en dollar am\u00e9ricain. Par aide partiellement d\u00e9li\u00e9e, on entend les pr\u00eats et les dons qui sont contractuellement ou effectivement li\u00e9s \u00e0 la passation de march\u00e9s de biens et de services dans un nombre d\u00e9limit\u00e9 d\u2019autres pays, dont la quasi-totalit\u00e9 des pays en d\u00e9veloppement, et pouvant inclure le pays donneur."
+  ],
+  [
+    "33",
+    "USD_AmountTied",
+    "Amount tied in USD",
+    "Montant li\u00e9 en dollar am\u00e9ricain",
+    "On a commitment basis, for new commitments only. In millions of units in USD.  Transactions are considered tied unless the donor has, at the time of the aid offer, clearly specified a range of countries eligible for procurement which meets the tests for \u201cuntied\u201d or \u201cpartially untied\u201d aid.  All loans and grants that do not fall under the definition of untied or partially untied aid are classified as tied aid, whether they are tied formally or through informal arrangements.",
+    "Sur la base d'un engagement, pour les nouveaux engagements uniquement. Montants en millions d'unit\u00e9s en dollar am\u00e9ricain. Toute op\u00e9ration sera consid\u00e9r\u00e9e comme li\u00e9e si, au moment de l'offre, le donneur n'a pas clairement sp\u00e9cifi\u00e9 que les achats pouvaient \u00eatre op\u00e9r\u00e9s dans un \u00e9ventail de pays tel que cette op\u00e9ration r\u00e9ponde aux conditions requises pour \u00eatre consid\u00e9r\u00e9e comme \u00ab non li\u00e9e \u00bb ou \u00ab partiellement d\u00e9li\u00e9e \u00bb. Toutes les op\u00e9rations de pr\u00eat ou de don n\u2019entrant pas dans la d\u00e9finition de l\u2019aide non li\u00e9e ou de l\u2019aide partiellement d\u00e9li\u00e9e sont class\u00e9es dans l\u2019aide li\u00e9e, que la liaison soit formelle ou r\u00e9sulte de dispositions informelles."
+  ],
+  [
+    "34",
+    "USD_AmountUntied_Defl",
+    "Deflated amount untied in USD",
+    "Montant d\u00e9flat\u00e9 non li\u00e9 en dollar am\u00e9ricain",
+    "On a commitment basis, for new commitments only. Deflated amounts in millions of units in USD.  Untied aid is defined as loans and grants whose proceeds are fully and freely available to finance procurement from all OECD countries and substantially all developing countries. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Sur la base d'un engagement, pour les nouveaux engagements uniquement. Montants d\u00e9flat\u00e9s en millions d'unit\u00e9s en dollar am\u00e9ricain. L'aide non li\u00e9e est d\u00e9finie comme des pr\u00eats et des dons dont le produit est enti\u00e8rement et librement disponible pour financer les march\u00e9s publics provenant de tous les pays de l'OCDE et de la quasi-totalit\u00e9 des pays en d\u00e9veloppement. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "35",
+    "USD_AmountPartialTied_Defl",
+    "Deflated amount partially untied in USD",
+    "Montant d\u00e9flat\u00e9 partiellement d\u00e9li\u00e9 en dollar am\u00e9ricain",
+    "On a commitment basis, for new commitments only. Deflated amounts in millions of units in USD.  Partially untied aid is defined as loans and grants which are tied, contractually or in effect, to procurement of goods and services from a restricted number of countries which must include substantially all developing countries and can include the donor country. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Sur la base d'un engagement, pour les nouveaux engagements uniquement. Montants d\u00e9flat\u00e9s en millions d'unit\u00e9s en dollar am\u00e9ricain. Par aide partiellement d\u00e9li\u00e9e, on entend les pr\u00eats et les dons qui sont contractuellement ou effectivement li\u00e9s \u00e0 la passation de march\u00e9s de biens et de services dans un nombre d\u00e9limit\u00e9 d\u2019autres pays, dont la quasi-totalit\u00e9 des pays en d\u00e9veloppement, et pouvant inclure le pays donneur. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "36",
+    "USD_Amounttied_Defl",
+    "Deflated amount tied in USD",
+    "Montant d\u00e9flat\u00e9 li\u00e9 en dollar am\u00e9ricain",
+    "On a commitment basis, for new commitments only. Deflated amounts in millions of units in USD.  Transactions are considered tied unless the donor has, at the time of the aid offer, clearly specified a range of countries eligible for procurement which meets the tests for \u201cuntied\u201d or \u201cpartially untied\u201d aid.  All loans and grants that do not fall under the definition of untied or partially untied aid are classified as tied aid, whether they are tied formally or through informal arrangements. A deflated amount is a measure given at a constant price, adjusted for the effects of inflation and exchange rates.",
+    "Sur la base d'un engagement, pour les nouveaux engagements uniquement. Montants d\u00e9flat\u00e9s en millions d'unit\u00e9s en dollar am\u00e9ricain. Toute op\u00e9ration sera consid\u00e9r\u00e9e comme li\u00e9e si, au moment de l'offre, le donneur n'a pas clairement sp\u00e9cifi\u00e9 que les achats pouvaient \u00eatre op\u00e9r\u00e9s dans un \u00e9ventail de pays tel que cette op\u00e9ration r\u00e9ponde aux conditions requises pour \u00eatre consid\u00e9r\u00e9e comme \u00ab non li\u00e9e \u00bb ou \u00ab partiellement d\u00e9li\u00e9e \u00bb. Toutes les op\u00e9rations de pr\u00eat ou de don n\u2019entrant pas dans la d\u00e9finition de l\u2019aide non li\u00e9e ou de l\u2019aide partiellement d\u00e9li\u00e9e sont class\u00e9es dans l\u2019aide li\u00e9e, que la liaison soit formelle ou r\u00e9sulte de dispositions informelles. Un montant d\u00e9flat\u00e9 est une mesure donn\u00e9e \u00e0 prix constant, corrig\u00e9 des effets de l'inflation et des taux de change. "
+  ],
+  [
+    "37",
+    "USD_IRTC",
+    "Amount of Investment-related technical co-operation (IRTC) in USD",
+    "Pour les projets de coop\u00e9ration technique, \nmontant de CTAPE",
+    "For new commitments only, if investment flag = 1. In millions of units in USD. Investment-related technical co-operation is defined as the financing of services by a donor country with the primary purpose of contributing to the design and/or implementation of a project or programme aiming to increase the physical capital stock of the recipient country. These services include consulting services, technical support, the provision of know-how linked to the execution of an investment project, and the contribution of the donor\u2019s own personnel to the actual implementation of the project (managers, technicians, skilled labour, etc.). In DAC statistics, these expenditures are included indistinguishably with investment project aid (related cost of donor experts are reported separately on an optional basis). Technical co-operation provided by commercial enterprises at their own expense is not recorded in the flow of resources. Such technical co-operation when included in a commercial project is itself reportable only if the project is reportable and is in that case included indistinguishably as part of the value of the project.",
+    "Uniquement pour les nouveaux engagements, si l'indicateur investissement = 1. En millions d'unit\u00e9s en dollar am\u00e9ricain.. La coop\u00e9ration technique associ\u00e9e \u00e0 un projet d'\u00e9quipement comprend le financement de services par un pays donneur, dans le but essentiel de contribuer \u00e0 la conception et/ou \u00e0 la mise en \u0153uvre d'un projet ou programme destin\u00e9 \u00e0 accro\u00eetre le stock de capital physique du pays b\u00e9n\u00e9ficiaire. Parmi ces services figurent les services de conseil, les aides techniques, la fourniture de savoir-faire li\u00e9 \u00e0 l'ex\u00e9cution d'un projet d'\u00e9quipement, et la contribution du propre personnel du pays donneur \u00e0 la mise en \u0153uvre du projet (gestionnaires, techniciens, main-d'\u0153uvre qualifi\u00e9e, etc.). Dans les statistiques du CAD, ces d\u00e9penses ne sont pas dissoci\u00e9es du co\u00fbt global des projets d\u2019investissement auxquels elles se rapportent (la notification s\u00e9par\u00e9e des co\u00fbts relatifs aux experts des donneurs reste optionnelle). Les activit\u00e9s de coop\u00e9ration technique engag\u00e9es par des entreprises commerciales \u00e0 leurs propres frais ne sont pas comptabilis\u00e9es dans l'apport de ressources. L'assistance technique comprise dans une op\u00e9ration commerciale n'est notifiable que si cette op\u00e9ration l'est elle-m\u00eame, et elle est alors incluse de fa\u00e7on indissociable dans la valeur du projet."
+  ],
+  [
+    "38",
+    "USD_Expert_Commitment",
+    "If project type, amount of experts-commitments in USD",
+    "Si de type projet, montant des experts - engagement en dollar am\u00e9ricain",
+    "Optional reporting, if project-type =C01.\nIn millions of units in USD. \nWithin the project-type category, members able to do so are requested to report the amount used for financing donor experts/consultants.",
+    "Notification facultative, si le type projet = C01.En millions d'unit\u00e9s en dollar am\u00e9ricain. Dans la cat\u00e9gorie du type de projet, les membres en mesure de le faire sont pri\u00e9s de d\u00e9clarer le montant utilis\u00e9 pour financer les experts/consultants des pays donneurs"
+  ],
+  [
+    "39",
+    "USD_Expert_Extended",
+    "If project type, amount of experts-extended in USD",
+    "Si de type projet, montant des experts - versement",
+    "Optional reporting, if project-type = C01. In millions of units in USD. \nWithin the project-type category, members able to do so are requested to report the amount used for financing donor experts/consultants.",
+    "Notification facultative, si le type projet = C01. En millions d'unit\u00e9s en dollar am\u00e9ricain. Dans la cat\u00e9gorie du type de projet, les membres en mesure de le faire sont pri\u00e9s de d\u00e9clarer le montant utilis\u00e9 pour financer les experts/consultants des pays donneurs"
+  ],
+  [
+    "40",
+    "USD_Export_Credit",
+    "Amount of export credit in USD",
+    "Montant de cr\u00e9dit \u00e0 l'exportation",
+    "Amount of export credit. For commitments only, if Type of blended finance =1. In millions of units in USD. ",
+    "Montant de cr\u00e9dit \u00e0 l'exportation. Uniquement pour les engagements, si l'indicateur \"Types de financement mixtes\" = 1.En millions d'unit\u00e9s en dollar am\u00e9ricain.."
+  ],
+  [
+    "41",
+    "CurrencyCode",
+    "Currency Code",
+    "Code monnaie",
+    "Currencies used by DAC Members.",
+    "Monnaies utilis\u00e9es par les membres du CAD."
+  ],
+  [
+    "42",
+    "Commitment_National",
+    "Commitments in national currency",
+    "Montant de l\u2019engagement en monnaie nationale",
+    "New amounts committed during the reporting year. The face value of the activity in millions of units in the national currency (except for Japanese yen which should be reported in billions). A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of a recipient country or a multilateral agency. ",
+    "Nouveaux montants engag\u00e9s au cours de l'ann\u00e9e de r\u00e9f\u00e9rence. La valeur nominale de l'activit\u00e9 en millions d'unit\u00e9s dans la monnaie nationale (sauf pour les yens japonais qui doivent \u00eatre d\u00e9clar\u00e9s en milliards). Un engagement est une obligation \u00e9crite et ferme d'un gouvernement ou d'une agence officielle, garantie par l'appropriation ou la disponibilit\u00e9 des fonds n\u00e9cessaires, de fournir des ressources d'un montant sp\u00e9cifi\u00e9 \u00e0 des conditions financi\u00e8res et \u00e0 des fins sp\u00e9cifi\u00e9es au profit d'un pays b\u00e9n\u00e9ficiaire ou d'une agence multilat\u00e9rale. "
+  ],
+  [
+    "43",
+    "Disbursement_National",
+    "Amounts extended in national currency",
+    "Montant des versements en monnaie nationale",
+    "Amount disbursed during the reporting year.  In millions of units in the national currency (billions if yen). A disbursement is the placement of resources at the disposal of a recipient country or agency, or in the case of internal development-related expenditures, the outlay of funds by the official sector.  ",
+    "Montant vers\u00e9 pendant l'ann\u00e9e de notification. En millions d'unit\u00e9s dans la monnaie nationale (en milliards si yens). Le terme de versements d\u00e9signe la mise \u00e0 disposition de ressources \u00e0 un pays ou \u00e0 un organisme b\u00e9n\u00e9ficiaire ou, dans le cas d\u2019op\u00e9rations internes en rapport avec le d\u00e9veloppement, le d\u00e9bours des fonds par le secteur public.  "
+  ],
+  [
+    "44",
+    "GrantEquiv",
+    "ODA grant equivalent",
+    "Equivalent-don d'APD",
+    "For ODA loans, amounts extended multiplied by the loan\u2019s grant element as calculated at the time of the commitment. In millions of units (billions if yen). The indicator of donor effort in DAC statistics is the ODA grant equivalent measure. The ODA grant equivalent measure is calculated for ODA flows, and ODA-eligible private sector instruments.",
+    "Pour les pr\u00eats d'APD, montants vers\u00e9s multipli\u00e9s par l'\u00e9l\u00e9ment don du pr\u00eat tel que calcul\u00e9 au momoment de l'engagement. En millions d'unit\u00e9s (milliards si yen). L'indicateur de l'effort des donneurs dans les statistiques du CAD est la mesure de l'\u00e9quivalent-don d'APD. La mesure de l'\u00e9quivalent-don d'APD est calcult\u00e9e pour les apports d'APD et pour les instruments du secteur priv\u00e9 \u00e9ligibles \u00e0 l'APD."
+  ],
+  [
+    "45",
+    "USD_GrantEquiv",
+    "ODA grant equivalent in USD",
+    "Equivalent-don d'APD en dollar am\u00e9ricain",
+    "For ODA loans, amounts extended multiplied by the loan\u2019s grant element as calculated at the time of the commitment. In millions of units in USD. The indicator of donor effort in DAC statistics is the ODA grant equivalent measure. The ODA grant equivalent measure is calculated for ODA flows, and ODA-eligible private sector instruments.",
+    "Pour les pr\u00eats d'APD, montants vers\u00e9s multipli\u00e9s par l'\u00e9l\u00e9ment don du pr\u00eat tel que calcul\u00e9 au momoment de l'engagement. En millions d'unit\u00e9s en dollar am\u00e9ricain. L'indicateur de l'effort des donneurs dans les statistiques du CAD est la mesure de l'\u00e9quivalent-don d'APD. La mesure de l'\u00e9quivalent-don d'APD est calcult\u00e9e pour les apports d'APD et pour les instruments du secteur priv\u00e9 \u00e9ligibles \u00e0 l'APD."
+  ],
+  [
+    "46",
+    "ShortDescription",
+    "Short description",
+    "Description succincte",
+    "Brief description (150 characters or less) of the aid activity.",
+    "Br\u00e8ve description (150 caract\u00e8res ou moins) de l'activit\u00e9 d'aide."
+  ],
+  [
+    "47",
+    "ProjectTitle",
+    "Project Title",
+    "Titre du projet",
+    "The official project title can be used as a brief description (150 characters or less) of the aid activity.",
+    "Le titre officiel du projet peut \u00eatre utilis\u00e9 comme une br\u00e8ve description (150 caract\u00e8res ou moins) de l'activit\u00e9 d'aide."
+  ],
+  [
+    "48",
+    "PurposeCode",
+    "Purpose code",
+    "Code-objet",
+    "The specific area of the recipient\u2019s economic or social structure that the activity is intended to foster. Data on the sectors of destination are recorded using 5-digit purpose codes.  The first three digits of the code refer to the corresponding DAC5 sector or category.  Generally, the last two digits of the CRS purpose code are sequential and not hierarchical i.e., each code stands for itself and can be selected individually or grouped to create sub-sectors.  The sequential numbers have, however, been standardised for codes with similar functions as follows:\n- The most general CRS codes end in the sequential number 10.  It refers to policy, planning and programmes; administration, institution capacity building and advice; combinations of activities and unspecified activities falling outside other code headings.\n- The main codes have sequential numbers 20, 30, 40 and 50.\n- The detailed codes have sequential numbers in the range 61 - 79.\n- Sector-specific education, training and research codes have sequential numbers in the range 81 - 89.  \n- Sector-specific services have codes with sequential numbers in the range 91 -99.",
+    "Domaine particulier de l\u2019\u00e9conomie ou de la structure sociale du pays b\u00e9n\u00e9ficiaire dont ce transfert va stimuler le d\u00e9veloppement. Les donn\u00e9es du SNPC sont attribu\u00e9es \u00e0 un secteur de destination \u00e0 l\u2019aide d\u2019un code-objet \u00e0 5 chiffres. Les 3 premiers chiffres du code-objet repr\u00e9sentent le secteur ou la cat\u00e9gorie du tableau CAD 5. Chaque code-objet du SNPC appartient \u00e0 une cat\u00e9gorie unique du CAD 5. Les deux derniers chiffres du code SNPC sont s\u00e9quentiels et non hi\u00e9rarchiques, c\u2019est-\u00e0-dire que chaque code est repr\u00e9sentatif et peut donc \u00eatre s\u00e9lectionn\u00e9 seul ou group\u00e9 afin de cr\u00e9er des sous-secteurs. Toutefois, les num\u00e9ros s\u00e9quentiels ont \u00e9t\u00e9 uniformis\u00e9s par des codes de m\u00eame nature comme suit :\n- Le code SNPC le plus g\u00e9n\u00e9ral a le num\u00e9ro s\u00e9quentiel 10. Il recouvre les domaines de politique, planification et programmes ; l\u2019administration, le renforcement des capacit\u00e9s institutionnelles et les conseils, les activit\u00e9s recouvrant plusieurs sous-secteurs ou les activit\u00e9s non sp\u00e9cifi\u00e9es n\u2019\u00e9tant pas couvertes par d\u2019autres codes.\n- Les codes principaux ont les num\u00e9ros s\u00e9quentiels 20, 30, 40 et 50.\n- Les codes d\u00e9taill\u00e9s ont des num\u00e9ros s\u00e9quentiels dans la s\u00e9rie 61 \u00e0 79.\n- Les codes sp\u00e9cifiques aux activit\u00e9s \u00e9ducation, formation et recherche ont des num\u00e9ros \ns\u00e9quentiels dans la s\u00e9rie 81 \u00e0 89.\n- Les codes sp\u00e9cifiques aux services ont des num\u00e9ros s\u00e9quentiels dans la s\u00e9rie 91 \u00e0 99."
+  ],
+  [
+    "49",
+    "PurposeName",
+    "Purpose name",
+    "Nom code-objet",
+    "Data on the sectors of destination are recorded using 5-digit purpose codes and associated with a sector specific acitivity.",
+    "Les donn\u00e9es sur les secteurs de destination sont enregistr\u00e9es \u00e0 l'aide de codes-objet \u00e0 5 chiffres et associ\u00e9es \u00e0 une activit\u00e9 sectorielle sp\u00e9cifique."
+  ],
+  [
+    "50",
+    "SectorCode",
+    "Sector Code",
+    "Code secteur",
+    "The broader sector of the activity. Each 5-digit purpose code falls under a 3-digit sector code.",
+    "Le secteur g\u00e9n\u00e9ral de l'activit\u00e9. Chaque code-objet \u00e0 5 chiffres est rattach\u00e9 \u00e0 un code de secteur \u00e0 3 chiffres."
+  ],
+  [
+    "51",
+    "SectorName",
+    "Sector Name",
+    "Nom secteur",
+    "Name of the broader sector of the activity. ",
+    "Nom du secteur g\u00e9n\u00e9ral de l'activit\u00e9."
+  ],
+  [
+    "52",
+    "ChannelCode",
+    "Channel code",
+    "Code Canal d\u2019acheminement",
+    "The channel of delivery permits the identification of core funding to specific multilateral organisations and enables the calculation of aggregates on bilateral aid channelled through multilateral organisations, NGOs, PPPs and other channels. It also distinguishes between public and private implementing partners.\nThe channel of delivery is the first implementing partner. It is the entity that has implementing responsibility over the funds and is normally linked to the extending agency  by a contract or other binding agreement, and is directly accountable to it. Where several levels of implementation are involved (e.g. when the extending agency hires a national implementer which in turn may hire a local implementer), report the first level of implementation as the channel of delivery.  Where activities have several implementers, the principal implementer should be reported (e.g. the entity receiving the most funding). In the case of loans, report the borrower (i.e. the first entity outside the donor country that receives the funds).",
+    "Le canal d\u2019acheminement permet d\u2019identifier les contributions au budget central d\u2019organisations multilat\u00e9rales particuli\u00e8res et de calculer le total de l\u2019aide bilat\u00e9rale ayant transit\u00e9 par les organisations multilat\u00e9rales, les ONG, les PPP et autres canaux. Il permet aussi de faire la distinction entre les organismes d\u2019ex\u00e9cution partenaires priv\u00e9s et publics. Le canal d\u2019acheminement est le premier partenaire dans la mise en \u0153uvre. C\u2019est l\u2019entit\u00e9 qui a la responsabilit\u00e9 de la mise en \u0153uvre des fonds et qui est normalement li\u00e9e \u00e0 l\u2019agence ex\u00e9cutive  par un contrat, ou autre accord, et est directement responsable envers elle. Quand plusieurs niveaux de mise en \u0153uvre sont impliqu\u00e9s (par exemple, quand l\u2019agence ex\u00e9cutive engage un ma\u00eetre d\u2019\u0153uvre national qui peut \u00e0 son tour engager un ma\u00eetre d\u2019\u0153uvre local), le premier niveau de mise en \u0153uvre est notifi\u00e9 comme canal d\u2019acheminement. Quand les activit\u00e9s ont plusieurs agences de mise en \u0153uvre, l\u2019agence principale devrait \u00eatre notifi\u00e9e (par exemple, l\u2019entit\u00e9 qui re\u00e7oit la plupart du financement). Dans le cas de pr\u00eats, l\u2019emprunteur (i.e. la premi\u00e8re entit\u00e9 en dehors du pays donneur qui re\u00e7oit les fonds) est \u00e0 notifier."
+  ],
+  [
+    "53",
+    "ChannelName",
+    "Channel of delivery name",
+    "Nom Canal d\u2019acheminement",
+    "Channel name associated to the official channel code.\nThe channel of delivery permits the identification of core funding to specific multilateral organisations and enables the calculation of aggregates on bilateral aid channelled through multilateral organisations, NGOs, PPPs and other channels. It also distinguishes between public and private implementing partners.\nThe channel of delivery is the first implementing partner. It is the entity that has implementing responsibility over the funds and is normally linked to the extending agency  by a contract or other binding agreement, and is directly accountable to it. Where several levels of implementation are involved (e.g. when the extending agency hires a national implementer which in turn may hire a local implementer), the first level of implementation as the channel of delivery is reported.  Where activities have several implementers, the principal implementer is reported (e.g. the entity receiving the most funding). In the case of loans, the borrower is reported (i.e. the first entity outside the donor country that receives the funds).",
+    "Nom du canal d\u2019acheminement associ\u00e9 au code canal officiel.\nLe canal d\u2019acheminement permet d\u2019identifier les contributions au budget central d\u2019organisations multilat\u00e9rales particuli\u00e8res et de calculer le total de l\u2019aide bilat\u00e9rale ayant transit\u00e9 par les organisations multilat\u00e9rales, les ONG, les PPP et autres canaux. Il permet aussi de faire la distinction entre les organismes d\u2019ex\u00e9cution partenaires priv\u00e9s et publics. Le canal d\u2019acheminement est le premier partenaire dans la mise en \u0153uvre. C\u2019est l\u2019entit\u00e9 qui a la responsabilit\u00e9 de la mise en \u0153uvre des fonds et qui est normalement li\u00e9e \u00e0 l\u2019agence ex\u00e9cutive  par un contrat, ou autre accord, et est directement responsable envers elle. Quand plusieurs niveaux de mise en \u0153uvre sont impliqu\u00e9s (par exemple, quand l\u2019agence ex\u00e9cutive engage un ma\u00eetre d\u2019\u0153uvre national qui peut \u00e0 son tour engager un ma\u00eetre d\u2019\u0153uvre local), le premier niveau de mise en \u0153uvre est notifi\u00e9 comme canal d\u2019acheminement. Quand les activit\u00e9s ont plusieurs agences de mise en \u0153uvre, l\u2019agence principale est notifi\u00e9e (par exemple, l\u2019entit\u00e9 qui re\u00e7oit la plupart du financement). Dans le cas de pr\u00eats, l\u2019emprunteur (i.e. la premi\u00e8re entit\u00e9 en dehors du pays donneur qui re\u00e7oit les fonds) est notifi\u00e9."
+  ],
+  [
+    "54",
+    "ChannelReportedName",
+    "Channel reported name",
+    "Nom canal notifi\u00e9",
+    "Channel name as reported.\nThe channel of delivery permits the identification of core funding to specific multilateral organisations and enables the calculation of aggregates on bilateral aid channelled through multilateral organisations, NGOs, PPPs and other channels. It also distinguishes between public and private implementing partners.\nThe channel of delivery is the first implementing partner. It is the entity that has implementing responsibility over the funds and is normally linked to the extending agency  by a contract or other binding agreement, and is directly accountable to it. Where several levels of implementation are involved (e.g. when the extending agency hires a national implementer which in turn may hire a local implementer), the first level of implementation as the channel of delivery is reported.  Where activities have several implementers, the principal implementer is reported (e.g. the entity receiving the most funding). In the case of loans, the borrower is reported (i.e. the first entity outside the donor country that receives the funds).",
+    "Nom du canal d\u2019acheminement notifi\u00e9.\nThe channel of delivery permits the identification of core funding to specific multilateral organisations and enables the calculation of aggregates on bilateral aid channelled through multilateral organisations, NGOs, PPPs and other channels. It also distinguishes between public and private implementing partners.\nThe channel of delivery is the first implementing partner. It is the entity that has implementing responsibility over the funds and is normally linked to the extending agency  by a contract or other binding agreement, and is directly accountable to it. Where several levels of implementation are involved (e.g. when the extending agency hires a national implementer which in turn may hire a local implementer), the first level of implementation as the channel of delivery is reported.  Where activities have several implementers, the principal implementer is reported (e.g. the entity receiving the most funding). In the case of loans, the borrower is reported (i.e. the first entity outside the donor country that receives the funds)."
+  ],
+  [
+    "55",
+    "ParentChannelCode",
+    "Parent channel code",
+    "Code canal principal",
+    "The channel parent category is used to group several Channel IDs into group categories of channels of delivery used for ODA reporting.",
+    "La cat\u00e9gorie \"canal principal\" est utlis\u00e9e pour regrouper en cat\u00e9gories les diff\u00e9rents codes canaux utilis\u00e9s dans la comptabilisation de l'APD."
+  ],
+  [
+    "56",
+    "Geography",
+    "Geographical target area",
+    "Zone g\u00e9ographique vis\u00e9e",
+    "The area (town, region) in the recipient country that is intended to benefit from the activity.  ",
+    "La zone g\u00e9ographique vis\u00e9e et le canal \nd\u2019acheminement aident \u00e0 identifier une activit\u00e9 sp\u00e9cifique dans le pays b\u00e9n\u00e9ficiaire."
+  ],
+  [
+    "57",
+    "LDCflag",
+    "Regional aid to LDCs code",
+    "Code de l'aide r\u00e9gionale pour les PMA",
+    "Flag which identifies regional aid to LDCs, distinguishing between known and estimated amounts and, in the case of estimates, indicating the methodology used to calculate the amount. \n1=exact expenditure\n2=estimate, based on geographic breakdown of fund\u2019s expenditures\n3=estimate, based on population\n4=estimate, based on number of countries\n5=estimate, based on some other methodology",
+    "Marqueur qui met en \u00e9vidence l'aide r\u00e9gionale aux PMA, op\u00e9rant une distinction entre les sommes connues et les sommes estim\u00e9es et, dans le cas d'estimations, pr\u00e9cisan la m\u00e9thode de calcul utilis\u00e9e.                                                                                                                              1=D\u00e9pense exacte\n2=Estimation, sur la base de la d\u00e9composition g\u00e9ographique des d\u00e9penses\n3=Estimation, sur la base de la population\n4=Estimation, sur la base du nombre de pays\n5=Estimation, autre m\u00e9thodologie"
+  ],
+  [
+    "58",
+    "LDCflagName",
+    "Regional aid to LDCs name",
+    "Nom de l'aide r\u00e9gionale pour les PMA",
+    "Flag which identifies regional aid to LDCs, distinguishing between known and estimated amounts and, in the case of estimates, indicating the methodology used to calculate the amount. ",
+    "Marqueur qui met en \u00e9vidence l\u2019aide r\u00e9gionale aux PMA, op\u00e9rant une distinction entre les sommes connues et les sommes estim\u00e9es et, dans le cas d\u2019estimations, pr\u00e9cisant la m\u00e9thode de calcul utilis\u00e9e. "
+  ],
+  [
+    "59",
+    "ExpectedStartDate",
+    "Expected starting date ",
+    "Date pr\u00e9vue de d\u00e9marrage (jj.mm.aaaa)",
+    "The expected starting date allows identification of activities being implemented at any point of time.",
+    "La date pr\u00e9vue de d\u00e9marrage permet l\u2019identification des activit\u00e9s mises en \u0153uvre \u00e0 n\u2019importe quel moment."
+  ],
+  [
+    "60",
+    "CompletionDate",
+    "Expected completion date",
+    "Date pr\u00e9vue d\u2019ach\u00e8vement (jj.mm.aaaa)",
+    "The expected completion date allows identification of activities being implemented at any point of time.",
+    "La date pr\u00e9vue d\u2019ach\u00e8vement permet l\u2019identification des activit\u00e9s mises en \u0153uvre \u00e0 n\u2019importe quel moment."
+  ],
+  [
+    "61",
+    "LongDescription",
+    "Long Description",
+    "Longue description",
+    "A longer description of the activity, providing additional detail beyond the short description. May also contain overflow information from other fields with shorter character limits (e.g. geographical target area, SDG focus).",
+    "Description plus longue de l'activit\u00e9, fournissant des d\u00e9tails suppl\u00e9mentaires par rapport \u00e0 la description courte. Peut \u00e9galement contenir des informations suppl\u00e9mentaires concernant d'autres champs dont la limite de caract\u00e8res est plus courte (par exemple, zone g\u00e9ographique cibl\u00e9e, ODD vis\u00e9)."
+  ],
+  [
+    "62",
+    "SDGfocus",
+    "SDG focus",
+    "ODD vis\u00e9",
+    "Sustainable development goal(s) or target(s) the activity aims to contribute to directly. The reporting on the SDG focus is optional. The field can contain up to ten values (goals or targets or a mixture of the two) separated by semicolons \u201c;\u201d.  A zero value (\u201c0\u201d) implies that the activity has been screened but does not aim to directly contribute to any of the SDGs. A blank value (NULL) implies that the activity has not been screened against the SDGs.",
+    "Objectif(s) de d\u00e9veloppement durable ou cible(s) auquel l'activit\u00e9 vise \u00e0 contribuer directement. La d\u00e9claration de l'orientation des ODD est facultative. Le champ peut contenir jusqu'\u00e0 dix valeurs (objectifs ou cibles ou un m\u00e9lange des deux) s\u00e9par\u00e9es par des points-virgules \" ;\".  Une valeur nulle (\"0\") signifie que l'activit\u00e9 a \u00e9t\u00e9 examin\u00e9e mais qu'elle ne vise pas \u00e0 contribuer directement \u00e0 l'un des ODD. Une valeur vide (NULL) signifie que l'activit\u00e9 n'a pas \u00e9t\u00e9 examin\u00e9e au regard des ODD."
+  ],
+  [
+    "63",
+    "Keywords",
+    "Keywords",
+    "Mots cl\u00e9s",
+    "Keywords and hashtags are short strings of text that describe a publicly relevant aspect of the activities, such as pursuing a specific policy objective, or having a certain intrinsic characteristic, that could not be otherwise reported with the existing taxonomies.  Hashtags are keywords prefixed by the symbol #. The hashtags are agreed among members and have clear eligibility criteria defined in the \u2018Hashtags definitions table\u2019 in Annex 13 of the Addendum 1 to the Directives.",
+    "Les mots cl\u00e9s et les mots-di\u00e8se sont de courtes chaines de texte qui d\u00e9crivent un aspect des activit\u00e9s qui pr\u00e9sent un int\u00e9r\u00eat pour le public, comme la poursuite d'un objectif d'action sp\u00e9cifique, ou qui pr\u00e9snetent une certaine caract\u00e9ristique intrins\u00e8que, qui ne pourrait pas \u00eatre signal\u00e9e autrement avec les taxonomies existantes. Les mots-di\u00e8se sont des mots-cl\u00e9s pr\u00e9c\u00e9d\u00e9s du symbole #. Les mots-di\u00e8ses sont convenus entre les membres et ont des crit\u00e8res d'\u00e9ligibilit\u00e9 clairs d\u00e9finis dans le \u00ab tableau de d\u00e9finitions des hashtags \u00bb dans l'annexe 13 de l'addendum 1 des Directives."
+  ],
+  [
+    "64",
+    "Gender",
+    "Gender equality policy marker",
+    "Objectif politique d'\u00e9galit\u00e9 de genre",
+    "This marker is used to track aid to Gender Equality.\nIt is intended to advance gender equality and women\u2019s empowerment or reduce discrimination and inequalities based on sex. Gender equality is explicitly promoted in activity documentation through specific measures which:\na) Reduce social, economic or political power inequalities between women and men, girls and boys, ensure that women benefit equally with men from the activity, or compensate for past discrimination; or\nb) Develop or strengthen gender equality or anti-discrimination policies, legislation or institutions.\nThis approach requires analysing gender inequalities either separately or as an integral part of agencies\u2019 standard procedures.\nScored on a 0-2 basis where 0 indicates that Gender Equality is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 l'\u00e9galit\u00e9 entre les genres.\nIl vise \u00e0 faire progresser l\u2019\u00e9galit\u00e9 entre les genres et l\u2019autonomisation des femmes, ou \u00e0 r\u00e9duire les discriminations et les in\u00e9galit\u00e9s fond\u00e9es sur le sexe.\nL\u2019\u00e9galit\u00e9 entre les genres est explicitement encourag\u00e9e dans les\ndocuments d\u2019activit\u00e9 par des mesures sp\u00e9cifiques qui :\na) R\u00e9duire les in\u00e9galit\u00e9s de pouvoir social, \u00e9conomique ou politique entre les femmes et les hommes, les filles et les gar\u00e7ons, veiller \u00e0 ce que les femmes b\u00e9n\u00e9ficient de l\u2019activit\u00e9 sur un pied d\u2019\u00e9galit\u00e9 avec les hommes, ou compenser les discriminations pass\u00e9es ; ou\nb) \u00c9laborer ou renforcer les politiques, la l\u00e9gislation ou les institutions en faveur de l\u2019\u00e9galit\u00e9 entre les genres ou de la lutte contre la discrimination.\nCette approche n\u00e9cessite d\u2019analyser les in\u00e9galit\u00e9s entre les genres soit s\u00e9par\u00e9ment, soit dans le cadre des proc\u00e9dures normales des organismes.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que l'\u00e9galit\u00e9 entre les genres n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "65",
+    "Environment",
+    "Aid to environment policy marker",
+    "Objectif politique d'Aide \u00e0 l\u2019environnement",
+    "This marker is used to track aid to environment.\nThe aid to environment marker is intended to produce an improvement, or something that is diagnosed as an improvement, in the physical and/or biological environment of the recipient country, area or target group concerned; or\nIt includes specific action to integrate environmental concerns with a range of development objectives through institution building and/or capacity development.\nScored on a 0-2 basis where 0 indicates that aid to environment is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 l'environnement.\nUne activit\u00e9 devrait \u00eatre consid\u00e9r\u00e9e comme orient\u00e9e vers l\u2019environnement si elle vise \u00e0 produire une am\u00e9lioration, ou quelque chose qui est diagnostiqu\u00e9 comme une am\u00e9lioration, de l\u2019environnement physique et/ou biologique du pays, de la zone ou du groupe cible b\u00e9n\u00e9ficiaire concern\u00e9 ; ou\nsi elle comprend des mesures sp\u00e9cifiques visant \u00e0 int\u00e9grer les pr\u00e9occupations environnementales dans une s\u00e9rie d\u2019objectifs de d\u00e9veloppement par le renforcement des institutions et/ou le renforcement des capacit\u00e9s.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que l'aide \u00e0 l'environnement n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "66",
+    "DIG",
+    "Democratic and Inclusive Governance policy marker",
+    "Objectif politique de Gouvernance D\u00e9mocratique et Inclusive (GDI)",
+    "This marker is used to track aid to Democratic and Inclusive Governance.\nIt is intended to enhance fundamental elements of democratic and inclusive governance across all areas of development co-operation.\nScored on a 0-2 basis where 0 indicates that Democratic and Inclusive Governance is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la Gouvernance D\u00e9mocratique et Inclusive.\nIl vise \u00e0 renforcer les \u00e9l\u00e9ments fondamentaux d\u2019une gouvernance d\u00e9mocratique et inclusive dans tous les domaines de la coop\u00e9ration pour le d\u00e9veloppement.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la Gouvernance D\u00e9mocratique et Inclusive n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "67",
+    "Trade",
+    "Trade development policy marker ",
+    "Objectif politique de D\u00e9veloppement du commerce",
+    "Discontinued in 2022 for the data collection on 2021 data. \nThis marker was used to track aid to Trade development.\nThe trade development marker identifies trade development within the \u201cbuilding productive capacity\u201d \ncategory. It is intended to enhance the ability of the recipient country to:\na) formulate and implement a trade development strategy and create an enabling environment for increasing the volume and value-added of exports, diversifying export products and markets and increasing foreign investment to generate jobs and trade; or\nb) stimulate trade by domestic firms and encourage investment in trade-oriented industries.\nScored on a 0-2 basis where 0 indicates that Trade development is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Interrompu en 2022 pour la collecte de donn\u00e9es sur les donn\u00e9es de 2021. \nCe marqueur \u00e9tait utilis\u00e9 pour suivre l'aide au d\u00e9veloppement du commerce.\nLe marqueur de d\u00e9veloppement du commerce identifie le d\u00e9veloppement du commerce dans la cat\u00e9gorie \u00ab renforcement des capacit\u00e9s productives \u00bb. Il est destin\u00e9 \u00e0 renforcer la capacit\u00e9 du pays b\u00e9n\u00e9ficiaire \u00e0 :\na) formuler et mettre en \u0153uvre une strat\u00e9gie de d\u00e9veloppement du commerce et cr\u00e9er un environnement propice \u00e0 l'augmentation du volume et de la valeur ajout\u00e9e des exportations, \u00e0 la diversification des produits et des march\u00e9s d'exportation et \u00e0 l'augmentation des investissements \u00e9trangers pour g\u00e9n\u00e9rer des emplois et du commerce ; ou\nb) stimuler le commerce des entreprises nationales et encourager les investissements dans les industries orient\u00e9es vers le commerce.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que le developpement du commerce n'est pas cibl\u00e9, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "68",
+    "RMNCH",
+    "Reproductive, Maternal, Newborn and Child Health policy marker",
+    "Objectif politique de Sant\u00e9 g\u00e9n\u00e9sique maternelle n\u00e9onatale et infantile (SGMNI)",
+    "This marker is used to track aid to Reproductive, Maternal, Newborn and Child Health.\nIt contributes to achieving improved maternal, newborn and child health based on the \u201ccontinuum of care\u201d concept:  The \"Continuum of Care\" for reproductive, maternal, newborn and child health (RMNCH) implies a life-cycle approach and includes integrated service delivery for women and children from reproductive health to pre-pregnancy, delivery, the immediate postnatal period, and childhood. Such care is provided by families, households and communities as well as through inclusive outpatient services, clinics and other health facilities on district and national level. The Continuum of Care recognises that reproductive choice and safe childbirth are critical to the health of both the woman and the newborn child - and that a healthy start in life is an essential step towards a sound childhood and a productive life.\nScored on a 0-2 basis where 0 indicates that Reproductive, Maternal, Newborn and Child Health is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la Sant\u00e9 g\u00e9n\u00e9sique maternelle n\u00e9onatale et infantile.\nIl contribue \u00e0 am\u00e9liorer la sant\u00e9 de la m\u00e8re, du nouveau-n\u00e9 et de l\u2019enfant selon le concept de \u00ab continuum des soins \u00bb : le concept de \u00ab continuum des soins \u00bb pour la sant\u00e9 g\u00e9n\u00e9sique, maternelle, n\u00e9onatale et infantile (SGMNI) implique une approche fond\u00e9e sur le cycle de vie et comprend la prestation de services int\u00e9gr\u00e9s pour les femmes et les enfants, de la sant\u00e9 g\u00e9n\u00e9sique \u00e0 la pr\u00e9-grossesse, l\u2019accouchement, la p\u00e9riode postnatale imm\u00e9diate et l\u2019enfance. Ces soins sont dispens\u00e9s par les familles, les m\u00e9nages et les communaut\u00e9s, ainsi que par des services ambulatoires, des cliniques et d\u2019autres \u00e9tablissements de sant\u00e9 inclusifs au niveau des districts et au niveau national. La continuit\u00e9 des soins reconna\u00eet que le choix en mati\u00e8re de procr\u00e9ation et l\u2019accouchement sans risque sont essentiels \u00e0 la sant\u00e9 de la femme et de l\u2019enfant nouveau-n\u00e9 - et qu\u2019un bon d\u00e9part dans la vie est une \u00e9tape essentielle vers une enfance en bonne sant\u00e9 et une vie productive.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la Sant\u00e9 g\u00e9n\u00e9sique maternelle n\u00e9onatale et infantile n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "69",
+    "DRR",
+    "Disaster Risk Reduction policy marker",
+    "Objectif politique de Pr\u00e9vention des catastrophes",
+    "This marker is used to track aid to Disaster Risk Reduction.\nIt promotes the goal and global targets of the Sendai Framework to achieve substantial reduction of disaster risk and losses in lives, livelihoods and health and in the economic, physical, social, cultural and environmental assets of persons, businesses, communities and countries.\nScored on a 0-2 basis where 0 indicates that Disaster Risk Reduction is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la Pr\u00e9vention des catastrophes.\nIl promeut l\u2019objectif et les cibles mondiales du Cadre de Sendai visant \u00e0 r\u00e9duire sensiblement les risques de catastrophe et les pertes en vies humaines, en moyens de subsistance et en sant\u00e9, ainsi que les actifs \u00e9conomiques, physiques, sociaux, culturels et environnementaux des personnes, des entreprises, des communaut\u00e9s et des pays.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la Pr\u00e9vention des catastrophes n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "70",
+    "Nutrition",
+    "Nutrition policy marker",
+    "Objectif politique de Nutrition",
+    "This marker is used to track aid to Nutrition.\nIt is intended to address the immediate or underlying determinants of malnutrition . This can encompass a range of projects across a variety of sectors, including humanitarian interventions, maternal health, WASH and agriculture.\nScored on a 0-2 basis where 0 indicates that Nutrition is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la Nutrition.\nElle vise \u00e0 agir sur les d\u00e9terminants imm\u00e9diats ou sous-jacents de la malnutrition. Il peut s\u2019agir d\u2019une s\u00e9rie de projets dans divers secteurs, notamment les interventions humanitaires, la sant\u00e9 maternelle, l\u2019eau, l\u2019assainissement et l\u2019hygi\u00e8ne et l\u2019agriculture.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la Nutrition n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "71",
+    "Disability",
+    "Inclusion and empowerment of persons with disabilities policy marker",
+    "Objectif politique d'Inclusion et autonomisation des personnes handicap\u00e9es",
+    "This marker is used to track aid to Inclusion and empowerment of persons with disabilities.\nIn accordance with the Convention on the Rights of Persons with Disabilities (CRPD) persons with disabilities include those who have long-term physical, mental, intellectual or sensory impairments which in interaction with various barriers may hinder their full and effective participation in society on an equal basis with others. Development co-operation activities are classified as being inclusive of persons with disabilities (scores Principal or Significant) if:\n- They have a deliberate objective on ensuring that persons with disabilities are included, and able to share the benefits, on an equal basis to persons without disabilities.\n- They contribute to promote, protect and ensure the full and equal enjoyment of all human rights and fundamental freedoms by all persons with disabilities, and promote respect for their inherent dignity in line with Art. 1 of the Convention on the Rights of Persons with Disabilities.\n- They support the ratification, implementation and/or monitoring of the Convention on the Rights of Persons with Disabilities.\nScored on a 0-2 basis where 0 indicates that Inclusion and empowerment of persons with disabilities is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 l'inclusion et autonomisation des personnes handicap\u00e9es.\nConform\u00e9ment \u00e0 la Convention relative aux droits des personnes handicap\u00e9es (CDPH), les personnes handicap\u00e9es comprennent celles qui pr\u00e9sentent des d\u00e9ficiences phyisques, mentales, intellectuelles ou sensorielles durables qui, en interaction avec divers obstacles, peuvent entraver leur pleine et effective participation \u00e0 la soci\u00e9t\u00e9 sur la base de l'\u00e9galit\u00e9 avec les autres. Les actviit\u00e9s de coop\u00e9ration pour le d\u00e9veloppement sont consid\u00e9r\u00e9es comme incluant les personnes handicap\u00e9es (valeur Objectif principal ou Objectif significatif) si:\n- Ils ont pour objectif d\u00e9lib\u00e9r\u00e9 de veiller \u00e0 ce que les personnes handicap\u00e9es soient prises en compte, et \u00e0 ce qu'elles puissent en partager les avantages, sur la base de l'\u00e9galit\u00e9 avec les personnes valides.\n- Elles contribuent \u00e0 promouvoir, prot\u00e9ger et assurer la pleine et \u00e9gale jouissance de tous les droits de l'homme et de toutes les libert\u00e9s fondamentales par toutes les personnes handicap\u00e9es, et promeuvent le respect de leur dignit\u00e9 inh\u00e9rente conform\u00e9ment \u00e0 l'\u00e9arcile 1 de la Convention relative aux droits des personnes handicap\u00e9es.\n- Ils soutiennent la ratification, la mise en oeuvre et/ou le suivi de la Convention relative aux droits des personnes handicap\u00e9es.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que l'inclusion et autonomisation des personnes handicap\u00e9es n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "72",
+    "FTC",
+    "Free-standing technical co-operation",
+    "Coop\u00e9ration technique pure",
+    "A value of 1 indicates that the activity is considered as free-standing technical cooperation.\nFree-standing technical co-operation comprises activities financed by a donor country whose primary purpose is to augment the level of knowledge, skills, technical know-how or productive aptitudes of the population of developing countries, i.e. increasing their stock of human intellectual capital, or their capacity for more effective use of their existing factor endowment. It includes financing of students and trainees who are nationals of developing countries; experts, teachers, and volunteers; equipment and materials for training; research; development-oriented social and cultural programmes, etc.\nValues can be NULL or 1.",
+    "La valeur 1 indique que l'activit\u00e9 est consid\u00e9r\u00e9e comme une coop\u00e9ration technique pure.\nLa coop\u00e9ration technique pure (CTP) comprend les activit\u00e9s financ\u00e9es par un pays donneur et ayant pour but essentiel d\u2019\u00e9lever le niveau des connaissances, des qualifications, du savoir-faire technique ou des aptitudes productives de la population des pays en d\u00e9veloppement, c\u2019est-\u00e0-dire d\u2019accro\u00eetre le stock de capital intellectuel de ces pays ou leur aptitude \u00e0 utiliser plus efficacement leur dotation de facteurs. Sont inclus le financement d'\u00e9tudiants et de stagiaires ressortissants de pays en d\u00e9veloppement; d'experts, d'enseignants et de b\u00e9n\u00e9voles; d'\u00e9quipements et de mat\u00e9riels de formation; de travaux de recherche; de programmes sociaux et culturels ax\u00e9s sur le d\u00e9veloppement, etc.\nPeut prendre les valeurs NULL ou 1."
+  ],
+  [
+    "73",
+    "PBA",
+    "Programme-based approaches",
+    "Approche programme",
+    "The PBA concept originates from the Paris Declaration Survey.\nProgramme-based approaches are a way of engaging in development co-operation based on the principles of co-ordinated support for a locally-owned programme of development, such as a national development strategy, a sector programme, a thematic programme or a programme of a specific organisation.\nValues can be NULL or 1.",
+    "Le concept d'approche-programme est issu de l'Enqu\u00eate sur la D\u00e9claration de Paris. Les approches-programmes sont un moyen de participer \u00e0 la coop\u00e9ration pour le d\u00e9veloppement sur la base des principes du soutien coordonn\u00e9 \u00e0 un programme de d\u00e9veloppement pilot\u00e9 au niveau local, tel qu'une strat\u00e9gie nationale de d\u00e9veloppement, un programme sectoreil, un programme th\u00e9matique ou un programme d'une organisation sp\u00e9cifique.\nPeut prendre les valeurs NULL ou 1."
+  ],
+  [
+    "74",
+    "InvestmentProject",
+    "Investment Project",
+    "Projet d\u2019\u00e9quipement",
+    "Activities flagged as investment comprise a) schemes to increase and/or improve the recipient\u2019s stock of physical capital and b) financing the supply of goods and services in support of such schemes. \nValues can be NULL or 1.",
+    "Les projets d'\u00e9quipement comprennent a) les programmes destin\u00e9s \u00e0 accro\u00eetre et/ou am\u00e9liorer le stock de capital physique du pays b\u00e9n\u00e9ficiaire et b) le financement de la fourniture de biens et services devant servir \u00e0 de tels programmes.\nPeut prendre les valeurs NULL ou 1."
+  ],
+  [
+    "75",
+    "BlendedFinanceType",
+    "Associated financing/Type of blended finance",
+    "Types de financement mixtes",
+    "Blended finance is defined as the strategic use of development finance for the mobilisation of additional finance towards sustainable development in developing countries.  \u201cAdditional finance\u201d refers to commercial finance , directly mobilised by development finance interventions in a blended finance structure, which would not be directed towards development-related investments otherwise.\n1= concessional blended finance as a part of an associated finance package\n2=concessional blended finance, other\n3=blended finance through leveraging instruments at project level \n4=blended finance through funds and facilities",
+    "Le financement mixte est d\u00e9fini comme l'utilisation strat\u00e9gique du financement du d\u00e9veloppement pour la mobilisation de fonds suppl\u00e9mentaires en faveur du d\u00e9veloppement durable dans les pays en d\u00e9veloppement.  Par \u00ab financement suppl\u00e9mentaire \u00bb, on entend le financement commercial directement mobilis\u00e9 par les interventions de financement du d\u00e9veloppement dans le cadre d'une structure de financement mixte, qui ne serait pas orient\u00e9 vers des investissements li\u00e9s au d\u00e9veloppement dans d'autres circonstances.\n1= Finance mix\u00e9e concessionnelle dans le cadre d\u2019une op\u00e9ration de financement mixte\n2= Finance mix\u00e9e concessionnelle, autre\n3= Finance mix\u00e9e passant par des instruments de mobilisation au niveau des projets\n4= Finance mix\u00e9e s\u2019appuyant sur des fonds et m\u00e9canismes"
+  ],
+  [
+    "76",
+    "Biodiversity",
+    "Biodiversity ",
+    "Marqueurs Rio  : Biodiversit\u00e9",
+    "This marker is used to track aid to biodiversity within the United Nations Convention on Biological Diversity (UNCBD). It promotes at least one of the three objectives of the Convention:  the conservation of bio-diversity, sustainable use of its components (ecosystems, species or genetic resources), or fair and equitable sharing of the benefits of the utilisation of genetic resources.\nScored on a 0-2 basis where 0 indicates that Biodiversity is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la biodiversit\u00e9 dans la Convention sur la diversit\u00e9 biologique des Nations Unies (CDB). Le marqueur promeut au moins l\u2019un des trois objectifs de la Convention : la conservation de la biodiversit\u00e9, l\u2019utilisation durable de ses \u00e9l\u00e9ments (\u00e9cosyst\u00e8mes, esp\u00e8ces ou ressources g\u00e9n\u00e9tiques), ou le partage juste et \u00e9quitable des avantages de l\u2019utilisation des ressources g\u00e9n\u00e9tiques.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la biodiversit\u00e9 n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "77",
+    "ClimateMitigation",
+    "Climate change - mitigation policy marker",
+    "Marqueurs Rio  : Changement climatique-att\u00e9nuation",
+    "This marker is used to track aid to Climate change - mitigation as part of the United Nations Framework Convention on Climate Change (UNFCCC). It contributes to the objective of stabilisation of greenhouse gas (GHG) concentrations in the atmosphere at a level that would prevent dangerous anthropogenic interference with the climate system by promoting efforts to reduce or limit GHG emissions or to enhance GHG removal by sinks, in line with the goals of the Paris Agreement.\nScored on a 0-2 basis where 0 indicates that Climate change - mitigation is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide au Changement climatique-att\u00e9nuation dans le cadre de la Convention-cadre des Nations unies sur les changements climatiques (CCNUCC). Le marqueur contribue \u00e0 l\u2019objectif de stabilisation des concentrations de gaz \u00e0 effet de serre (GES) dans l\u2019atmosph\u00e8re \u00e0 un niveau qui emp\u00eacherait toute perturbation anthropique dangereuse du syst\u00e8me climatique en encourageant les efforts visant \u00e0 r\u00e9duire ou limiter les \u00e9missions de GES ou \u00e0 renforcer l\u2019\u00e9limination des GES par les puits, conform\u00e9ment aux objectifs de l\u2019Accord de Paris.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que le Changement climatique-att\u00e9nuation n'est pas cibl\u00e9, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "78",
+    "ClimateAdaptation",
+    "Climate change - adaptation policy marker",
+    "Marqueurs Rio  : Changement climatique-adaptation",
+    "This marker is used to track aid to Climate change - adaptation as part of the United Nations Framework Convention on Climate Change (UNFCCC). It intends to reduce the vulnerability of human or natural systems to the current and expected impacts of climate change, including climate variability, by maintaining or increasing resilience, through increased ability to adapt to, or absorb, climate change stresses, shocks and variability and/or by helping reduce exposure to them, in line with the Paris Agreement.\nScored on a 0-2 basis where 0 indicates that Climate change - adaptation is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide au Changement climatique-att\u00e9nuation dans le cadre de la  Convention-cadre des Nations unies sur les changements climatiques (CCNUCC). Le marqueur vise \u00e0 r\u00e9duire la vuln\u00e9rabilit\u00e9 des syst\u00e8mes humains ou naturels aux effets actuels et attendus du changement climatique, y compris \u00e0 la variabilit\u00e9 du climat, en pr\u00e9servant ou en renfor\u00e7ant la r\u00e9silience, par une capacit\u00e9 accrue \u00e0 s\u2019adapter aux pressions, chocs et variabilit\u00e9 climatiques ou \u00e0 les absorber, et/ou en aidant \u00e0 r\u00e9duire l\u2019exposition \u00e0 ces ph\u00e9nom\u00e8nes, conform\u00e9ment \u00e0 l\u2019Accord de Paris.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que le Changement climatique-adaptation n'est pas cibl\u00e9, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "79",
+    "Desertification",
+    "Desertification policy marker",
+    "Marqueurs Rio  : D\u00e9sertification",
+    "This marker is used to track aid to combat desertification.\nAid targeting the objectives of the Convention to Combat Desertification aims at combating desertification or mitigating the effects of drought in arid, semi-arid and dry sub-humid areas through prevention and/or reduction of land degradation, rehabilitation of partly degraded land, or reclamation of desertified land.\nScored on a 0-2 basis where 0 indicates that combat desertification is not targeted, 1 that it is a significant objective, and 2 that it is the principal objective of the project. Non-screened projects are marked as NULL.",
+    "Ce marqueur est utilis\u00e9 pour suivre l'aide \u00e0 la lutte contre la d\u00e9sertification. \nL'aide ciblant les objectifs de la Convention sur la lutte contre la d\u00e9sertification vise \u00e0 lutter contre la d\u00e9sertification ou \u00e0 att\u00e9nuer les effets de la s\u00e9cheresse dans les zones arides, semi-arides et subhumides s\u00e8ches par la pr\u00e9vention et/ou la r\u00e9duction de la d\u00e9gradation des terres, la r\u00e9habilitation des terres partiellement d\u00e9grad\u00e9es ou la remise en \u00e9tat des terres d\u00e9sertifi\u00e9es.\nNot\u00e9 entre 0-2, o\u00f9 0 indique que la lutte contre la d\u00e9sertification n'est pas cibl\u00e9e, 1 qu'il s'agit d'un objectif significatif et 2 qu'il s'agit de l'objectif principal du projet. Les projets non examin\u00e9s au regard de l'objectif sont marqu\u00e9s comme NULS."
+  ],
+  [
+    "80",
+    "CommitmentDate",
+    "Commitment date (dd-mm-yyyy)",
+    "Date d\u2019engagement(jj.mm.aaaa)",
+    "All activities have a commitment date, the commitment date reflects the most recent new commitment/increase, the commitment date is requested for each new commitment (grant or non-grant).",
+    "Toutes les activit\u00e9s ont une date d'engagement, la date d'engagement refl\u00e8te le nouvel engagement/l'augmentation le plus r\u00e9cente, la date d'engagement est demand\u00e9e pour chaque nouvel engagement (don ou autre)."
+  ],
+  [
+    "81",
+    "TypeRepayment",
+    "Type of repayment or type of fee payment",
+    "Type d'\u00e9ch\u00e9ancier ou de paiements de redevance",
+    "The methods used by a donor to indicate the repayment structure of a loan are as follows:\n1=equal principal payments (EPP)\n2=annuity\n3=lump sum (principal and interest)\n5=other",
+    "Les m\u00e9thodes utilis\u00e9es par un donateur pour indiquer la structure de remboursement d'un pr\u00eat sont les suivantes :\n1= tranches de capital \u00e9gales\n2= annuit\u00e9s\n3= remboursement en une seule fois\n5= autre"
+  ],
+  [
+    "82",
+    "NumberRepayment",
+    "Number of repayment or fee payment per annum",
+    "Nombre de remboursements ou de paiements de redevance par an",
+    "Number of times per year a repayment is made to the donor by the recipient of the loan:\n1=annual\n2=semi-annual\n4=quarterly\n12=monthly",
+    "Nombre de fois par an que le b\u00e9n\u00e9ficiaire du pr\u00eat rembourse le donateur :\n1= annuel\n2= bi-annuel\n4= trimestriel\n12= mensuel"
+  ],
+  [
+    "83",
+    "Interest1",
+    "Interest rate",
+    "Taux d'int\u00e9r\u00eat",
+    "Interest rate in 5 digits, e.g. \u201c05200\u201d for 5.2 % ; or \u201c0\u201d if free of interest.",
+    "Taux d'int\u00e9r\u00eat en 5 chiffres, par exemple \u00ab05200\u00bb pour 5.2 % ; ou \u00ab0\u00bb s\u2019il n\u2019y a pas d\u2019int\u00e9r\u00eat."
+  ],
+  [
+    "84",
+    "Interest2",
+    "Second interest rate (if first interest rate is variable)",
+    "Deuxi\u00e8me taux d'int\u00e9r\u00eat (si le premier taux d'int\u00e9r\u00eat notifi\u00e9 est variable)",
+    "Second interest rate (if first interest rate is variable). If the loan has a variable interest rate, report the variable rate in \"Interest rate\" (e.g. SOFR6M-1.5%) and the reference fixed rate in \"Second interest rate\". Same format as Interest1.",
+    "Deuxi\u00e8me taux d'int\u00e9r\u00eat (si le premier taux d'int\u00e9r\u00eat notifi\u00e9 est variable). Si le pr\u00eat est li\u00e9 \u00e0 un taux d\u2019int\u00e9r\u00eat du march\u00e9, notifier le taux variable/r\u00e9visable dans le champ \"Taux d'int\u00e9r\u00eat\", par exemple LIBOR6M+1.5% et notifier le taux fixe de r\u00e9f\u00e9rence dans le champ \"Deuxi\u00e8me taux d'int\u00e9r\u00eat\"."
+  ],
+  [
+    "85",
+    "Repaydate1",
+    "First repayment date (dd-mm-yyyy)",
+    "Date du 1er remboursement (jj.mm.aaaa)",
+    "First repayment date (dd-mm-yyyy)",
+    "Date fix\u00e9e pour le premier remboursement (JJ-MM-AAAA)."
+  ],
+  [
+    "86",
+    "Repaydate2",
+    "Final repayment date (dd-mm-yyyy)",
+    "Date du dernier remboursement (jj.mm.aaaa)",
+    "Final repayment date (dd-mm-yyyy)",
+    "Date fix\u00e9e pour le dernier remboursement (JJ-MM-AAAA)."
+  ],
+  [
+    "87",
+    "USD_Interest",
+    "Interest received  in USD",
+    "Int\u00e9r\u00eats re\u00e7us en dollar am\u00e9ricain",
+    "Interest received corresponds to the amount of interest and/or other charges received from the borrowing country or institution, including payments to expunge or reduce interest due or in arrears. During the reporting year.  In millions of units in USD.",
+    "Les int\u00e9r\u00eats re\u00e7us correspondent au montant des int\u00e9r\u00eats et/ou autres frais re\u00e7us du pays ou de l'institution emprunteur, y compris les paiements destin\u00e9s \u00e0 supprimer ou \u00e0 r\u00e9duire les int\u00e9r\u00eats dus ou arri\u00e9r\u00e9s. Au cours de l'ann\u00e9e de r\u00e9f\u00e9rence.  En millions d'unit\u00e9s en dollar am\u00e9ricain."
+  ],
+  [
+    "88",
+    "USD_Outstanding",
+    "Principal disbursed and still outstanding in USD",
+    "Principal vers\u00e9 et restant d\u00fb en dollar am\u00e9ricain",
+    "The amount of principal owed on the loan at the end of the reporting year.  \nIn millions of unit in USD.",
+    "Montant du capital d\u00fb sur le pr\u00eat \u00e0 la fin de l'ann\u00e9e de notification.  \nEn millions d'unit\u00e9s en dollar am\u00e9ricain."
+  ],
+  [
+    "89",
+    "USD_Arrears_Principal",
+    "Arrears of principal in USD",
+    "Arri\u00e9r\u00e9s de principal en dollar am\u00e9ricain",
+    "Arrears of principal are part of the principal owed on the loan, they are included in the amount reported under field \"Principal disbursed and still outstanding in USD\". At the end of the year. In millions of units in USD.",
+    "Les arri\u00e9r\u00e9s de principal constituent la partie du principal d\u00fb sur le pr\u00eat, ils sont inclus dans le montant indiqu\u00e9 dans le champ \"Principal vers\u00e9 et restant d\u00fb en  dollar am\u00e9ricain\". A la fin de l'ann\u00e9e. En millions d'unit\u00e9s en dollar am\u00e9ricain."
+  ],
+  [
+    "90",
+    "USD_Arrears_Interest",
+    "Arrears of interest in USD",
+    "Arri\u00e9r\u00e9s d'int\u00e9r\u00eats en dollar am\u00e9ricain",
+    "Arrears of interest are not part of the amount reported under field \"Principal disbursed and still outstanding in USD\". Any past due or overdue late interest (interest which accrues on arrears) are treated as arrears of interest. At the end of the year. In millions of units in USD.",
+    "Les arri\u00e9r\u00e9s d'int\u00e9r\u00eats ne font pas partie du montant indiqu\u00e9 dans le champ \"Principal vers\u00e9 et restant d\u00fb en dollar am\u00e9ricain\". Tout int\u00e9r\u00eat \u00e9chu ou en retard (int\u00e9r\u00eat qui s'ajoute \u00e0 l'arri\u00e9r\u00e9) est \u00e0 traiter comme arri\u00e9r\u00e9 d'int\u00e9r\u00eats. A la fin de l'ann\u00e9e. En millions d'unit\u00e9s en dollar am\u00e9ricain."
+  ],
+  [
+    "91",
+    "CapitalExpend",
+    "Capital expenditure ",
+    "D\u00e9pense en capital",
+    "Percentage of an activity that is capital expenditure, reportable at commitment stage only. In %.",
+    "Pourcentage d'une activit\u00e9 qui constitue une d\u00e9pense en capital, \u00e0 notifier au stade de l'engagement uniquement. En %."
+  ],
+  [
+    "92",
+    "PSIflag",
+    "PSI flag",
+    "Indicateur ISP",
+    "\u201cPSI flag\u201d indicates which point of measurement of donor effort enters in ODA and which is reported for memorandum (i.e. which reporting approach is used). Moreover, it is used to indicate which accounting method is used for measuring donor effort in individual equity investments. During the transition period the provisional reporting methods can be used for one or two years starting in 2024 for activities in 2023.\n\nRevised reporting methods\nInstitutional approach\t\n10= Capital increases counted in ODA; Decapitalisations or dividends paid to the government counted in ODA\n40= Grant equivalents of individual PSI activities for memorandum\nInstrument approach\t\n20= Grant equivalents of individual PSI activities counted in ODA\n10= Decapitalisation or dividends paid to the government counted in ODA\n50= Capital increases for memorandum\nBeyond ODA\t\n30= PSI for which GEq is not calculated\n\nProvisional reporting methods (used during transition period if needed)\n1= PSI ODA under the institutional approach\n2= PSI ODA instrument approach\n3= Non ODA PSI\n4= Details of PSI activities that are reported under the institutional approach",
+    "\"Indicateur ISP\" indique quel point de mesure de l'effort des donnateurs entre dans l'APD et lequel est notifi\u00e9 pour m\u00e9moire (c\u2019est-\u00e0-dire quelle approche de notification est utilis\u00e9e). En outre, elle sert \u00e0 indiquer quelle m\u00e9thode comptable est utilis\u00e9e pour mesurer l'effort fourni par les donneurs dans des prises de participation individuelles. Pendant la p\u00e9riode de transition les m\u00e9thodes de notification provisoires peuvent \u00eatre utilis\u00e9es pour un ou deux ans \u00e0 partir de 2024 (pour la notification des activit\u00e9s men\u00e9es en 2023).\n\nM\u00e9thodes de notification r\u00e9vis\u00e9es\nApproche institutionelle\t\n10= Augmentation de capital comptabilis\u00e9 dans l'APD; D\u00e9capitalisation ou dividendes vers\u00e9s \u00e0 une entit\u00e9 publique comptabilis\u00e9 dans l'APD\n40= \u00c9quivalent-don des ISP pour m\u00e9moire\nApproche fond\u00e9e sur les instruments\t\n20= \u00c9quivalent-don des ISP comptabilis\u00e9 dans l'APD\n10= D\u00e9capitalisation ou dividendes vers\u00e9s \u00e0 une entit\u00e9 publique comptabilis\u00e9 dans l'APD\n50= Augmentation de capital pour m\u00e9moire\nISP non notifi\u00e9s dans l'APD\t\n30= ISP pour lesquels les \u00e9quivalents-don ne sont pas calcul\u00e9s\n\nM\u00e9thodes de notification provisoires (utilis\u00e9es pendant la p\u00e9riode de transition en cas de besoin)\n1= ISP APD approche institutionnelle\n2= ISP APD approche instrumentale\n3= ISP non APD\n4= D\u00e9tails des activit\u00e9s ISP notifi\u00e9es sous l'approche institutionnelle"
+  ],
+  [
+    "93",
+    "PSIAddType",
+    "Additionality type",
+    "Type d'additionnalit\u00e9",
+    "Additionality type, using a standardised classification facilitating reporting on additionality in a way that is streamlined, comparable and easy to analyse.",
+    "Type d'additionnalit\u00e9, \u00e0 l'aide d'une classification standardis\u00e9e facilitant la notification de l'additionnalit\u00e9 d'une mani\u00e8re rationnelle, comparable et facile \u00e0 analyser."
+  ],
+  [
+    "94",
+    "PSIAddDesc",
+    "Additionality assessment",
+    "Estimation de l\u2019additionnalit\u00e9",
+    "Additionality description, providing clarifications or complementary explanations on the additionality type.",
+    "Description de l'additionnalit\u00e9, fournissant des clarifications ou des explications compl\u00e9mentaires sur le type d'additionnalit\u00e9."
+  ],
+  [
+    "95",
+    "PSIAddDevObj",
+    "Additionality \u2013 development objective",
+    "Additionnalit\u00e9 \u2013 objectif de d\u00e9veloppement",
+    "Development objective, to demonstrate the development additionality of individual PSI activities, particularly their intended development impact. ",
+    "Objectif de d\u00e9veloppement : d\u00e9montrer l'additionnalit\u00e9 des activit\u00e9s individuelles des ISP sur le plan du d\u00e9veloppement, en particulier leur impact sur le d\u00e9veloppement. "
+  ]
+]

@@ -1,0 +1,27 @@
+{
+  "file": "raw/wb_metadata_DT.DOD.DECT.GN.ZS.json",
+  "url": "https://api.worldbank.org/v2/indicator/DT.DOD.DECT.GN.ZS?source=2&format=json",
+  "resolved_url": "https://api.worldbank.org/v2/indicator/DT.DOD.DECT.GN.ZS?source=2&format=json",
+  "retrieved_utc": "2026-10-07T08:25:57.052369+00:00",
+  "sha256": "6d0ad0f5cf8c5110f1099664da815ff2e9ab786e80ac3b5f2de2cd216bfe41e9",
+  "bytes": 1020,
+  "headers": {
+    "Date": "Wed, 07 Oct 2026 08:25:57 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "CF-Ray": "a46b84a2bce61ae5-LAX",
+    "CF-Cache-Status": "MISS",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=81439",
+    "Expires": "Thu, 08 Oct 2026 07:03:16 GMT",
+    "Last-Modified": "Wed, 07 Oct 2026 07:03:15 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "Access-Control-Allow-Headers": "X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Request-Context": "appId=cid-v1:da002513-bd8b-4441-9f30-737944134422",
+    "X-Powered-By": "ASP.NET"
+  },
+  "status": "downloaded"
+}

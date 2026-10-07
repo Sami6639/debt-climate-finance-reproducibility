@@ -1,0 +1,7 @@
+{
+  "null": "all annual debt-vulnerability interaction slopes equal",
+  "chi2": 15.46423413315314,
+  "df": 13,
+  "pvalue": 0.27927422251599704,
+  "interpretation": "exploratory pooled temporal heterogeneity; no policy-break identification"
+}

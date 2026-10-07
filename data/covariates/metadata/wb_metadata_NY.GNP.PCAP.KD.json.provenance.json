@@ -1,0 +1,27 @@
+{
+  "file": "raw/wb_metadata_NY.GNP.PCAP.KD.json",
+  "url": "https://api.worldbank.org/v2/indicator/NY.GNP.PCAP.KD?source=2&format=json",
+  "resolved_url": "https://api.worldbank.org/v2/indicator/NY.GNP.PCAP.KD?source=2&format=json",
+  "retrieved_utc": "2026-10-07T08:26:17.388187+00:00",
+  "sha256": "b3bee0a03e51a285df1aecbd29edfc68fdc1047993d3737616a8656695ce8e7c",
+  "bytes": 1059,
+  "headers": {
+    "Date": "Wed, 07 Oct 2026 08:26:17 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "CF-Ray": "a46b852128e51ae5-LAX",
+    "CF-Cache-Status": "MISS",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=86400",
+    "Expires": "Thu, 08 Oct 2026 08:26:17 GMT",
+    "Last-Modified": "Wed, 07 Oct 2026 08:26:17 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "Access-Control-Allow-Headers": "X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Request-Context": "appId=cid-v1:da002513-bd8b-4441-9f30-737944134422",
+    "X-Powered-By": "ASP.NET"
+  },
+  "status": "downloaded"
+}

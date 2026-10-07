@@ -1,0 +1,59 @@
+status: locked
+reconstruction: new public-data reconstruction, not coefficient-matching replication
+start_year: 2011
+primary_start_year: 2015
+end_year: 2024
+inputs:
+  cells:
+    path: data/oecd/processed/cell_outcomes.parquet
+    sha256: 87c316547d6fcd11234c67a34ed4a83e8ce34d9cdbb07d04b2146fbfef2ea2fe
+  cells_including_EU:
+    path: data/oecd/processed/cell_outcomes_including_EU.parquet
+    sha256: da5ea9044d0110824aa4a76749fa998c1ef735f4b55f6af2303be98b17f733cc
+  cells_valid_records:
+    path: data/oecd/processed/cell_outcomes_valid_records_sensitivity.parquet
+    sha256: 238788a4fa4a89f4a4168e618c045011e7961afa32465a0cab33f20a218a8dc2
+  covariates:
+    path: data/covariates/processed/recipient_covariates_2010_2024.csv
+    sha256: 204d85709585c2f36f8d3576ae96fed6e9ea16f6e036a9d8a718bea377e007f2
+  vulnerability:
+    path: data/covariates/processed/pvcci_static.csv
+    sha256: d1181fb1c686042d7ba69364428659511ef21c1641388d01b8b532add2ae6b67
+column_maps:
+  cells:
+    iso3: recipient
+  covariates:
+    iso3: recipient
+    debt_service_ppg_imf_pct_exports: debt_ratio
+    gdp_pc_constant_usd: gdppc
+  vulnerability:
+    iso3: recipient
+outcomes:
+  adaptation_total: adaptation_total
+  mitigation_total: mitigation_total
+  nonclimate_total: nonclimate_total
+  adaptation_grants: adaptation_grant
+  adaptation_loans: adaptation_loan
+  mitigation_grants: mitigation_grant
+  mitigation_loans: mitigation_loan
+  adaptation_exclusive: exclusive_adaptation_total
+  adaptation_principal_significant: adaptation_broad_total
+main_outcomes:
+- adaptation_total
+- mitigation_total
+- nonclimate_total
+- adaptation_grants
+- adaptation_loans
+- mitigation_grants
+- mitigation_loans
+notes:
+- Observed eligible allocation cells, no manufactured unreported dyads.
+- Strict primary requires both Rio markers valid for every eligible positive record
+  in each cell.
+- Principal adaptation and mitigation markers may overlap.
+- Covariates lagged by exact calendar year; no imputation or winsorization.
+- Unique baseline recipient PVCCI standardization, ddof zero, before separation.
+- Recipient CRV1 normal inference primary; recipient t sensitivity, two-way diagnostic.
+locked_at_utc: '2026-10-07T08:37:26Z'
+gate: Independent methods/source signoff before first empirical model fit; protocol
+  reconstruction_protocol_20261007.md

@@ -1,0 +1,52 @@
+{
+  "history": [
+    {
+      "input_cells": 68945,
+      "retained_common_cells": 45741,
+      "left_retained": 53565,
+      "right_retained": 50438
+    },
+    {
+      "input_cells": 45741,
+      "retained_common_cells": 45666,
+      "left_retained": 45680,
+      "right_retained": 45727
+    },
+    {
+      "input_cells": 45666,
+      "retained_common_cells": 45666,
+      "left_retained": 45666,
+      "right_retained": 45666
+    }
+  ],
+  "contrast": {
+    "contrast": "adaptation_total minus mitigation_total",
+    "common_cells": 45666,
+    "stacked_rows": 91332,
+    "recipients": 106,
+    "providers": 27,
+    "estimate": 0.7150804905547804,
+    "variance": 0.01944391184321552,
+    "se": 0.13944142800192316,
+    "z": 5.128178194968845,
+    "p_normal": 2.92559461773428e-07,
+    "ci95_low": 0.441780313718176,
+    "ci95_high": 0.9883806673913849,
+    "p_t_recipient": 1.3439724368017613e-06,
+    "ci95_t_low": 0.4385938973127747,
+    "ci95_t_high": 0.991567083796786,
+    "inference_valid": true,
+    "max_stacked_vs_separate_difference": 2.1461055155214126e-11,
+    "twoway_psd": false
+  },
+  "stacked_vs_separate_deviations": {
+    "adaptation_total:debt10": -2.5457969066167152e-12,
+    "adaptation_total:interaction": 1.5170087408478139e-12,
+    "adaptation_total:lngdp": 6.687983500341943e-13,
+    "adaptation_total:lnpop": 4.550027021821279e-12,
+    "mitigation_total:debt10": 9.520828569975492e-12,
+    "mitigation_total:interaction": 3.7738423497302165e-12,
+    "mitigation_total:lngdp": 2.1461055155214126e-11,
+    "mitigation_total:lnpop": -1.5428283650642527e-11
+  }
+}

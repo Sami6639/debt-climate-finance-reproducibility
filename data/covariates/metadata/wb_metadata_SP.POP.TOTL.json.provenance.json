@@ -1,0 +1,28 @@
+{
+  "file": "raw/wb_metadata_SP.POP.TOTL.json",
+  "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?source=2&format=json",
+  "resolved_url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?source=2&format=json",
+  "retrieved_utc": "2026-10-07T08:26:21.816343+00:00",
+  "sha256": "2f8491efc00bf2c0995112ff8e87aba69e5e9d22d0880b22f7e3a4ec757ba05c",
+  "bytes": 1099,
+  "headers": {
+    "Date": "Wed, 07 Oct 2026 08:26:21 GMT",
+    "Content-Type": "application/json;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "CF-Ray": "a46b853e19e31ae5-LAX",
+    "CF-Cache-Status": "HIT",
+    "Access-Control-Allow-Origin": "*",
+    "Age": "71081",
+    "Cache-Control": "public, max-age=86400",
+    "Expires": "Thu, 08 Oct 2026 08:26:21 GMT",
+    "Last-Modified": "Tue, 06 Oct 2026 12:41:40 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "Access-Control-Allow-Headers": "X-Requested-With",
+    "Access-Control-Allow-Methods": "GET",
+    "Request-Context": "appId=cid-v1:da002513-bd8b-4441-9f30-737944134422",
+    "X-Powered-By": "ASP.NET"
+  },
+  "status": "downloaded"
+}

@@ -1,0 +1,274 @@
+{
+  "access_audiences": [],
+  "access_type": "open",
+  "access_type_reason": null,
+  "access_type_reason_category": null,
+  "acronym": null,
+  "archived": null,
+  "authorization_request_url": null,
+  "badges": [],
+  "contact_points": [
+    {
+      "contact_form": "https://ferdi.fr/biographies/sosso-feindouno",
+      "email": "sosso.feindouno@ferdi.fr",
+      "id": "6a1961a76eb89eb6c1cf7a91",
+      "name": "Sosso FEINDOUNO",
+      "organization": {
+        "acronym": "Ferdi",
+        "badges": [],
+        "class": "Organization",
+        "id": "6a195d510711ba501be47cc4",
+        "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a.png",
+        "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a-100.png",
+        "name": "Fondation pour les \u00c9tudes et Recherches sur le D\u00e9veloppement International",
+        "page": "https://www.data.gouv.fr/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "permissions": {
+          "delete": false,
+          "edit": false,
+          "harvest": false,
+          "members": false,
+          "private": false
+        },
+        "slug": "fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international/"
+      },
+      "owner": null,
+      "role": "contact"
+    },
+    {
+      "contact_form": "https://ferdi.fr/biographies/patrick-guillaumont",
+      "email": "patrick.guillaumont@ferdi.fr",
+      "id": "6a19a1856eb89eb6c177f11e",
+      "name": "Patrick Guillaumont",
+      "organization": {
+        "acronym": "Ferdi",
+        "badges": [],
+        "class": "Organization",
+        "id": "6a195d510711ba501be47cc4",
+        "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a.png",
+        "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a-100.png",
+        "name": "Fondation pour les \u00c9tudes et Recherches sur le D\u00e9veloppement International",
+        "page": "https://www.data.gouv.fr/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "permissions": {
+          "delete": false,
+          "edit": false,
+          "harvest": false,
+          "members": false,
+          "private": false
+        },
+        "slug": "fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international/"
+      },
+      "owner": null,
+      "role": "contact"
+    },
+    {
+      "contact_form": "https://ferdi.fr/biographies/michael-goujon",
+      "email": null,
+      "id": "6a19a1da6eb89eb6c178f92f",
+      "name": "Micha\u00ebl Goujon",
+      "organization": {
+        "acronym": "Ferdi",
+        "badges": [],
+        "class": "Organization",
+        "id": "6a195d510711ba501be47cc4",
+        "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a.png",
+        "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a-100.png",
+        "name": "Fondation pour les \u00c9tudes et Recherches sur le D\u00e9veloppement International",
+        "page": "https://www.data.gouv.fr/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "permissions": {
+          "delete": false,
+          "edit": false,
+          "harvest": false,
+          "members": false,
+          "private": false
+        },
+        "slug": "fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international/"
+      },
+      "owner": null,
+      "role": "contact"
+    },
+    {
+      "contact_form": "https://ferdi.fr/biographies/laurent-wagner",
+      "email": "laurent.wagner@ferdi.fr",
+      "id": "6a19a1ab6eb89eb6c1786879",
+      "name": "Laurent Wagner ",
+      "organization": {
+        "acronym": "Ferdi",
+        "badges": [],
+        "class": "Organization",
+        "id": "6a195d510711ba501be47cc4",
+        "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a.png",
+        "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a-100.png",
+        "name": "Fondation pour les \u00c9tudes et Recherches sur le D\u00e9veloppement International",
+        "page": "https://www.data.gouv.fr/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "permissions": {
+          "delete": false,
+          "edit": false,
+          "harvest": false,
+          "members": false,
+          "private": false
+        },
+        "slug": "fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international/"
+      },
+      "owner": null,
+      "role": "contact"
+    }
+  ],
+  "created_at": "2026-06-01T09:45:46.666000+00:00",
+  "deleted": null,
+  "description": "**L\u2019indicateur de vuln\u00e9rabilit\u00e9 physique au changement climatique (PVCCI) mesure les chocs climatiques et l'exposition des pays (PVCCI national) et de leurs territoires (PVCCI Subnational) \u00e0 ces chocs.**\n\n<br />\n\nDepuis 2001, la Ferdi calcule et met \u00e0 jour un indicateur de vuln\u00e9rabilit\u00e9 physique au changement climatique (PVCCI). Ce travail a fait l\u2019objet de plusieurs documents de travail, de br\u00e8ves avant d\u2019\u00eatre publi\u00e9 dans *Ecological Economics* ([Feindouno, Guillaumont et Simonet, 2020](https://ferdi.fr/publications/the-physical-vulnerability-to-climate-change-index-an-index-to-be-used-for-international-policy)).\\\n\\\nLe PVCCI\u00a0 mesure les risques g\u00e9ophysiques auxquels font face les pays en raison du changement climatique. Il est un indice structurel car reposant sur des facteurs exog\u00e8nes qui sont ind\u00e9pendants des politiques pr\u00e9sentes et futures des pays. Il a donc vocation \u00e0 \u00eatre utilis\u00e9 dans la d\u00e9finition de l'[indice de vuln\u00e9rabilit\u00e9s multidimensionnelles.](https://ferdi.fr/donnees/indice-de-vulnerabilite-multidimensionnelle)\\\n\\\nL\u2019indice est construit pour 191 pays, et dans le but de mettre en \u00e9vidence l\u2019h\u00e9t\u00e9rog\u00e9n\u00e9it\u00e9 de la vuln\u00e9rabilit\u00e9 physique des territoires au changement climatique, un PVCCI d\u00e9sagr\u00e9g\u00e9 au niveau infranational a \u00e9t\u00e9 r\u00e9cemment calcul\u00e9 ([Goujon, Santoni et Wagner, 2022](https://ferdi.fr/publications/the-physical-vulnerability-to-climate-change-index-computed-at-the-sub-national-level)).\u00a0\n",
+  "description_short": "L\u2019indicateur de vuln\u00e9rabilit\u00e9 physique au changement climatique (PVCCI) mesure les chocs climatiques et l'exposition des pays (PVCCI national) et de leurs territoires (PVCCI Subnational) \u00e0 ces chocs.",
+  "doi": null,
+  "extras": {
+    "publish_source": "data.gouv.fr:new"
+  },
+  "featured": false,
+  "frequency": "notPlanned",
+  "frequency_date": null,
+  "harvest": null,
+  "id": "6a1d54ca0b2bbd218c12ff27",
+  "internal": {
+    "created_at_internal": "2026-06-01T09:45:46.666000+00:00",
+    "last_modified_internal": "2026-06-01T09:47:01.194000+00:00"
+  },
+  "last_modified": "2026-06-01T09:47:01.194000+00:00",
+  "last_update": "2026-06-01T09:46:36.098000+00:00",
+  "license": "odc-by",
+  "metrics": {
+    "dataservices": 1,
+    "discussions": 0,
+    "discussions_open": 0,
+    "followers": 0,
+    "followers_by_months": 0,
+    "resources_downloads": 72,
+    "reuses": 0,
+    "reuses_by_months": 0,
+    "views": 1141
+  },
+  "organization": {
+    "acronym": "Ferdi",
+    "badges": [],
+    "class": "Organization",
+    "id": "6a195d510711ba501be47cc4",
+    "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a.png",
+    "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/e5/264f5fa9b74d9ca2b2a3dcf087134a-100.png",
+    "name": "Fondation pour les \u00c9tudes et Recherches sur le D\u00e9veloppement International",
+    "page": "https://www.data.gouv.fr/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+    "permissions": {
+      "delete": false,
+      "edit": false,
+      "harvest": false,
+      "members": false,
+      "private": false
+    },
+    "slug": "fondation-pour-les-etudes-et-recherches-sur-le-developpement-international",
+    "uri": "https://www.data.gouv.fr/api/1/organizations/fondation-pour-les-etudes-et-recherches-sur-le-developpement-international/"
+  },
+  "owner": null,
+  "page": "https://www.data.gouv.fr/datasets/indicateur-de-vulnerabilite-physique-au-changement-climatique",
+  "permissions": {
+    "delete": false,
+    "edit": false,
+    "edit_resources": false
+  },
+  "private": false,
+  "quality": {
+    "all_resources_available": true,
+    "dataset_description_quality": true,
+    "has_open_format": false,
+    "has_resources": true,
+    "license": true,
+    "resources_documentation": false,
+    "score": 0.6666666666666666,
+    "spatial": true,
+    "temporal_coverage": false,
+    "update_frequency": true,
+    "update_fulfilled_in_time": true
+  },
+  "resources": [
+    {
+      "checksum": null,
+      "created_at": "2026-06-01T09:45:47.669000+00:00",
+      "description": null,
+      "extras": {
+        "analysis:check_id": 47709594,
+        "analysis:checksum": "d3f33a9316b610d5f30a94db16ce5c615e2f4ff8",
+        "analysis:content-length": 150874,
+        "analysis:last-modified-at": "2026-06-01T09:45:47+00:00",
+        "analysis:last-modified-detection": "last-modified-header",
+        "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "analysis:parsing:finished_at": "2026-06-01T09:46:18.869856+00:00",
+        "analysis:parsing:parsing_table": "0ab56c0dec2015daad7f5f3eed9f7627",
+        "analysis:parsing:started_at": "2026-06-01T09:46:16.171317+00:00",
+        "check:available": true,
+        "check:cors:allow-credentials": "true",
+        "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+        "check:cors:allow-methods": "GET, OPTIONS",
+        "check:cors:allow-origin": "*",
+        "check:cors:max-age": "1728000",
+        "check:cors:status": 204,
+        "check:date": "2026-06-01T09:45:53.378000",
+        "check:headers:content-length": 150874,
+        "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "check:id": 47709594,
+        "check:status": 200,
+        "check:timeout": false
+      },
+      "filesize": 150874,
+      "filetype": "file",
+      "format": "xlsx",
+      "harvest": null,
+      "id": "450248e4-af7e-49fa-be8b-3e10e75cd933",
+      "internal": {
+        "created_at_internal": "2026-06-01T09:45:47.669000+00:00",
+        "last_modified_internal": "2026-06-01T09:46:36.098000+00:00"
+      },
+      "last_modified": "2026-06-01T09:46:36.098000+00:00",
+      "latest": "https://www.data.gouv.fr/api/1/datasets/r/450248e4-af7e-49fa-be8b-3e10e75cd933",
+      "metrics": {
+        "views": 70
+      },
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "preview_url": "https://explore.data.gouv.fr/fr/resources/450248e4-af7e-49fa-be8b-3e10e75cd933",
+      "schema": null,
+      "title": "donnees-indicateur-de-vulnerabilite-physique-au-changement-climatique.xlsx",
+      "type": "main",
+      "url": "https://static.data.gouv.fr/resources/indicateur-de-vulnerabilite-physique-au-changement-climatique/20260601-094547/donnees-indicateur-de-vulnerabilite-physique-au-changement-climatique.xlsx"
+    }
+  ],
+  "schema": null,
+  "slug": "indicateur-de-vulnerabilite-physique-au-changement-climatique",
+  "spatial": {
+    "geom": null,
+    "granularity": "country",
+    "zones": []
+  },
+  "tags": [
+    "adaptation-au-changement-climatique",
+    "analyse-territoriale",
+    "changement-climatique",
+    "developpement-durable",
+    "donnees-de-recherche",
+    "donnees-environnementales",
+    "donnees-infranationales",
+    "economie-du-climat",
+    "exposition-climatique",
+    "ferdi",
+    "indicateurs-climatiques",
+    "indice-de-vulnerabilite",
+    "open-data",
+    "pays-en-developpement",
+    "pvcci",
+    "resilience-climatique",
+    "risques-climatiques",
+    "vulnerabilite-climatique",
+    "vulnerabilite-multidimensionnelle",
+    "vulnerabilite-physique"
+  ],
+  "temporal_coverage": null,
+  "title": "Indicateur de vuln\u00e9rabilit\u00e9 physique au changement climatique",
+  "uri": "https://www.data.gouv.fr/api/1/datasets/indicateur-de-vulnerabilite-physique-au-changement-climatique/"
+}
