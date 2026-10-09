@@ -1,3 +1,15 @@
+# Climate vulnerability and adaptation finance under debt-service pressure
+
+Reproducibility materials for **Climate Vulnerability Conditions the Allocation of Adaptation Finance under Debt-Service Pressure**.
+
+## Strengthened manuscript analyses — 9 October 2026
+
+[Download the computational supplement](supplements/Climate_Vulnerability_Computational_Supplement.zip?raw=true) or [read its contents and reproduction instructions](supplements/README.md).
+
+The supplement adds the two revision rounds, including all 108 recipient omissions, quadratic moderation, bilateral-sector fixed effects, and the outputs supporting Tables 5–6, Appendix A and Figure 5. The primary source data and estimates below are preserved. The additional checks are explicitly exploratory; their uncertainty and support losses are retained.
+
+## Original reconstruction and primary analyses
+
 Debt-service pressure and physical climate vulnerability
 Reproducibility companion, public-data reconstruction dated 7 October 2026
 

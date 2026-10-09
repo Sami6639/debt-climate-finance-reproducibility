@@ -11,8 +11,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 8732,
-    "sha256": "b446a5e4939f4dcf28dd90efcc04f407ba6707ca6cbc642fc6dd50b154578b32"
+    "bytes": 9603,
+    "sha256": "4539fcc4c480392ea908e789e3ddce0c695a9ef32cc8898e1f321d2333922b19"
   },
   {
     "file": "SOURCE_AND_LICENSES.md",
@@ -2258,5 +2258,20 @@
     "file": "data/oecd/raw/README.txt",
     "bytes": 180,
     "sha256": "65658639316eaa21e93d3ccfe8f3ddfc42cca78c6a9a6568f2795d367080484d"
+  },
+  {
+    "file": "supplements/Climate_Vulnerability_Computational_Supplement.zip",
+    "bytes": 953641,
+    "sha256": "267c0c199fccd342669f214a8c9dbfc05561997adc871bd6948b887b2feb63d2"
+  },
+  {
+    "file": "supplements/Climate_Vulnerability_Computational_Supplement.zip.sha256",
+    "bytes": 117,
+    "sha256": "5bc5547b44c5680fd669bb1137743d938cc19ceb330b6a9277b52da0ade2e232"
+  },
+  {
+    "file": "supplements/README.md",
+    "bytes": 2707,
+    "sha256": "5b2f3dd9b992b50ec3fef5a3b6480dad716f6909b8277997e04a66bc892ed6a3"
   }
 ]
